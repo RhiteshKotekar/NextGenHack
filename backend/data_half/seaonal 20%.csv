@@ -1,0 +1,3001 @@
+record_id,date,city,category,demand_index,campaign_flag
+12001,2/1/2023,Rajkot,Books,1.025,FALSE
+12002,11/15/2024,Vadodara,Grocery,0.91,FALSE
+12003,3/19/2023,Coimbatore,Jewellery,0.902,FALSE
+12004,6/13/2023,Hyderabad,Sports & Fitness,1.141,FALSE
+12005,12/6/2024,Ludhiana,Furniture,0.955,FALSE
+12006,8/9/2023,Madurai,Fashion-Men,0.758,FALSE
+12007,7/11/2024,Pune,Home & Kitchen,0.756,FALSE
+12008,2/7/2024,Nashik,Industrial Supplies,1.106,FALSE
+12009,9/13/2024,Chennai,Footwear,0.819,FALSE
+12010,7/13/2023,Patna,Pet Supplies,1.045,TRUE
+12011,6/8/2023,Delhi,Automotive,3.936,TRUE
+12012,5/27/2025,Patna,Appliances,1.476,FALSE
+12013,3/22/2023,Coimbatore,Home & Kitchen,1.158,FALSE
+12014,6/4/2024,Gurugram,Fashion-Women,0.768,FALSE
+12015,7/21/2024,Ranchi,Mobile & Accessories,1.051,FALSE
+12016,12/14/2023,Ranchi,Health,1.048,TRUE
+12017,7/9/2023,Thane,Industrial Supplies,1.286,FALSE
+12018,6/8/2023,Chennai,Furniture,1.86,TRUE
+12019,11/29/2024,Kanpur,Jewellery,1.148,FALSE
+12020,1/3/2025,Vadodara,Industrial Supplies,0.531,TRUE
+12021,7/28/2023,Vasai-Virar,Beauty & Personal Care,1.11,FALSE
+12022,7/10/2024,Raipur,Fashion-Men,1.346,FALSE
+12023,9/26/2023,Srinagar,Books,1.531,FALSE
+12024,9/25/2023,Ranchi,Appliances,0.807,FALSE
+12025,7/18/2025,Coimbatore,Fashion-Men,1,FALSE
+12026,7/15/2025,Chandigarh,Office Products,1.005,TRUE
+12027,9/25/2024,Kanpur,Jewellery,1.11,FALSE
+12028,1/21/2025,Bhubaneswar,Appliances,1.066,FALSE
+12029,7/25/2024,Meerut,Footwear,1.032,FALSE
+12030,9/20/2023,Meerut,Books,2.266,TRUE
+12031,3/13/2024,Lucknow,Books,0.715,FALSE
+12032,7/13/2023,Thane,Appliances,0.913,FALSE
+12033,4/9/2023,Amritsar,Office Products,1.173,FALSE
+12034,9/8/2025,Nashik,Fashion-Men,0.839,FALSE
+12035,1/29/2024,Coimbatore,Beauty & Personal Care,0.776,FALSE
+12036,11/10/2024,Chennai,Health,4.455,TRUE
+12037,7/25/2025,Jabalpur,Sports & Fitness,4.317,TRUE
+12038,1/28/2025,Dhanbad,Industrial Supplies,0.959,FALSE
+12039,7/22/2025,Coimbatore,Health,1.014,FALSE
+12040,3/29/2025,Faridabad,Toys & Baby,1.119,FALSE
+12041,9/22/2023,Mumbai,Toys & Baby,0.959,FALSE
+12042,6/17/2024,Nagpur,Mobile & Accessories,1.506,TRUE
+12043,8/30/2023,Moradabad,Home & Kitchen,0.667,FALSE
+12044,4/14/2023,Agra,Toys & Baby,0.692,FALSE
+12045,4/22/2023,Meerut,Footwear,0.911,FALSE
+12046,3/19/2024,Nagpur,Home & Kitchen,0.906,FALSE
+12047,3/20/2024,Howrah,Automotive,1.088,FALSE
+12048,12/12/2023,Patna,Sports & Fitness,1.048,FALSE
+12049,2/15/2025,Mangalore,Footwear,1.082,FALSE
+12050,4/25/2023,Mangalore,Toys & Baby,1.816,TRUE
+12051,9/13/2025,Patna,Books,0.767,FALSE
+12052,6/3/2023,Srinagar,Industrial Supplies,1.031,FALSE
+12053,3/3/2024,Thane,Electronics,1.082,FALSE
+12054,10/9/2024,Coimbatore,Pet Supplies,0.995,FALSE
+12055,6/6/2025,Delhi,Electronics,0.815,FALSE
+12056,8/4/2023,Srinagar,Furniture,0.643,FALSE
+12057,7/21/2024,Pune,Fashion-Women,0.825,FALSE
+12058,2/1/2024,Moradabad,Books,1.107,FALSE
+12059,11/14/2023,Hyderabad,Sports & Fitness,1.06,FALSE
+12060,6/11/2023,Delhi,Fashion-Men,2.271,TRUE
+12061,9/28/2024,Jabalpur,Furniture,0.795,TRUE
+12062,6/20/2024,Bhopal,Jewellery,1.373,FALSE
+12063,4/14/2025,Gwalior,Stationery,0.566,FALSE
+12064,5/3/2025,Surat,Toys & Baby,1.119,FALSE
+12065,8/7/2025,Vasai-Virar,Sports & Fitness,2.074,TRUE
+12066,5/12/2024,Bhopal,Toys & Baby,1.378,FALSE
+12067,12/26/2024,Meerut,Automotive,1.287,FALSE
+12068,7/1/2024,Visakhapatnam,Automotive,0.914,FALSE
+12069,5/9/2024,Dhanbad,Health,1.053,FALSE
+12070,8/2/2025,Amritsar,Pet Supplies,0.809,FALSE
+12071,8/24/2024,Ahmedabad,Fashion-Men,0.812,FALSE
+12072,6/20/2023,Ranchi,Automotive,0.948,FALSE
+12073,10/26/2023,Delhi,Stationery,1.013,FALSE
+12074,6/16/2024,Kolkata,Sports & Fitness,1.013,FALSE
+12075,7/24/2025,Nagpur,Fashion-Women,1.027,FALSE
+12076,8/5/2025,Pimpri-Chinchwad,Fashion-Women,1.205,FALSE
+12077,12/18/2024,Gwalior,Mobile & Accessories,1.186,TRUE
+12078,11/3/2023,Surat,Sports & Fitness,1.009,FALSE
+12079,3/18/2024,Varanasi,Jewellery,1.147,FALSE
+12080,3/3/2025,Faridabad,Stationery,0.816,FALSE
+12081,1/21/2023,Vadodara,Electronics,1.172,FALSE
+12082,6/25/2024,Bhubaneswar,Fashion-Men,0.84,FALSE
+12083,11/12/2024,Pune,Electronics,1.763,TRUE
+12084,3/15/2025,Bhopal,Stationery,4.679,TRUE
+12085,5/18/2025,Allahabad,Furniture,1.396,FALSE
+12086,5/18/2025,Gurugram,Home & Kitchen,3.494,TRUE
+12087,10/18/2024,Faridabad,Jewellery,1.073,FALSE
+12088,12/27/2023,Vasai-Virar,Pet Supplies,0.943,FALSE
+12089,7/18/2023,Ludhiana,Stationery,0.968,FALSE
+12090,5/16/2024,Bhopal,Sports & Fitness,1.115,FALSE
+12091,3/16/2025,Jabalpur,Home & Kitchen,1.048,FALSE
+12092,9/29/2023,Vijayawada,Home & Kitchen,1.105,FALSE
+12093,6/13/2025,Faridabad,Jewellery,0.696,FALSE
+12094,6/29/2024,Nagpur,Jewellery,0.819,FALSE
+12095,2/11/2024,Kanpur,Appliances,1.186,FALSE
+12096,6/1/2023,Vijayawada,Sports & Fitness,1.074,FALSE
+12097,5/25/2023,Patna,Mobile & Accessories,0.889,FALSE
+12098,10/31/2024,Jabalpur,Beauty & Personal Care,0.991,FALSE
+12099,4/9/2024,Gurugram,Office Products,0.739,FALSE
+12100,2/7/2025,Faridabad,Fashion-Women,1.124,FALSE
+12101,6/14/2024,Surat,Books,4.519,TRUE
+12102,8/5/2023,Bengaluru,Home & Kitchen,0.677,FALSE
+12103,6/21/2025,Vadodara,Fashion-Men,0.858,TRUE
+12104,10/29/2024,Mangalore,Automotive,3.923,TRUE
+12105,8/13/2023,Faridabad,Sports & Fitness,1.213,FALSE
+12106,10/23/2023,Raipur,Fashion-Women,1.036,TRUE
+12107,11/12/2024,Meerut,Fashion-Men,1.187,FALSE
+12108,3/7/2023,Visakhapatnam,Fashion-Men,0.888,FALSE
+12109,1/4/2025,Hyderabad,Fashion-Men,3.562,TRUE
+12110,9/24/2023,Surat,Automotive,0.656,FALSE
+12111,7/19/2023,Pimpri-Chinchwad,Electronics,0.659,FALSE
+12112,3/18/2024,Nashik,Pet Supplies,0.645,TRUE
+12113,6/11/2023,Ahmedabad,Health,1.392,FALSE
+12114,8/11/2024,Gurugram,Pet Supplies,1.056,FALSE
+12115,11/8/2023,Lucknow,Grocery,0.719,FALSE
+12116,5/24/2024,Surat,Furniture,1.16,FALSE
+12117,1/14/2024,Chennai,Appliances,1.125,FALSE
+12118,9/13/2024,Varanasi,Furniture,0.932,FALSE
+12119,3/25/2025,Varanasi,Mobile & Accessories,0.817,FALSE
+12120,6/30/2025,Patna,Books,0.991,FALSE
+12121,3/29/2023,Hyderabad,Jewellery,0.846,FALSE
+12122,2/15/2025,Indore,Fashion-Women,1.118,FALSE
+12123,3/1/2023,Nashik,Appliances,1.097,FALSE
+12124,4/27/2024,Rajkot,Grocery,0.911,FALSE
+12125,10/30/2024,Rajkot,Pet Supplies,0.966,FALSE
+12126,7/3/2023,Lucknow,Footwear,1.142,FALSE
+12127,2/18/2024,Surat,Electronics,1.062,FALSE
+12128,4/19/2023,Lucknow,Fashion-Men,1.071,FALSE
+12129,1/7/2024,Meerut,Beauty & Personal Care,0.974,FALSE
+12130,7/16/2025,Gwalior,Sports & Fitness,0.781,FALSE
+12131,1/26/2025,Chandigarh,Appliances,0.913,FALSE
+12132,8/1/2024,Delhi,Furniture,4.376,TRUE
+12133,10/19/2023,Moradabad,Electronics,0.876,FALSE
+12134,11/13/2023,Hyderabad,Appliances,1.34,FALSE
+12135,11/13/2024,Bhubaneswar,Industrial Supplies,1.029,FALSE
+12136,3/9/2024,Ludhiana,Electronics,0.98,FALSE
+12137,2/23/2024,Coimbatore,Stationery,0.795,FALSE
+12138,8/13/2025,Patna,Grocery,1.292,FALSE
+12139,2/28/2024,Vasai-Virar,Stationery,2.266,TRUE
+12140,7/26/2024,Vasai-Virar,Mobile & Accessories,1.29,FALSE
+12141,10/29/2024,Kolkata,Fashion-Men,1.112,TRUE
+12142,12/13/2024,Allahabad,Books,1.11,FALSE
+12143,11/30/2023,Mumbai,Grocery,0.935,FALSE
+12144,6/4/2023,Jaipur,Home & Kitchen,1.165,FALSE
+12145,3/14/2023,Srinagar,Mobile & Accessories,0.773,FALSE
+12146,4/10/2023,Moradabad,Home & Kitchen,1.128,FALSE
+12147,2/4/2025,Mumbai,Mobile & Accessories,1.345,FALSE
+12148,7/4/2023,Ghaziabad,Grocery,3.062,TRUE
+12149,2/5/2023,Moradabad,Pet Supplies,1.011,FALSE
+12150,11/7/2023,Patna,Mobile & Accessories,0.687,FALSE
+12151,1/28/2025,Allahabad,Office Products,0.538,FALSE
+12152,8/27/2025,Chennai,Industrial Supplies,3.827,TRUE
+12153,12/4/2024,Patna,Books,0.796,FALSE
+12154,2/18/2024,Hyderabad,Fashion-Women,0.764,FALSE
+12155,1/17/2024,Visakhapatnam,Pet Supplies,0.752,FALSE
+12156,7/13/2023,Thane,Toys & Baby,1.065,FALSE
+12157,2/19/2025,Coimbatore,Furniture,1.164,FALSE
+12158,1/19/2024,Jaipur,Sports & Fitness,0.67,FALSE
+12159,6/6/2025,Amritsar,Appliances,1.302,FALSE
+12160,3/5/2025,Lucknow,Electronics,1.837,TRUE
+12161,8/27/2024,Patna,Mobile & Accessories,0.848,FALSE
+12162,6/29/2023,Hyderabad,Mobile & Accessories,1.086,FALSE
+12163,5/14/2025,Bhopal,Pet Supplies,1.098,FALSE
+12164,6/5/2023,Bhopal,Footwear,1.053,FALSE
+12165,7/12/2024,Mangalore,Mobile & Accessories,1.261,FALSE
+12166,7/3/2024,Pune,Beauty & Personal Care,2.781,TRUE
+12167,5/31/2025,Vasai-Virar,Health,1.232,FALSE
+12168,3/20/2025,Ahmedabad,Grocery,0.766,FALSE
+12169,6/29/2025,Kalyan-Dombivli,Health,0.588,FALSE
+12170,2/23/2024,Pune,Electronics,0.931,FALSE
+12171,1/23/2024,Mumbai,Office Products,1.057,FALSE
+12172,7/15/2025,Nashik,Beauty & Personal Care,1.06,FALSE
+12173,8/20/2023,Indore,Pet Supplies,1.136,FALSE
+12174,8/17/2023,Kanpur,Stationery,1.251,FALSE
+12175,3/25/2025,Bhubaneswar,Toys & Baby,0.977,FALSE
+12176,3/8/2025,Faridabad,Pet Supplies,1.769,TRUE
+12177,3/11/2023,Howrah,Grocery,0.483,FALSE
+12178,12/5/2024,Kolkata,Books,1.174,FALSE
+12179,4/23/2024,Bengaluru,Beauty & Personal Care,0.994,FALSE
+12180,11/27/2023,Meerut,Beauty & Personal Care,0.554,FALSE
+12181,4/17/2024,Indore,Toys & Baby,1.124,FALSE
+12182,5/15/2024,Vijayawada,Home & Kitchen,0.88,FALSE
+12183,8/7/2025,Agra,Jewellery,2.486,TRUE
+12184,3/2/2025,Allahabad,Sports & Fitness,1.224,FALSE
+12185,1/12/2023,Vijayawada,Footwear,0.669,FALSE
+12186,12/23/2024,Bhopal,Stationery,1.109,FALSE
+12187,9/21/2024,Kanpur,Health,0.799,FALSE
+12188,5/11/2023,Madurai,Appliances,0.743,FALSE
+12189,4/8/2025,Aligarh,Sports & Fitness,1.203,FALSE
+12190,12/15/2023,Coimbatore,Fashion-Men,1.899,TRUE
+12191,9/2/2023,Gwalior,Office Products,0.849,FALSE
+12192,8/2/2024,Thane,Office Products,0.564,FALSE
+12193,4/12/2025,Ahmedabad,Footwear,0.914,FALSE
+12194,5/2/2024,Gwalior,Home & Kitchen,0.659,FALSE
+12195,1/31/2024,Coimbatore,Health,0.754,FALSE
+12196,10/31/2024,Nashik,Pet Supplies,1.01,FALSE
+12197,3/11/2025,Agra,Books,3.169,TRUE
+12198,8/16/2025,Howrah,Sports & Fitness,0.936,FALSE
+12199,5/4/2024,Nagpur,Beauty & Personal Care,1.497,TRUE
+12200,1/21/2023,Vadodara,Fashion-Women,0.804,FALSE
+12201,7/25/2023,Mangalore,Industrial Supplies,1.122,FALSE
+12202,1/6/2023,Gwalior,Electronics,1.155,FALSE
+12203,5/22/2025,Coimbatore,Office Products,0.856,FALSE
+12204,3/29/2023,Delhi,Grocery,1.039,FALSE
+12205,9/13/2023,Srinagar,Fashion-Men,1.014,FALSE
+12206,6/1/2023,Howrah,Mobile & Accessories,0.945,FALSE
+12207,1/12/2023,Meerut,Furniture,1.192,FALSE
+12208,1/22/2024,Jabalpur,Electronics,1.035,FALSE
+12209,6/10/2025,Gwalior,Furniture,1.209,FALSE
+12210,9/24/2023,Coimbatore,Footwear,0.826,FALSE
+12211,4/8/2023,Meerut,Furniture,0.879,FALSE
+12212,11/8/2023,Meerut,Grocery,1.142,FALSE
+12213,6/13/2025,Visakhapatnam,Electronics,1.033,FALSE
+12214,1/2/2024,Amritsar,Beauty & Personal Care,1.123,FALSE
+12215,5/1/2024,Nashik,Fashion-Men,0.969,FALSE
+12216,4/26/2023,Vijayawada,Jewellery,0.989,FALSE
+12217,2/22/2024,Madurai,Home & Kitchen,1.372,FALSE
+12218,12/17/2023,Chandigarh,Health,0.843,FALSE
+12219,12/19/2023,Raipur,Sports & Fitness,0.926,FALSE
+12220,1/24/2023,Coimbatore,Pet Supplies,1.104,FALSE
+12221,10/6/2024,Kanpur,Electronics,3.986,TRUE
+12222,7/11/2024,Mumbai,Home & Kitchen,0.748,FALSE
+12223,7/12/2025,Howrah,Sports & Fitness,0.991,FALSE
+12224,7/29/2023,Bengaluru,Pet Supplies,0.869,FALSE
+12225,5/30/2025,Kanpur,Toys & Baby,0.965,FALSE
+12226,11/2/2024,Indore,Books,0.84,FALSE
+12227,2/13/2023,Kolkata,Electronics,1.336,TRUE
+12228,10/23/2024,Vadodara,Electronics,1.535,TRUE
+12229,4/7/2025,Howrah,Industrial Supplies,3.794,TRUE
+12230,4/12/2023,Patna,Stationery,0.798,FALSE
+12231,4/6/2025,Ludhiana,Home & Kitchen,1.328,FALSE
+12232,9/16/2024,Amritsar,Mobile & Accessories,0.915,FALSE
+12233,6/1/2023,Coimbatore,Health,0.889,FALSE
+12234,2/6/2023,Bhubaneswar,Pet Supplies,1.235,FALSE
+12235,4/15/2025,Pimpri-Chinchwad,Mobile & Accessories,1.43,TRUE
+12236,5/3/2024,Ludhiana,Grocery,0.84,FALSE
+12237,6/30/2024,Kanpur,Stationery,0.811,FALSE
+12238,7/4/2023,Pimpri-Chinchwad,Health,0.855,FALSE
+12239,2/13/2025,Hyderabad,Electronics,1.158,FALSE
+12240,3/25/2025,Gurugram,Stationery,1.212,TRUE
+12241,4/27/2025,Pune,Grocery,0.613,FALSE
+12242,1/22/2025,Dhanbad,Appliances,0.995,FALSE
+12243,11/28/2023,Indore,Mobile & Accessories,0.868,FALSE
+12244,4/22/2024,Pimpri-Chinchwad,Toys & Baby,0.937,FALSE
+12245,5/30/2023,Gurugram,Fashion-Women,0.943,FALSE
+12246,4/10/2024,Jabalpur,Toys & Baby,0.924,FALSE
+12247,11/6/2024,Meerut,Stationery,0.705,FALSE
+12248,10/17/2023,Bhopal,Electronics,0.831,FALSE
+12249,2/18/2025,Jabalpur,Footwear,1.037,FALSE
+12250,1/17/2023,Chandigarh,Automotive,0.957,FALSE
+12251,2/27/2025,Ahmedabad,Sports & Fitness,1.328,FALSE
+12252,12/30/2023,Kolkata,Sports & Fitness,1.195,FALSE
+12253,4/7/2025,Mumbai,Appliances,0.851,FALSE
+12254,2/6/2024,Patna,Furniture,1.044,FALSE
+12255,8/17/2025,Vasai-Virar,Stationery,0.897,FALSE
+12256,8/21/2025,Chandigarh,Electronics,0.801,FALSE
+12257,10/11/2023,Pimpri-Chinchwad,Fashion-Men,1.181,FALSE
+12258,9/17/2025,Indore,Automotive,1.01,TRUE
+12259,9/5/2025,Vasai-Virar,Office Products,0.911,FALSE
+12260,3/12/2025,Meerut,Pet Supplies,2.374,TRUE
+12261,1/5/2023,Visakhapatnam,Pet Supplies,0.977,FALSE
+12262,10/29/2024,Bhubaneswar,Toys & Baby,0.684,FALSE
+12263,7/17/2025,Bengaluru,Fashion-Women,1.069,FALSE
+12264,10/11/2023,Srinagar,Books,1.138,FALSE
+12265,2/15/2024,Kalyan-Dombivli,Fashion-Men,1.314,TRUE
+12266,11/19/2024,Delhi,Industrial Supplies,1.063,FALSE
+12267,2/8/2023,Gwalior,Automotive,1.071,FALSE
+12268,8/18/2024,Meerut,Home & Kitchen,0.96,FALSE
+12269,10/30/2024,Meerut,Appliances,1.1,FALSE
+12270,1/21/2024,Ghaziabad,Electronics,0.805,FALSE
+12271,12/31/2023,Bhubaneswar,Office Products,1.086,FALSE
+12272,2/10/2023,Raipur,Stationery,1.116,FALSE
+12273,11/11/2023,Jabalpur,Books,0.797,FALSE
+12274,5/2/2024,Mumbai,Appliances,0.697,FALSE
+12275,8/5/2025,Amritsar,Pet Supplies,0.865,FALSE
+12276,10/3/2023,Gwalior,Toys & Baby,0.792,FALSE
+12277,4/6/2025,Vasai-Virar,Mobile & Accessories,0.823,FALSE
+12278,12/16/2024,Coimbatore,Beauty & Personal Care,0.913,FALSE
+12279,5/9/2024,Chandigarh,Footwear,1.03,FALSE
+12280,2/26/2023,Jodhpur,Appliances,0.945,FALSE
+12281,12/11/2024,Bhubaneswar,Jewellery,0.994,FALSE
+12282,6/18/2023,Coimbatore,Industrial Supplies,1.469,FALSE
+12283,2/6/2023,Howrah,Fashion-Men,1.013,FALSE
+12284,8/26/2025,Kalyan-Dombivli,Grocery,1.012,FALSE
+12285,5/23/2024,Jabalpur,Footwear,1.129,FALSE
+12286,11/29/2023,Raipur,Fashion-Men,0.643,FALSE
+12287,9/26/2025,Chennai,Footwear,0.815,FALSE
+12288,4/14/2023,Chennai,Mobile & Accessories,0.702,FALSE
+12289,1/2/2024,Hyderabad,Mobile & Accessories,0.891,FALSE
+12290,10/14/2023,Vijayawada,Furniture,0.802,FALSE
+12291,9/15/2024,Bhiwandi,Office Products,1.021,FALSE
+12292,11/11/2024,Surat,Mobile & Accessories,0.952,FALSE
+12293,12/14/2024,Allahabad,Sports & Fitness,1.264,FALSE
+12294,7/26/2023,Kalyan-Dombivli,Fashion-Women,0.799,TRUE
+12295,4/6/2024,Mangalore,Footwear,1.01,FALSE
+12296,5/10/2023,Dhanbad,Industrial Supplies,1.372,FALSE
+12297,2/23/2025,Bhiwandi,Stationery,1.388,FALSE
+12298,10/28/2024,Pimpri-Chinchwad,Mobile & Accessories,0.978,FALSE
+12299,8/1/2024,Kalyan-Dombivli,Furniture,1.033,FALSE
+12300,1/18/2025,Dhanbad,Automotive,1.127,FALSE
+12301,4/23/2023,Bhubaneswar,Furniture,0.858,FALSE
+12302,4/27/2025,Varanasi,Pet Supplies,1.157,FALSE
+12303,8/31/2024,Ranchi,Mobile & Accessories,0.9,FALSE
+12304,5/24/2023,Delhi,Books,1.229,TRUE
+12305,2/5/2024,Kalyan-Dombivli,Electronics,1.15,FALSE
+12306,7/24/2023,Bhopal,Home & Kitchen,1.471,FALSE
+12307,1/28/2025,Allahabad,Stationery,0.546,FALSE
+12308,7/4/2025,Faridabad,Fashion-Men,0.954,FALSE
+12309,3/25/2024,Amritsar,Grocery,0.748,FALSE
+12310,7/8/2023,Ahmedabad,Home & Kitchen,1.314,FALSE
+12311,7/8/2024,Meerut,Health,1.122,FALSE
+12312,4/6/2024,Thane,Grocery,1.103,FALSE
+12313,5/8/2025,Indore,Automotive,0.524,FALSE
+12314,8/22/2023,Hyderabad,Jewellery,1.174,FALSE
+12315,11/11/2023,Thane,Furniture,0.93,FALSE
+12316,10/10/2023,Pune,Toys & Baby,0.815,FALSE
+12317,11/22/2024,Mangalore,Industrial Supplies,1.037,FALSE
+12318,5/4/2025,Patna,Beauty & Personal Care,1.007,FALSE
+12319,6/20/2023,Mangalore,Automotive,1.087,FALSE
+12320,7/25/2023,Gwalior,Industrial Supplies,0.832,FALSE
+12321,10/18/2023,Surat,Appliances,2.537,TRUE
+12322,3/15/2025,Nagpur,Appliances,2.277,TRUE
+12323,11/13/2024,Bhubaneswar,Stationery,0.483,FALSE
+12324,2/24/2025,Lucknow,Books,1.346,FALSE
+12325,5/28/2024,Thane,Furniture,0.96,FALSE
+12326,11/21/2024,Chennai,Sports & Fitness,0.723,FALSE
+12327,6/12/2023,Moradabad,Office Products,3.232,TRUE
+12328,2/4/2024,Indore,Toys & Baby,0.562,FALSE
+12329,12/16/2023,Dhanbad,Sports & Fitness,0.977,FALSE
+12330,1/5/2023,Patna,Fashion-Men,1.096,FALSE
+12331,8/28/2023,Bhubaneswar,Mobile & Accessories,0.998,FALSE
+12332,9/6/2023,Raipur,Furniture,1.337,FALSE
+12333,10/21/2023,Hyderabad,Mobile & Accessories,1.094,FALSE
+12334,7/4/2023,Varanasi,Home & Kitchen,1.097,FALSE
+12335,5/1/2024,Bhiwandi,Books,1.06,FALSE
+12336,3/30/2025,Srinagar,Stationery,0.841,FALSE
+12337,1/26/2024,Nagpur,Health,0.719,FALSE
+12338,12/3/2023,Vijayawada,Automotive,1.411,TRUE
+12339,8/17/2023,Agra,Furniture,0.959,FALSE
+12340,8/19/2023,Lucknow,Industrial Supplies,0.932,FALSE
+12341,10/29/2024,Bhiwandi,Toys & Baby,0.865,FALSE
+12342,9/21/2025,Ghaziabad,Books,1.035,FALSE
+12343,11/7/2024,Amritsar,Mobile & Accessories,0.949,FALSE
+12344,1/3/2023,Dhanbad,Appliances,0.976,TRUE
+12345,5/26/2025,Varanasi,Fashion-Women,1.272,FALSE
+12346,7/26/2023,Bhiwandi,Pet Supplies,1.152,FALSE
+12347,1/2/2024,Ranchi,Toys & Baby,1.092,TRUE
+12348,1/31/2024,Ranchi,Furniture,1.153,FALSE
+12349,8/27/2024,Srinagar,Footwear,1.008,FALSE
+12350,6/26/2023,Bhopal,Industrial Supplies,2.42,TRUE
+12351,9/20/2024,Dhanbad,Toys & Baby,1.018,FALSE
+12352,8/16/2023,Pimpri-Chinchwad,Fashion-Women,3.07,TRUE
+12353,7/7/2023,Faridabad,Furniture,1.777,TRUE
+12354,5/9/2023,Madurai,Automotive,1.395,FALSE
+12355,6/29/2024,Madurai,Furniture,1.281,FALSE
+12356,2/16/2025,Nashik,Furniture,4.449,TRUE
+12357,12/28/2024,Jabalpur,Sports & Fitness,1.154,FALSE
+12358,12/23/2023,Ranchi,Grocery,0.942,TRUE
+12359,6/11/2025,Gurugram,Pet Supplies,1.301,FALSE
+12360,10/11/2024,Madurai,Beauty & Personal Care,1.118,FALSE
+12361,4/13/2024,Kolkata,Toys & Baby,0.604,FALSE
+12362,12/15/2024,Bengaluru,Furniture,1.138,FALSE
+12363,4/22/2025,Jodhpur,Jewellery,1.282,FALSE
+12364,4/23/2023,Vijayawada,Office Products,1.059,FALSE
+12365,9/8/2023,Pimpri-Chinchwad,Industrial Supplies,0.679,FALSE
+12366,6/6/2024,Kalyan-Dombivli,Furniture,1.61,TRUE
+12367,1/31/2025,Chennai,Toys & Baby,1.04,FALSE
+12368,9/4/2023,Patna,Furniture,1.117,FALSE
+12369,9/21/2025,Kanpur,Beauty & Personal Care,0.855,FALSE
+12370,12/28/2024,Varanasi,Mobile & Accessories,3.971,TRUE
+12371,12/8/2024,Thane,Toys & Baby,1.106,FALSE
+12372,7/21/2024,Mumbai,Office Products,0.94,FALSE
+12373,7/12/2024,Bhubaneswar,Sports & Fitness,0.984,FALSE
+12374,7/9/2023,Kolkata,Grocery,0.609,FALSE
+12375,3/11/2023,Vasai-Virar,Home & Kitchen,0.814,FALSE
+12376,10/21/2023,Jaipur,Toys & Baby,1.234,FALSE
+12377,11/29/2024,Chennai,Office Products,1.199,FALSE
+12378,9/25/2025,Moradabad,Mobile & Accessories,0.967,FALSE
+12379,10/28/2024,Chennai,Pet Supplies,1.165,FALSE
+12380,4/5/2024,Kalyan-Dombivli,Sports & Fitness,0.949,FALSE
+12381,8/29/2024,Vasai-Virar,Footwear,0.876,FALSE
+12382,8/17/2023,Agra,Automotive,1.353,FALSE
+12383,7/14/2025,Pimpri-Chinchwad,Pet Supplies,0.984,FALSE
+12384,7/20/2023,Jabalpur,Books,0.697,FALSE
+12385,4/1/2025,Varanasi,Stationery,0.527,FALSE
+12386,5/29/2025,Ghaziabad,Beauty & Personal Care,1.054,FALSE
+12387,5/1/2025,Raipur,Stationery,1.134,FALSE
+12388,3/9/2025,Chandigarh,Fashion-Women,0.77,FALSE
+12389,6/3/2024,Rajkot,Industrial Supplies,0.952,FALSE
+12390,8/31/2025,Dhanbad,Books,1.076,FALSE
+12391,11/27/2023,Rajkot,Health,0.939,FALSE
+12392,1/19/2025,Srinagar,Mobile & Accessories,0.854,FALSE
+12393,6/9/2025,Jodhpur,Office Products,0.84,FALSE
+12394,1/22/2023,Meerut,Mobile & Accessories,1.073,FALSE
+12395,8/8/2023,Srinagar,Industrial Supplies,1.103,FALSE
+12396,1/16/2023,Surat,Office Products,1.101,FALSE
+12397,5/15/2024,Delhi,Grocery,0.859,FALSE
+12398,6/15/2024,Jabalpur,Fashion-Women,0.959,FALSE
+12399,2/3/2024,Kolkata,Footwear,2.07,TRUE
+12400,7/24/2025,Nashik,Mobile & Accessories,1.056,FALSE
+12401,1/10/2024,Jaipur,Fashion-Women,0.772,FALSE
+12402,9/4/2025,Ghaziabad,Toys & Baby,2.12,TRUE
+12403,4/4/2024,Jodhpur,Pet Supplies,1.148,FALSE
+12404,1/14/2025,Delhi,Fashion-Women,0.922,FALSE
+12405,2/27/2023,Patna,Industrial Supplies,0.9,FALSE
+12406,1/15/2025,Kalyan-Dombivli,Automotive,2.22,TRUE
+12407,9/2/2023,Pimpri-Chinchwad,Toys & Baby,0.741,FALSE
+12408,4/13/2025,Visakhapatnam,Fashion-Women,0.856,FALSE
+12409,6/28/2023,Vadodara,Furniture,0.908,FALSE
+12410,9/9/2024,Madurai,Office Products,1.145,FALSE
+12411,3/16/2025,Bengaluru,Health,1.183,FALSE
+12412,10/15/2024,Jabalpur,Books,0.95,FALSE
+12413,7/25/2025,Bengaluru,Office Products,1.119,FALSE
+12414,3/25/2023,Vijayawada,Beauty & Personal Care,0.975,FALSE
+12415,1/23/2025,Vasai-Virar,Stationery,1.035,FALSE
+12416,7/18/2023,Pune,Furniture,0.493,FALSE
+12417,5/6/2024,Vadodara,Sports & Fitness,1.085,FALSE
+12418,10/19/2023,Jaipur,Mobile & Accessories,1.177,FALSE
+12419,5/15/2024,Nagpur,Fashion-Men,1.177,FALSE
+12420,9/20/2023,Raipur,Beauty & Personal Care,0.953,FALSE
+12421,7/4/2023,Bhopal,Sports & Fitness,0.619,FALSE
+12422,4/7/2025,Pune,Sports & Fitness,1.021,FALSE
+12423,11/29/2024,Ghaziabad,Jewellery,0.761,FALSE
+12424,2/10/2024,Chandigarh,Office Products,1.051,FALSE
+12425,9/21/2023,Mangalore,Pet Supplies,1.319,FALSE
+12426,3/18/2023,Nagpur,Pet Supplies,2.485,TRUE
+12427,1/25/2023,Chandigarh,Toys & Baby,2.505,TRUE
+12428,5/6/2024,Thane,Stationery,0.778,FALSE
+12429,6/3/2023,Bhopal,Automotive,1.231,FALSE
+12430,11/14/2024,Nagpur,Jewellery,0.84,FALSE
+12431,2/12/2023,Chennai,Toys & Baby,0.945,FALSE
+12432,2/11/2024,Pimpri-Chinchwad,Health,1.587,FALSE
+12433,3/30/2024,Pimpri-Chinchwad,Footwear,1.076,FALSE
+12434,1/8/2025,Chandigarh,Fashion-Men,0.915,TRUE
+12435,5/17/2024,Varanasi,Automotive,0.7,FALSE
+12436,1/29/2025,Allahabad,Health,1.391,FALSE
+12437,5/16/2024,Varanasi,Footwear,1.109,FALSE
+12438,4/6/2025,Bhubaneswar,Mobile & Accessories,1.076,FALSE
+12439,12/12/2023,Vasai-Virar,Home & Kitchen,1.467,FALSE
+12440,1/7/2024,Ghaziabad,Automotive,0.72,FALSE
+12441,6/23/2023,Varanasi,Automotive,0.833,FALSE
+12442,3/17/2024,Howrah,Fashion-Men,0.582,FALSE
+12443,5/29/2024,Chennai,Pet Supplies,2.86,TRUE
+12444,3/28/2024,Amritsar,Jewellery,0.634,FALSE
+12445,6/23/2024,Pimpri-Chinchwad,Fashion-Men,0.949,FALSE
+12446,7/22/2025,Surat,Furniture,1.039,FALSE
+12447,6/24/2024,Jaipur,Books,1.006,FALSE
+12448,3/24/2024,Varanasi,Stationery,3.226,TRUE
+12449,1/29/2024,Indore,Electronics,1.096,FALSE
+12450,3/11/2023,Pune,Jewellery,1.383,FALSE
+12451,8/13/2025,Aligarh,Furniture,1.024,FALSE
+12452,1/14/2024,Jabalpur,Grocery,1.323,FALSE
+12453,2/7/2025,Vijayawada,Fashion-Men,0.9,FALSE
+12454,12/31/2023,Gurugram,Footwear,0.788,TRUE
+12455,1/31/2024,Jodhpur,Industrial Supplies,0.914,FALSE
+12456,4/22/2023,Dhanbad,Beauty & Personal Care,1.124,FALSE
+12457,9/1/2025,Varanasi,Sports & Fitness,1.558,FALSE
+12458,8/12/2024,Chandigarh,Health,1.113,FALSE
+12459,6/23/2023,Lucknow,Books,0.791,FALSE
+12460,12/19/2023,Lucknow,Home & Kitchen,0.765,FALSE
+12461,1/20/2024,Dhanbad,Footwear,0.891,FALSE
+12462,4/30/2023,Hyderabad,Automotive,0.895,FALSE
+12463,5/4/2023,Bengaluru,Automotive,1.294,FALSE
+12464,3/15/2024,Ahmedabad,Stationery,0.888,TRUE
+12465,5/8/2024,Varanasi,Mobile & Accessories,1.115,FALSE
+12466,1/17/2025,Ghaziabad,Stationery,2.913,TRUE
+12467,2/24/2025,Ranchi,Books,1.027,FALSE
+12468,8/2/2024,Gurugram,Office Products,1.186,FALSE
+12469,4/25/2023,Mangalore,Office Products,1.022,FALSE
+12470,5/4/2023,Madurai,Stationery,0.903,FALSE
+12471,5/15/2023,Ranchi,Industrial Supplies,1.255,FALSE
+12472,4/7/2024,Surat,Beauty & Personal Care,0.864,FALSE
+12473,7/15/2025,Bhiwandi,Furniture,1.06,FALSE
+12474,8/3/2023,Bhiwandi,Fashion-Men,0.928,FALSE
+12475,4/26/2025,Srinagar,Furniture,1.192,FALSE
+12476,4/27/2023,Allahabad,Industrial Supplies,1.029,FALSE
+12477,9/5/2023,Ranchi,Industrial Supplies,1.048,FALSE
+12478,3/23/2025,Ranchi,Mobile & Accessories,0.645,FALSE
+12479,9/3/2024,Visakhapatnam,Toys & Baby,0.853,FALSE
+12480,5/27/2025,Aligarh,Beauty & Personal Care,0.703,FALSE
+12481,3/11/2025,Dhanbad,Furniture,0.914,FALSE
+12482,1/19/2023,Kanpur,Sports & Fitness,0.529,FALSE
+12483,11/1/2023,Bhiwandi,Stationery,2.511,TRUE
+12484,10/3/2024,Nagpur,Books,3.792,TRUE
+12485,6/10/2024,Kanpur,Automotive,1.16,FALSE
+12486,5/29/2024,Varanasi,Jewellery,1.038,FALSE
+12487,3/14/2025,Mumbai,Mobile & Accessories,0.903,FALSE
+12488,1/18/2023,Howrah,Industrial Supplies,1.229,TRUE
+12489,4/24/2025,Raipur,Home & Kitchen,0.663,FALSE
+12490,7/2/2024,Indore,Grocery,3.013,TRUE
+12491,5/19/2023,Dhanbad,Electronics,3.212,TRUE
+12492,5/18/2025,Allahabad,Home & Kitchen,1.204,FALSE
+12493,9/25/2025,Jaipur,Toys & Baby,1.107,FALSE
+12494,8/23/2023,Kalyan-Dombivli,Books,0.947,FALSE
+12495,6/21/2025,Aligarh,Home & Kitchen,1.047,FALSE
+12496,5/24/2024,Bengaluru,Industrial Supplies,0.979,FALSE
+12497,12/24/2024,Jodhpur,Pet Supplies,1.096,FALSE
+12498,5/3/2023,Mumbai,Appliances,1.223,FALSE
+12499,12/30/2024,Agra,Mobile & Accessories,1.059,TRUE
+12500,11/17/2024,Surat,Mobile & Accessories,0.814,FALSE
+12501,7/5/2023,Ghaziabad,Industrial Supplies,0.849,FALSE
+12502,4/7/2024,Amritsar,Industrial Supplies,0.654,FALSE
+12503,1/21/2024,Ghaziabad,Fashion-Men,0.805,FALSE
+12504,5/24/2023,Visakhapatnam,Fashion-Women,0.726,FALSE
+12505,3/27/2024,Faridabad,Automotive,1.156,FALSE
+12506,11/12/2024,Jaipur,Stationery,1.056,FALSE
+12507,1/23/2023,Howrah,Office Products,1.391,FALSE
+12508,8/1/2024,Pimpri-Chinchwad,Beauty & Personal Care,1.523,FALSE
+12509,4/11/2025,Srinagar,Mobile & Accessories,1.376,FALSE
+12510,12/12/2024,Madurai,Jewellery,1.186,FALSE
+12511,2/28/2025,Kanpur,Jewellery,0.96,FALSE
+12512,1/9/2024,Gurugram,Sports & Fitness,1.131,FALSE
+12513,3/5/2023,Chandigarh,Jewellery,0.848,FALSE
+12514,12/10/2023,Nashik,Industrial Supplies,0.892,FALSE
+12515,2/18/2024,Srinagar,Books,3.27,TRUE
+12516,2/28/2024,Varanasi,Jewellery,3.159,TRUE
+12517,8/18/2023,Thane,Mobile & Accessories,0.932,FALSE
+12518,8/10/2024,Ranchi,Sports & Fitness,2.325,TRUE
+12519,3/21/2024,Mumbai,Home & Kitchen,1.204,FALSE
+12520,1/2/2025,Mangalore,Industrial Supplies,1.287,FALSE
+12521,3/28/2025,Raipur,Stationery,0.889,FALSE
+12522,6/27/2023,Amritsar,Appliances,1.125,FALSE
+12523,8/18/2024,Jaipur,Fashion-Men,0.637,FALSE
+12524,7/18/2025,Bhopal,Footwear,1.281,FALSE
+12525,10/13/2023,Kalyan-Dombivli,Fashion-Men,0.781,FALSE
+12526,6/17/2024,Nagpur,Electronics,4.615,TRUE
+12527,11/7/2024,Varanasi,Automotive,2.823,TRUE
+12528,7/10/2024,Faridabad,Toys & Baby,1.196,FALSE
+12529,2/5/2025,Pimpri-Chinchwad,Health,3.685,TRUE
+12530,7/26/2025,Chandigarh,Stationery,1.114,FALSE
+12531,7/10/2024,Moradabad,Sports & Fitness,1.201,FALSE
+12532,2/24/2023,Amritsar,Footwear,0.809,TRUE
+12533,6/28/2025,Aligarh,Electronics,1.016,FALSE
+12534,1/13/2025,Dhanbad,Sports & Fitness,1.688,FALSE
+12535,3/28/2023,Bhubaneswar,Appliances,0.845,FALSE
+12536,11/17/2023,Vadodara,Fashion-Women,1.157,FALSE
+12537,8/28/2023,Mangalore,Sports & Fitness,0.825,FALSE
+12538,7/12/2025,Jaipur,Office Products,1.571,TRUE
+12539,8/7/2024,Lucknow,Sports & Fitness,0.667,FALSE
+12540,6/15/2025,Moradabad,Industrial Supplies,1.26,FALSE
+12541,7/24/2023,Kalyan-Dombivli,Pet Supplies,1.169,FALSE
+12542,1/1/2024,Faridabad,Toys & Baby,1.212,FALSE
+12543,5/29/2023,Jabalpur,Footwear,1.245,FALSE
+12544,12/21/2024,Kanpur,Footwear,1.333,FALSE
+12545,9/21/2023,Amritsar,Fashion-Men,2.236,TRUE
+12546,1/7/2025,Jodhpur,Electronics,0.968,FALSE
+12547,1/5/2023,Allahabad,Pet Supplies,0.785,FALSE
+12548,5/21/2023,Vijayawada,Fashion-Women,1.215,FALSE
+12549,11/29/2023,Vijayawada,Health,0.697,FALSE
+12550,10/15/2023,Amritsar,Pet Supplies,0.901,FALSE
+12551,9/3/2023,Visakhapatnam,Home & Kitchen,1.21,FALSE
+12552,12/6/2024,Nashik,Books,0.797,TRUE
+12553,9/19/2024,Bhiwandi,Jewellery,0.95,FALSE
+12554,8/23/2025,Visakhapatnam,Footwear,0.677,FALSE
+12555,10/10/2024,Lucknow,Electronics,1.187,FALSE
+12556,8/7/2025,Gurugram,Industrial Supplies,0.979,FALSE
+12557,1/20/2025,Dhanbad,Sports & Fitness,0.615,FALSE
+12558,7/21/2024,Dhanbad,Sports & Fitness,0.638,TRUE
+12559,2/7/2025,Surat,Fashion-Women,0.516,FALSE
+12560,12/19/2023,Howrah,Mobile & Accessories,1.117,FALSE
+12561,8/9/2023,Vadodara,Sports & Fitness,0.765,FALSE
+12562,7/28/2024,Agra,Industrial Supplies,1.131,FALSE
+12563,11/26/2024,Ranchi,Furniture,1.202,FALSE
+12564,4/20/2023,Nashik,Books,1.382,FALSE
+12565,9/15/2023,Amritsar,Appliances,0.809,FALSE
+12566,6/12/2023,Nagpur,Fashion-Women,1.056,FALSE
+12567,4/26/2025,Srinagar,Jewellery,0.565,FALSE
+12568,1/29/2023,Srinagar,Appliances,1.139,FALSE
+12569,1/23/2025,Chennai,Fashion-Men,0.66,FALSE
+12570,8/30/2025,Gwalior,Toys & Baby,0.922,FALSE
+12571,9/19/2023,Kalyan-Dombivli,Grocery,1.11,FALSE
+12572,4/8/2024,Kanpur,Industrial Supplies,0.971,FALSE
+12573,5/16/2023,Surat,Footwear,0.814,FALSE
+12574,4/13/2024,Srinagar,Beauty & Personal Care,1.252,FALSE
+12575,6/16/2024,Jodhpur,Books,1.012,FALSE
+12576,1/4/2023,Vasai-Virar,Appliances,0.755,FALSE
+12577,3/14/2025,Indore,Stationery,1.255,FALSE
+12578,5/17/2024,Delhi,Office Products,1.115,FALSE
+12579,8/9/2025,Aligarh,Pet Supplies,0.773,FALSE
+12580,1/1/2024,Vadodara,Fashion-Women,0.954,TRUE
+12581,2/20/2023,Surat,Fashion-Women,0.975,FALSE
+12582,8/15/2025,Kanpur,Automotive,1.429,FALSE
+12583,10/10/2024,Gwalior,Home & Kitchen,0.869,FALSE
+12584,7/25/2023,Aligarh,Beauty & Personal Care,0.992,FALSE
+12585,10/15/2024,Thane,Home & Kitchen,0.788,FALSE
+12586,7/26/2025,Mangalore,Grocery,1.138,FALSE
+12587,2/21/2023,Srinagar,Furniture,1.075,FALSE
+12588,8/21/2025,Kalyan-Dombivli,Books,0.563,FALSE
+12589,3/30/2025,Madurai,Office Products,1.011,FALSE
+12590,7/14/2025,Aligarh,Footwear,0.742,FALSE
+12591,5/29/2024,Hyderabad,Automotive,1.254,FALSE
+12592,8/11/2023,Gurugram,Fashion-Women,0.972,FALSE
+12593,10/29/2023,Gwalior,Automotive,1.126,FALSE
+12594,7/16/2025,Nashik,Mobile & Accessories,0.966,FALSE
+12595,7/15/2025,Allahabad,Home & Kitchen,1.004,FALSE
+12596,1/12/2024,Bhiwandi,Grocery,1.045,FALSE
+12597,5/11/2023,Raipur,Furniture,0.787,FALSE
+12598,5/22/2024,Gurugram,Grocery,0.586,FALSE
+12599,4/18/2025,Nagpur,Sports & Fitness,3.231,TRUE
+12600,3/29/2023,Moradabad,Books,1.133,FALSE
+12601,7/13/2025,Howrah,Beauty & Personal Care,1.008,FALSE
+12602,12/14/2024,Chandigarh,Industrial Supplies,1.021,FALSE
+12603,11/22/2024,Mangalore,Stationery,0.928,FALSE
+12604,10/7/2024,Coimbatore,Jewellery,0.661,FALSE
+12605,12/9/2024,Jabalpur,Furniture,1.004,FALSE
+12606,7/6/2023,Surat,Fashion-Women,1.145,FALSE
+12607,7/6/2023,Thane,Pet Supplies,1.092,FALSE
+12608,2/6/2024,Hyderabad,Electronics,0.93,TRUE
+12609,9/10/2023,Kolkata,Toys & Baby,0.973,FALSE
+12610,9/26/2024,Kanpur,Toys & Baby,1.386,FALSE
+12611,4/22/2025,Bhubaneswar,Automotive,1.196,FALSE
+12612,1/25/2023,Delhi,Health,0.804,FALSE
+12613,2/25/2023,Allahabad,Appliances,0.604,FALSE
+12614,3/2/2024,Kalyan-Dombivli,Beauty & Personal Care,0.756,FALSE
+12615,4/16/2023,Kolkata,Pet Supplies,0.934,FALSE
+12616,1/31/2023,Vadodara,Fashion-Men,0.853,FALSE
+12617,8/5/2025,Srinagar,Office Products,1.115,FALSE
+12618,2/24/2025,Pimpri-Chinchwad,Home & Kitchen,0.677,FALSE
+12619,1/24/2023,Srinagar,Beauty & Personal Care,0.95,FALSE
+12620,5/5/2025,Ghaziabad,Office Products,0.941,FALSE
+12621,1/12/2024,Kanpur,Stationery,0.913,FALSE
+12622,4/25/2025,Gurugram,Appliances,0.894,FALSE
+12623,12/23/2023,Patna,Electronics,0.82,FALSE
+12624,4/5/2024,Vasai-Virar,Fashion-Men,2.023,TRUE
+12625,7/18/2024,Pimpri-Chinchwad,Pet Supplies,2.015,TRUE
+12626,9/29/2023,Jaipur,Books,0.919,FALSE
+12627,6/23/2025,Mangalore,Stationery,1.045,FALSE
+12628,6/23/2025,Kanpur,Toys & Baby,1.011,FALSE
+12629,8/19/2023,Kanpur,Automotive,0.759,FALSE
+12630,4/24/2025,Bhopal,Books,1.026,FALSE
+12631,5/22/2024,Visakhapatnam,Home & Kitchen,0.85,FALSE
+12632,9/14/2023,Nagpur,Fashion-Men,1.383,FALSE
+12633,12/23/2023,Visakhapatnam,Health,0.652,FALSE
+12634,5/2/2025,Bhiwandi,Appliances,1.009,FALSE
+12635,8/20/2023,Vasai-Virar,Grocery,0.915,FALSE
+12636,5/2/2025,Allahabad,Grocery,0.742,FALSE
+12637,5/14/2023,Ghaziabad,Mobile & Accessories,0.989,FALSE
+12638,4/28/2025,Vijayawada,Stationery,0.98,TRUE
+12639,4/19/2023,Thane,Automotive,0.963,FALSE
+12640,11/15/2023,Amritsar,Fashion-Men,0.91,FALSE
+12641,5/26/2023,Chandigarh,Furniture,1.021,FALSE
+12642,1/29/2023,Mumbai,Industrial Supplies,0.972,FALSE
+12643,1/7/2025,Rajkot,Automotive,0.987,FALSE
+12644,1/16/2024,Moradabad,Electronics,1.229,FALSE
+12645,3/14/2024,Ahmedabad,Health,1.208,FALSE
+12646,10/16/2024,Bhubaneswar,Industrial Supplies,0.81,FALSE
+12647,5/11/2025,Coimbatore,Sports & Fitness,1.321,FALSE
+12648,12/4/2023,Indore,Footwear,1.16,FALSE
+12649,5/27/2024,Dhanbad,Furniture,0.992,FALSE
+12650,2/6/2025,Chennai,Appliances,0.951,FALSE
+12651,7/23/2025,Amritsar,Beauty & Personal Care,1.377,FALSE
+12652,1/18/2025,Jodhpur,Mobile & Accessories,0.85,FALSE
+12653,7/10/2023,Dhanbad,Jewellery,1.035,FALSE
+12654,5/14/2024,Ghaziabad,Jewellery,0.873,FALSE
+12655,10/13/2024,Coimbatore,Furniture,1.284,FALSE
+12656,1/22/2025,Thane,Electronics,0.845,FALSE
+12657,6/19/2024,Dhanbad,Automotive,0.986,FALSE
+12658,3/29/2025,Dhanbad,Sports & Fitness,1.132,FALSE
+12659,6/26/2023,Allahabad,Beauty & Personal Care,1.132,FALSE
+12660,10/17/2023,Faridabad,Fashion-Women,1.226,FALSE
+12661,10/28/2023,Pune,Toys & Baby,1.053,FALSE
+12662,1/30/2024,Jaipur,Industrial Supplies,1.575,FALSE
+12663,12/21/2024,Rajkot,Fashion-Men,0.928,FALSE
+12664,8/29/2025,Nagpur,Industrial Supplies,3.06,TRUE
+12665,9/24/2024,Pune,Electronics,1.046,FALSE
+12666,12/25/2023,Hyderabad,Sports & Fitness,0.959,FALSE
+12667,3/23/2024,Lucknow,Health,0.981,FALSE
+12668,4/25/2025,Agra,Appliances,1.111,FALSE
+12669,1/2/2023,Jabalpur,Beauty & Personal Care,1.058,FALSE
+12670,2/6/2023,Raipur,Health,1.01,FALSE
+12671,12/25/2024,Mangalore,Grocery,1.189,FALSE
+12672,1/13/2025,Vadodara,Books,0.792,FALSE
+12673,1/4/2024,Bhopal,Appliances,0.815,FALSE
+12674,7/19/2025,Lucknow,Books,1.22,TRUE
+12675,5/11/2025,Patna,Appliances,1.186,FALSE
+12676,9/3/2023,Howrah,Jewellery,0.548,FALSE
+12677,11/16/2024,Faridabad,Automotive,1.314,FALSE
+12678,6/29/2024,Kolkata,Fashion-Men,0.789,FALSE
+12679,6/5/2023,Pune,Industrial Supplies,1.235,FALSE
+12680,6/1/2023,Faridabad,Books,1.047,FALSE
+12681,9/18/2025,Chennai,Books,1.971,TRUE
+12682,6/17/2025,Coimbatore,Fashion-Women,0.746,FALSE
+12683,10/22/2023,Kanpur,Fashion-Men,1.17,FALSE
+12684,11/13/2023,Bhopal,Pet Supplies,1.355,FALSE
+12685,11/27/2024,Ghaziabad,Office Products,1.261,FALSE
+12686,4/19/2024,Chandigarh,Fashion-Women,0.749,FALSE
+12687,7/26/2024,Bhiwandi,Footwear,3.18,TRUE
+12688,8/8/2024,Chandigarh,Appliances,0.988,FALSE
+12689,8/27/2025,Ghaziabad,Furniture,1.132,FALSE
+12690,5/29/2024,Gwalior,Appliances,0.85,FALSE
+12691,3/2/2025,Chandigarh,Grocery,1.152,FALSE
+12692,1/29/2023,Ghaziabad,Beauty & Personal Care,1.169,FALSE
+12693,5/27/2023,Kolkata,Sports & Fitness,1.037,FALSE
+12694,6/22/2024,Allahabad,Footwear,1.117,FALSE
+12695,5/23/2025,Chennai,Pet Supplies,1.103,FALSE
+12696,8/16/2024,Coimbatore,Mobile & Accessories,0.797,FALSE
+12697,12/2/2024,Delhi,Toys & Baby,1.076,FALSE
+12698,8/7/2024,Gurugram,Appliances,1.205,FALSE
+12699,8/13/2023,Jaipur,Fashion-Men,1.137,FALSE
+12700,9/15/2024,Howrah,Electronics,0.939,FALSE
+12701,3/3/2023,Aligarh,Industrial Supplies,1.006,FALSE
+12702,5/25/2025,Jaipur,Stationery,0.844,FALSE
+12703,2/12/2025,Nashik,Fashion-Women,1.008,FALSE
+12704,7/15/2025,Surat,Health,0.811,FALSE
+12705,2/25/2024,Thane,Beauty & Personal Care,1.487,FALSE
+12706,10/4/2024,Gwalior,Sports & Fitness,0.895,FALSE
+12707,6/25/2023,Lucknow,Fashion-Women,1.303,FALSE
+12708,9/20/2025,Pune,Industrial Supplies,1.028,FALSE
+12709,1/14/2023,Vasai-Virar,Home & Kitchen,0.986,FALSE
+12710,7/28/2024,Visakhapatnam,Toys & Baby,0.87,FALSE
+12711,3/20/2024,Bhiwandi,Home & Kitchen,1.162,FALSE
+12712,10/28/2023,Rajkot,Stationery,1.1,FALSE
+12713,9/17/2023,Agra,Books,1.088,FALSE
+12714,6/6/2025,Coimbatore,Books,1.126,FALSE
+12715,8/8/2025,Indore,Toys & Baby,1.269,FALSE
+12716,1/14/2023,Visakhapatnam,Office Products,1.034,FALSE
+12717,4/30/2023,Pimpri-Chinchwad,Jewellery,0.924,FALSE
+12718,11/24/2024,Bengaluru,Footwear,1.179,FALSE
+12719,3/18/2023,Gwalior,Beauty & Personal Care,1.104,FALSE
+12720,5/19/2023,Jabalpur,Office Products,0.994,FALSE
+12721,9/18/2024,Chennai,Footwear,0.784,FALSE
+12722,2/28/2023,Mumbai,Industrial Supplies,0.56,FALSE
+12723,9/16/2025,Gurugram,Health,0.643,FALSE
+12724,4/20/2024,Bhiwandi,Health,0.889,FALSE
+12725,7/23/2023,Dhanbad,Books,1.382,TRUE
+12726,2/21/2025,Pimpri-Chinchwad,Industrial Supplies,1.125,FALSE
+12727,1/22/2024,Vadodara,Home & Kitchen,0.861,FALSE
+12728,9/20/2025,Thane,Appliances,1.102,FALSE
+12729,6/7/2023,Dhanbad,Industrial Supplies,0.934,FALSE
+12730,11/26/2024,Lucknow,Office Products,1.089,FALSE
+12731,11/11/2023,Faridabad,Books,0.802,FALSE
+12732,3/1/2023,Ghaziabad,Footwear,1.044,FALSE
+12733,1/23/2024,Hyderabad,Fashion-Men,0.754,FALSE
+12734,12/18/2024,Jabalpur,Books,0.592,FALSE
+12735,3/24/2023,Faridabad,Industrial Supplies,0.882,FALSE
+12736,3/16/2023,Bengaluru,Jewellery,1.222,FALSE
+12737,2/7/2025,Surat,Footwear,1.103,FALSE
+12738,11/27/2023,Kanpur,Industrial Supplies,0.926,FALSE
+12739,2/10/2025,Howrah,Furniture,2.049,TRUE
+12740,4/23/2025,Chennai,Fashion-Women,1.094,FALSE
+12741,4/2/2023,Gwalior,Industrial Supplies,0.941,FALSE
+12742,6/14/2024,Faridabad,Electronics,0.79,FALSE
+12743,10/8/2024,Madurai,Automotive,0.914,FALSE
+12744,3/26/2023,Hyderabad,Grocery,0.703,FALSE
+12745,9/22/2025,Pune,Appliances,0.968,FALSE
+12746,5/23/2025,Lucknow,Health,1.287,FALSE
+12747,12/14/2023,Rajkot,Grocery,1.655,TRUE
+12748,4/11/2024,Bhiwandi,Beauty & Personal Care,0.784,FALSE
+12749,5/7/2023,Ranchi,Health,0.99,FALSE
+12750,9/11/2025,Gurugram,Appliances,1.052,FALSE
+12751,11/13/2023,Rajkot,Toys & Baby,1.284,FALSE
+12752,11/26/2023,Ludhiana,Industrial Supplies,1.24,FALSE
+12753,12/3/2023,Mangalore,Automotive,0.932,FALSE
+12754,12/26/2023,Bhopal,Fashion-Women,0.878,FALSE
+12755,6/20/2023,Amritsar,Sports & Fitness,1.347,FALSE
+12756,6/11/2024,Aligarh,Footwear,0.901,FALSE
+12757,2/18/2025,Ranchi,Fashion-Women,0.965,FALSE
+12758,8/12/2023,Ranchi,Automotive,0.853,FALSE
+12759,4/27/2025,Raipur,Beauty & Personal Care,1.023,FALSE
+12760,9/25/2023,Bhubaneswar,Automotive,0.869,FALSE
+12761,11/22/2023,Vijayawada,Stationery,1.458,FALSE
+12762,4/1/2024,Vijayawada,Pet Supplies,1.079,FALSE
+12763,3/27/2024,Mumbai,Mobile & Accessories,1.087,FALSE
+12764,7/2/2023,Agra,Beauty & Personal Care,1.374,FALSE
+12765,4/20/2023,Pune,Furniture,1.324,FALSE
+12766,2/28/2024,Mangalore,Toys & Baby,1.185,FALSE
+12767,11/19/2023,Rajkot,Beauty & Personal Care,0.939,FALSE
+12768,2/8/2025,Vadodara,Electronics,0.942,FALSE
+12769,6/20/2025,Gwalior,Beauty & Personal Care,2.852,TRUE
+12770,7/24/2023,Aligarh,Stationery,1.079,FALSE
+12771,11/12/2024,Dhanbad,Mobile & Accessories,1.372,FALSE
+12772,8/17/2025,Vijayawada,Automotive,1.743,TRUE
+12773,4/3/2025,Rajkot,Industrial Supplies,1.249,FALSE
+12774,7/6/2025,Lucknow,Stationery,1.254,FALSE
+12775,11/24/2023,Thane,Mobile & Accessories,0.878,FALSE
+12776,2/25/2024,Gwalior,Mobile & Accessories,1.062,FALSE
+12777,12/22/2023,Agra,Appliances,1.002,FALSE
+12778,8/31/2024,Nagpur,Home & Kitchen,1.15,FALSE
+12779,1/2/2023,Raipur,Home & Kitchen,1.238,FALSE
+12780,12/23/2024,Indore,Footwear,1.192,TRUE
+12781,3/28/2023,Bengaluru,Fashion-Women,1.604,TRUE
+12782,4/28/2023,Hyderabad,Electronics,1.009,FALSE
+12783,5/5/2025,Faridabad,Furniture,0.686,FALSE
+12784,4/4/2024,Lucknow,Automotive,1.027,FALSE
+12785,4/6/2023,Howrah,Automotive,1.168,FALSE
+12786,8/17/2024,Varanasi,Grocery,0.501,TRUE
+12787,10/5/2024,Vijayawada,Electronics,1.049,FALSE
+12788,8/14/2023,Jodhpur,Automotive,0.996,FALSE
+12789,4/27/2025,Faridabad,Automotive,1.109,FALSE
+12790,9/3/2024,Bhopal,Jewellery,1.058,FALSE
+12791,6/7/2024,Bhiwandi,Appliances,0.824,FALSE
+12792,1/4/2025,Ahmedabad,Fashion-Women,1.173,FALSE
+12793,7/3/2023,Vadodara,Furniture,1.168,FALSE
+12794,9/8/2023,Faridabad,Appliances,1.112,FALSE
+12795,2/15/2023,Jaipur,Home & Kitchen,1.302,FALSE
+12796,9/11/2024,Howrah,Health,0.98,FALSE
+12797,4/15/2023,Delhi,Furniture,1.272,FALSE
+12798,12/21/2023,Indore,Appliances,1.197,FALSE
+12799,8/6/2025,Nagpur,Books,1.284,FALSE
+12800,11/12/2024,Gurugram,Office Products,1.384,FALSE
+12801,3/4/2023,Lucknow,Stationery,1.048,FALSE
+12802,8/4/2023,Varanasi,Furniture,0.929,FALSE
+12803,8/13/2025,Dhanbad,Mobile & Accessories,1.031,FALSE
+12804,12/22/2024,Pimpri-Chinchwad,Fashion-Men,1.352,FALSE
+12805,6/23/2025,Surat,Electronics,1.423,FALSE
+12806,3/17/2024,Ludhiana,Office Products,1.135,FALSE
+12807,1/4/2023,Hyderabad,Mobile & Accessories,0.822,FALSE
+12808,9/22/2024,Dhanbad,Jewellery,1.011,FALSE
+12809,7/31/2025,Howrah,Toys & Baby,1.153,FALSE
+12810,8/28/2024,Delhi,Grocery,0.952,FALSE
+12811,9/19/2024,Bengaluru,Stationery,0.942,FALSE
+12812,5/18/2025,Mangalore,Grocery,0.823,TRUE
+12813,9/17/2023,Aligarh,Jewellery,1.028,FALSE
+12814,3/1/2024,Kanpur,Automotive,1.282,FALSE
+12815,5/17/2024,Mumbai,Industrial Supplies,4.332,TRUE
+12816,6/29/2025,Delhi,Industrial Supplies,1.107,FALSE
+12817,6/26/2024,Jaipur,Books,1.082,FALSE
+12818,6/20/2024,Allahabad,Furniture,0.782,FALSE
+12819,9/23/2023,Ghaziabad,Footwear,1.028,TRUE
+12820,1/24/2023,Madurai,Toys & Baby,1.332,FALSE
+12821,9/9/2024,Vadodara,Home & Kitchen,0.878,FALSE
+12822,1/22/2023,Mumbai,Grocery,0.808,FALSE
+12823,7/2/2024,Dhanbad,Pet Supplies,0.889,FALSE
+12824,5/10/2024,Coimbatore,Pet Supplies,1.217,FALSE
+12825,7/7/2025,Visakhapatnam,Appliances,0.805,FALSE
+12826,4/3/2023,Jodhpur,Home & Kitchen,1.089,FALSE
+12827,5/9/2023,Patna,Fashion-Men,0.857,FALSE
+12828,10/20/2023,Thane,Stationery,1.256,FALSE
+12829,1/2/2023,Mumbai,Footwear,1.182,FALSE
+12830,2/3/2024,Chandigarh,Pet Supplies,3.091,TRUE
+12831,8/21/2023,Vasai-Virar,Beauty & Personal Care,1.191,FALSE
+12832,11/4/2024,Bhopal,Furniture,1.273,FALSE
+12833,9/21/2025,Chennai,Appliances,0.829,FALSE
+12834,11/22/2023,Kolkata,Furniture,1.038,FALSE
+12835,6/10/2023,Chennai,Toys & Baby,0.671,FALSE
+12836,12/10/2024,Kolkata,Furniture,1.087,FALSE
+12837,6/9/2023,Meerut,Office Products,0.734,FALSE
+12838,6/25/2025,Pune,Mobile & Accessories,0.993,FALSE
+12839,6/13/2023,Varanasi,Sports & Fitness,0.756,FALSE
+12840,3/6/2024,Jodhpur,Appliances,0.998,FALSE
+12841,2/7/2023,Patna,Stationery,1.054,FALSE
+12842,12/12/2024,Raipur,Fashion-Men,1.726,TRUE
+12843,7/9/2024,Meerut,Fashion-Women,1.144,FALSE
+12844,9/16/2023,Nashik,Grocery,0.98,FALSE
+12845,5/6/2024,Surat,Home & Kitchen,0.899,FALSE
+12846,1/8/2023,Pune,Industrial Supplies,0.954,FALSE
+12847,10/18/2024,Pune,Beauty & Personal Care,0.92,FALSE
+12848,8/22/2023,Surat,Mobile & Accessories,1.125,FALSE
+12849,4/5/2024,Ludhiana,Jewellery,1.103,FALSE
+12850,9/26/2023,Kanpur,Electronics,0.947,FALSE
+12851,3/20/2023,Madurai,Health,0.892,FALSE
+12852,7/3/2024,Patna,Books,1.049,FALSE
+12853,6/5/2025,Visakhapatnam,Jewellery,0.975,FALSE
+12854,2/23/2024,Kolkata,Beauty & Personal Care,3.054,TRUE
+12855,6/13/2024,Visakhapatnam,Books,0.673,FALSE
+12856,7/2/2023,Rajkot,Fashion-Women,1.051,FALSE
+12857,11/9/2024,Dhanbad,Grocery,0.954,FALSE
+12858,9/20/2023,Moradabad,Footwear,0.875,FALSE
+12859,12/28/2023,Ahmedabad,Books,0.609,FALSE
+12860,5/3/2024,Thane,Stationery,1.314,FALSE
+12861,1/1/2023,Howrah,Toys & Baby,1.029,FALSE
+12862,9/28/2023,Mumbai,Office Products,1.086,FALSE
+12863,5/22/2024,Visakhapatnam,Fashion-Women,0.754,FALSE
+12864,3/10/2024,Kolkata,Home & Kitchen,1.231,FALSE
+12865,6/28/2024,Gurugram,Industrial Supplies,1.142,FALSE
+12866,8/29/2024,Chandigarh,Grocery,0.983,FALSE
+12867,4/2/2025,Faridabad,Automotive,1.173,FALSE
+12868,3/20/2024,Coimbatore,Industrial Supplies,0.885,FALSE
+12869,6/18/2025,Ludhiana,Home & Kitchen,0.958,FALSE
+12870,10/14/2023,Bhiwandi,Fashion-Men,0.818,FALSE
+12871,4/7/2024,Ghaziabad,Sports & Fitness,1.009,FALSE
+12872,1/18/2023,Allahabad,Office Products,0.831,FALSE
+12873,4/15/2024,Dhanbad,Fashion-Men,0.989,FALSE
+12874,11/8/2023,Chennai,Fashion-Women,0.824,FALSE
+12875,1/11/2025,Indore,Books,1.025,FALSE
+12876,3/10/2024,Pimpri-Chinchwad,Fashion-Women,1.12,FALSE
+12877,10/27/2023,Jabalpur,Health,2.045,TRUE
+12878,3/14/2023,Bhiwandi,Beauty & Personal Care,0.888,FALSE
+12879,7/31/2023,Howrah,Furniture,1.224,FALSE
+12880,11/8/2023,Allahabad,Fashion-Men,0.916,TRUE
+12881,4/7/2023,Kalyan-Dombivli,Industrial Supplies,2.509,TRUE
+12882,11/29/2023,Varanasi,Beauty & Personal Care,2.545,TRUE
+12883,9/29/2025,Kanpur,Jewellery,1.143,FALSE
+12884,6/11/2023,Bhopal,Appliances,0.737,FALSE
+12885,9/29/2025,Pimpri-Chinchwad,Books,0.906,FALSE
+12886,1/12/2025,Amritsar,Stationery,0.972,FALSE
+12887,5/21/2024,Indore,Stationery,1.164,FALSE
+12888,3/21/2024,Nagpur,Fashion-Men,1.155,FALSE
+12889,4/29/2025,Ahmedabad,Mobile & Accessories,1.438,FALSE
+12890,1/14/2023,Madurai,Books,1.161,FALSE
+12891,6/26/2025,Gurugram,Appliances,2.93,TRUE
+12892,6/4/2023,Howrah,Sports & Fitness,1.127,FALSE
+12893,7/8/2025,Faridabad,Health,0.642,FALSE
+12894,5/1/2024,Amritsar,Office Products,0.969,FALSE
+12895,8/11/2024,Thane,Health,1.012,FALSE
+12896,11/5/2024,Allahabad,Books,1.134,FALSE
+12897,2/8/2025,Dhanbad,Beauty & Personal Care,0.869,FALSE
+12898,4/12/2023,Aligarh,Industrial Supplies,0.963,FALSE
+12899,4/21/2023,Agra,Appliances,0.98,FALSE
+12900,12/13/2023,Raipur,Furniture,0.95,FALSE
+12901,10/29/2023,Ranchi,Automotive,0.725,TRUE
+12902,11/29/2023,Hyderabad,Sports & Fitness,1.02,FALSE
+12903,8/13/2024,Moradabad,Health,1.221,FALSE
+12904,9/14/2023,Gwalior,Jewellery,0.669,FALSE
+12905,7/8/2023,Kalyan-Dombivli,Appliances,0.758,FALSE
+12906,2/1/2023,Ranchi,Home & Kitchen,0.892,FALSE
+12907,7/24/2024,Vadodara,Footwear,0.941,FALSE
+12908,9/7/2023,Surat,Stationery,0.987,FALSE
+12909,7/24/2024,Ranchi,Fashion-Women,0.768,FALSE
+12910,3/20/2024,Chandigarh,Footwear,1.126,FALSE
+12911,7/26/2023,Indore,Beauty & Personal Care,0.936,FALSE
+12912,7/5/2024,Mumbai,Health,2.192,TRUE
+12913,2/2/2023,Indore,Fashion-Men,0.685,FALSE
+12914,11/9/2023,Jabalpur,Health,0.752,FALSE
+12915,1/7/2024,Moradabad,Home & Kitchen,2.929,TRUE
+12916,9/14/2023,Faridabad,Toys & Baby,3.196,TRUE
+12917,8/29/2023,Raipur,Electronics,1.026,FALSE
+12918,9/13/2024,Vasai-Virar,Footwear,0.872,FALSE
+12919,11/7/2023,Aligarh,Footwear,1.109,TRUE
+12920,5/14/2025,Pimpri-Chinchwad,Office Products,0.829,FALSE
+12921,5/5/2024,Kolkata,Grocery,0.81,FALSE
+12922,1/24/2024,Vadodara,Toys & Baby,0.854,FALSE
+12923,4/30/2025,Dhanbad,Fashion-Men,0.954,FALSE
+12924,3/26/2025,Dhanbad,Stationery,1.08,FALSE
+12925,10/24/2024,Kanpur,Fashion-Women,0.94,FALSE
+12926,4/21/2025,Amritsar,Industrial Supplies,0.878,FALSE
+12927,10/15/2023,Chennai,Stationery,1.191,FALSE
+12928,10/12/2024,Surat,Fashion-Men,0.985,FALSE
+12929,9/6/2025,Moradabad,Electronics,0.926,FALSE
+12930,12/18/2024,Jaipur,Fashion-Men,0.905,FALSE
+12931,3/22/2024,Chandigarh,Jewellery,0.7,FALSE
+12932,5/28/2023,Meerut,Sports & Fitness,3.746,TRUE
+12933,1/11/2025,Ghaziabad,Health,1.086,FALSE
+12934,9/4/2024,Pune,Jewellery,0.84,FALSE
+12935,9/9/2024,Srinagar,Pet Supplies,0.894,FALSE
+12936,4/18/2024,Patna,Fashion-Men,1.032,TRUE
+12937,3/26/2025,Ghaziabad,Appliances,2.768,TRUE
+12938,8/28/2024,Visakhapatnam,Appliances,4.321,TRUE
+12939,5/12/2024,Agra,Jewellery,0.954,FALSE
+12940,1/19/2025,Visakhapatnam,Pet Supplies,0.77,FALSE
+12941,5/18/2023,Meerut,Appliances,1.206,FALSE
+12942,1/6/2023,Thane,Footwear,1.611,TRUE
+12943,11/3/2024,Kanpur,Industrial Supplies,1.291,FALSE
+12944,4/19/2024,Nashik,Footwear,0.821,FALSE
+12945,8/25/2025,Howrah,Electronics,0.901,TRUE
+12946,5/15/2025,Varanasi,Office Products,0.93,FALSE
+12947,1/8/2023,Lucknow,Electronics,0.784,FALSE
+12948,7/7/2023,Dhanbad,Stationery,0.853,FALSE
+12949,9/19/2024,Varanasi,Toys & Baby,1.07,FALSE
+12950,7/18/2023,Jodhpur,Home & Kitchen,1.061,FALSE
+12951,6/11/2025,Vijayawada,Books,0.958,FALSE
+12952,6/1/2024,Gwalior,Industrial Supplies,4.418,TRUE
+12953,9/8/2025,Amritsar,Electronics,1.163,FALSE
+12954,5/25/2025,Meerut,Electronics,1.314,FALSE
+12955,7/8/2023,Meerut,Automotive,0.982,FALSE
+12956,5/19/2025,Vijayawada,Automotive,0.953,FALSE
+12957,3/10/2024,Faridabad,Jewellery,1.077,FALSE
+12958,4/23/2024,Pune,Industrial Supplies,0.916,FALSE
+12959,4/14/2024,Faridabad,Fashion-Men,1.093,FALSE
+12960,6/21/2025,Moradabad,Automotive,1.134,FALSE
+12961,5/29/2024,Mumbai,Home & Kitchen,0.822,FALSE
+12962,8/14/2023,Bhopal,Books,1.315,FALSE
+12963,2/2/2023,Indore,Jewellery,0.902,FALSE
+12964,6/25/2024,Varanasi,Sports & Fitness,0.805,FALSE
+12965,5/30/2025,Jabalpur,Books,1.063,FALSE
+12966,7/9/2023,Thane,Office Products,1.049,FALSE
+12967,5/11/2025,Gurugram,Automotive,0.689,FALSE
+12968,5/13/2025,Hyderabad,Fashion-Men,1.016,FALSE
+12969,5/17/2024,Gurugram,Fashion-Men,1.196,FALSE
+12970,1/27/2025,Rajkot,Furniture,0.784,FALSE
+12971,6/4/2024,Amritsar,Office Products,0.818,FALSE
+12972,5/26/2025,Jaipur,Automotive,0.905,FALSE
+12973,1/2/2025,Nashik,Beauty & Personal Care,0.893,FALSE
+12974,11/21/2023,Patna,Beauty & Personal Care,0.934,FALSE
+12975,12/11/2024,Amritsar,Fashion-Men,0.997,FALSE
+12976,8/5/2025,Patna,Pet Supplies,1.297,FALSE
+12977,8/9/2023,Pimpri-Chinchwad,Beauty & Personal Care,0.987,FALSE
+12978,7/30/2024,Mangalore,Office Products,1.639,TRUE
+12979,3/20/2024,Madurai,Furniture,1.049,FALSE
+12980,8/17/2025,Bhopal,Grocery,4.12,TRUE
+12981,4/30/2023,Bengaluru,Home & Kitchen,1.155,FALSE
+12982,10/4/2024,Jabalpur,Automotive,1.159,FALSE
+12983,9/13/2025,Ahmedabad,Appliances,0.903,FALSE
+12984,9/26/2024,Dhanbad,Beauty & Personal Care,1.396,FALSE
+12985,3/10/2025,Coimbatore,Pet Supplies,1.004,FALSE
+12986,4/7/2025,Meerut,Toys & Baby,1.262,FALSE
+12987,5/1/2025,Kalyan-Dombivli,Fashion-Men,0.777,FALSE
+12988,3/22/2025,Srinagar,Health,0.798,FALSE
+12989,10/21/2023,Madurai,Stationery,1.027,FALSE
+12990,5/18/2023,Aligarh,Appliances,0.853,FALSE
+12991,4/15/2025,Bhopal,Pet Supplies,0.804,FALSE
+12992,1/18/2023,Gwalior,Health,1.397,FALSE
+12993,7/19/2023,Nagpur,Stationery,0.796,FALSE
+12994,9/12/2024,Mangalore,Grocery,3.723,TRUE
+12995,8/29/2023,Meerut,Appliances,0.926,FALSE
+12996,7/6/2024,Allahabad,Electronics,0.946,FALSE
+12997,8/1/2024,Mumbai,Books,1.01,FALSE
+12998,9/13/2023,Mangalore,Health,0.682,FALSE
+12999,5/7/2023,Chandigarh,Toys & Baby,0.695,FALSE
+13000,12/14/2023,Vijayawada,Toys & Baby,1.141,FALSE
+13001,7/27/2025,Ghaziabad,Sports & Fitness,0.693,FALSE
+13002,3/4/2024,Bhopal,Footwear,0.765,FALSE
+13003,9/10/2023,Vadodara,Electronics,1.095,FALSE
+13004,2/5/2024,Chennai,Fashion-Women,1.1,FALSE
+13005,12/19/2024,Bengaluru,Furniture,0.942,FALSE
+13006,8/27/2024,Madurai,Stationery,0.994,FALSE
+13007,9/10/2025,Lucknow,Pet Supplies,1.066,FALSE
+13008,12/3/2024,Patna,Toys & Baby,1.153,FALSE
+13009,6/2/2025,Howrah,Grocery,1.135,FALSE
+13010,3/28/2025,Aligarh,Fashion-Women,0.837,FALSE
+13011,3/27/2025,Moradabad,Pet Supplies,0.979,FALSE
+13012,1/31/2025,Amritsar,Health,1.106,FALSE
+13013,5/17/2024,Meerut,Appliances,1.108,FALSE
+13014,1/24/2024,Aligarh,Furniture,3.142,TRUE
+13015,5/31/2024,Jabalpur,Footwear,1.101,FALSE
+13016,12/13/2024,Pimpri-Chinchwad,Jewellery,0.744,FALSE
+13017,12/7/2023,Hyderabad,Appliances,0.908,FALSE
+13018,1/14/2023,Ahmedabad,Footwear,0.882,FALSE
+13019,6/25/2025,Hyderabad,Furniture,0.864,FALSE
+13020,12/14/2024,Vijayawada,Jewellery,1.161,FALSE
+13021,9/21/2024,Vijayawada,Furniture,1.017,FALSE
+13022,1/7/2024,Allahabad,Pet Supplies,2.99,TRUE
+13023,9/18/2024,Bhiwandi,Sports & Fitness,0.82,FALSE
+13024,12/14/2023,Kanpur,Jewellery,1.025,FALSE
+13025,4/18/2023,Bhubaneswar,Fashion-Women,1.07,FALSE
+13026,5/16/2024,Dhanbad,Office Products,0.713,FALSE
+13027,8/2/2025,Dhanbad,Toys & Baby,5.332,TRUE
+13028,5/31/2025,Allahabad,Health,1.258,FALSE
+13029,2/6/2023,Bhiwandi,Home & Kitchen,0.845,FALSE
+13030,7/10/2025,Jodhpur,Appliances,0.923,FALSE
+13031,6/11/2024,Varanasi,Industrial Supplies,1.267,FALSE
+13032,9/5/2023,Bengaluru,Mobile & Accessories,0.602,FALSE
+13033,8/26/2024,Nagpur,Appliances,4.659,TRUE
+13034,6/6/2024,Mangalore,Beauty & Personal Care,0.784,FALSE
+13035,3/5/2024,Kalyan-Dombivli,Appliances,2.176,TRUE
+13036,10/3/2023,Indore,Mobile & Accessories,1.103,FALSE
+13037,10/4/2023,Bhopal,Jewellery,1.302,FALSE
+13038,3/23/2025,Allahabad,Furniture,1.141,FALSE
+13039,7/16/2024,Bengaluru,Grocery,0.593,FALSE
+13040,5/7/2024,Ranchi,Pet Supplies,0.868,FALSE
+13041,5/23/2024,Aligarh,Grocery,1.167,FALSE
+13042,3/11/2023,Vadodara,Footwear,0.939,FALSE
+13043,9/22/2023,Mangalore,Health,0.962,FALSE
+13044,6/9/2023,Rajkot,Furniture,1.071,FALSE
+13045,3/27/2023,Patna,Fashion-Men,0.931,FALSE
+13046,2/18/2024,Moradabad,Footwear,1.034,FALSE
+13047,3/17/2023,Patna,Books,0.827,FALSE
+13048,6/3/2024,Indore,Sports & Fitness,1.107,TRUE
+13049,2/26/2023,Delhi,Furniture,1.211,FALSE
+13050,2/1/2023,Indore,Automotive,0.909,FALSE
+13051,4/7/2025,Gurugram,Grocery,1.255,FALSE
+13052,7/25/2023,Thane,Health,3.759,TRUE
+13053,8/25/2023,Bhiwandi,Electronics,0.968,FALSE
+13054,12/17/2023,Nagpur,Footwear,1.087,FALSE
+13055,12/21/2024,Jabalpur,Beauty & Personal Care,1.178,FALSE
+13056,8/12/2024,Bhiwandi,Industrial Supplies,1.187,TRUE
+13057,7/25/2024,Vasai-Virar,Furniture,1.518,FALSE
+13058,11/5/2023,Vasai-Virar,Toys & Baby,1.338,FALSE
+13059,12/15/2024,Kalyan-Dombivli,Pet Supplies,0.866,FALSE
+13060,3/15/2025,Agra,Footwear,1.065,FALSE
+13061,8/3/2025,Howrah,Office Products,0.728,FALSE
+13062,7/11/2025,Ghaziabad,Industrial Supplies,1.228,FALSE
+13063,3/23/2025,Gurugram,Pet Supplies,1.211,FALSE
+13064,9/14/2023,Lucknow,Beauty & Personal Care,1.315,FALSE
+13065,9/10/2024,Ludhiana,Beauty & Personal Care,1.044,FALSE
+13066,12/18/2023,Vijayawada,Fashion-Women,1.171,FALSE
+13067,10/10/2024,Vadodara,Industrial Supplies,0.951,FALSE
+13068,10/22/2023,Raipur,Sports & Fitness,0.929,FALSE
+13069,5/11/2023,Surat,Electronics,2.186,TRUE
+13070,1/23/2025,Agra,Fashion-Men,0.903,FALSE
+13071,6/5/2024,Mumbai,Jewellery,1.602,FALSE
+13072,2/22/2024,Moradabad,Pet Supplies,1.063,FALSE
+13073,8/30/2023,Howrah,Home & Kitchen,1.335,FALSE
+13074,9/21/2023,Howrah,Fashion-Men,0.839,FALSE
+13075,9/20/2025,Chennai,Fashion-Men,0.856,FALSE
+13076,11/1/2024,Ghaziabad,Mobile & Accessories,1.153,FALSE
+13077,9/30/2025,Kanpur,Home & Kitchen,1.246,FALSE
+13078,7/27/2023,Ranchi,Health,2.032,TRUE
+13079,11/11/2024,Hyderabad,Industrial Supplies,0.684,FALSE
+13080,6/27/2025,Ghaziabad,Jewellery,0.801,FALSE
+13081,2/27/2025,Bhopal,Electronics,1.169,FALSE
+13082,10/1/2024,Madurai,Electronics,1.057,FALSE
+13083,3/5/2024,Thane,Home & Kitchen,1.594,TRUE
+13084,6/4/2023,Thane,Appliances,1.061,FALSE
+13085,10/10/2024,Howrah,Mobile & Accessories,0.967,FALSE
+13086,10/7/2024,Nashik,Sports & Fitness,1.388,FALSE
+13087,1/22/2023,Pimpri-Chinchwad,Industrial Supplies,1.043,FALSE
+13088,5/24/2025,Madurai,Toys & Baby,2.966,TRUE
+13089,3/12/2023,Bhubaneswar,Fashion-Men,1.438,FALSE
+13090,1/10/2025,Chandigarh,Automotive,1.169,FALSE
+13091,7/12/2023,Bhopal,Grocery,0.889,FALSE
+13092,9/8/2024,Bhopal,Books,1.32,FALSE
+13093,1/2/2024,Lucknow,Automotive,0.717,FALSE
+13094,1/26/2024,Nashik,Mobile & Accessories,3.387,TRUE
+13095,7/15/2023,Surat,Stationery,0.684,FALSE
+13096,2/1/2023,Vijayawada,Beauty & Personal Care,0.799,FALSE
+13097,6/4/2023,Ghaziabad,Mobile & Accessories,0.997,FALSE
+13098,11/15/2023,Ahmedabad,Toys & Baby,0.85,FALSE
+13099,1/30/2023,Rajkot,Office Products,1.079,FALSE
+13100,6/18/2025,Pimpri-Chinchwad,Beauty & Personal Care,0.909,FALSE
+13101,2/15/2023,Mumbai,Office Products,0.768,FALSE
+13102,10/11/2024,Agra,Grocery,1.034,FALSE
+13103,10/1/2023,Agra,Home & Kitchen,0.67,FALSE
+13104,6/6/2024,Kolkata,Health,1.896,TRUE
+13105,3/8/2025,Meerut,Books,3.378,TRUE
+13106,9/20/2023,Meerut,Furniture,1.252,FALSE
+13107,7/22/2023,Bhiwandi,Sports & Fitness,0.984,FALSE
+13108,12/27/2023,Jaipur,Jewellery,1.071,FALSE
+13109,4/20/2025,Vasai-Virar,Office Products,0.972,FALSE
+13110,12/13/2023,Delhi,Appliances,0.951,FALSE
+13111,3/25/2023,Meerut,Beauty & Personal Care,1.428,FALSE
+13112,3/8/2023,Mumbai,Fashion-Women,0.809,FALSE
+13113,10/18/2023,Lucknow,Industrial Supplies,0.993,FALSE
+13114,1/5/2024,Jodhpur,Home & Kitchen,0.892,FALSE
+13115,5/4/2023,Bhubaneswar,Automotive,0.981,FALSE
+13116,10/2/2023,Coimbatore,Fashion-Women,1.039,FALSE
+13117,11/3/2023,Bhopal,Toys & Baby,1.283,FALSE
+13118,5/18/2024,Kanpur,Furniture,4.838,TRUE
+13119,11/4/2023,Amritsar,Furniture,0.911,FALSE
+13120,10/13/2024,Pimpri-Chinchwad,Toys & Baby,1.397,FALSE
+13121,12/6/2023,Visakhapatnam,Industrial Supplies,0.841,FALSE
+13122,9/26/2025,Agra,Automotive,0.91,FALSE
+13123,5/3/2024,Pune,Appliances,1.02,FALSE
+13124,8/22/2024,Jabalpur,Automotive,0.824,FALSE
+13125,3/9/2024,Lucknow,Toys & Baby,1.402,FALSE
+13126,3/22/2025,Jodhpur,Health,1.262,FALSE
+13127,4/27/2024,Dhanbad,Electronics,0.908,FALSE
+13128,12/2/2024,Jaipur,Appliances,1.325,FALSE
+13129,9/24/2025,Vasai-Virar,Health,1.266,FALSE
+13130,5/26/2025,Gurugram,Appliances,0.727,FALSE
+13131,8/22/2024,Bhiwandi,Beauty & Personal Care,1.178,TRUE
+13132,1/22/2023,Kolkata,Footwear,0.971,FALSE
+13133,2/23/2024,Raipur,Furniture,0.759,TRUE
+13134,8/29/2025,Kalyan-Dombivli,Furniture,0.901,FALSE
+13135,11/18/2024,Chennai,Appliances,0.894,FALSE
+13136,7/2/2025,Jabalpur,Office Products,0.69,FALSE
+13137,12/31/2024,Patna,Pet Supplies,1.218,FALSE
+13138,8/8/2024,Patna,Toys & Baby,2.4,TRUE
+13139,1/1/2024,Delhi,Toys & Baby,0.992,FALSE
+13140,5/25/2024,Gwalior,Mobile & Accessories,1.055,FALSE
+13141,2/5/2024,Coimbatore,Office Products,0.923,FALSE
+13142,10/3/2023,Madurai,Pet Supplies,2.651,TRUE
+13143,9/16/2023,Jodhpur,Mobile & Accessories,4.785,TRUE
+13144,4/21/2024,Bengaluru,Toys & Baby,0.886,FALSE
+13145,7/10/2024,Jabalpur,Sports & Fitness,0.988,FALSE
+13146,6/17/2024,Varanasi,Jewellery,1.152,FALSE
+13147,5/21/2025,Howrah,Automotive,1.231,FALSE
+13148,9/7/2025,Ludhiana,Appliances,1.002,FALSE
+13149,3/3/2023,Kalyan-Dombivli,Pet Supplies,0.839,FALSE
+13150,5/28/2025,Kanpur,Pet Supplies,0.757,FALSE
+13151,5/27/2024,Dhanbad,Office Products,1.101,FALSE
+13152,1/26/2024,Lucknow,Automotive,1.184,FALSE
+13153,3/30/2024,Jodhpur,Sports & Fitness,1.21,FALSE
+13154,3/10/2024,Gwalior,Home & Kitchen,1.162,FALSE
+13155,8/22/2024,Gwalior,Electronics,1.087,FALSE
+13156,10/18/2023,Vijayawada,Grocery,0.801,FALSE
+13157,9/10/2023,Chennai,Grocery,0.977,FALSE
+13158,1/2/2024,Ahmedabad,Automotive,0.873,FALSE
+13159,5/18/2024,Mumbai,Health,0.795,FALSE
+13160,12/6/2024,Visakhapatnam,Stationery,0.917,FALSE
+13161,2/6/2025,Ghaziabad,Fashion-Women,0.965,TRUE
+13162,3/25/2024,Srinagar,Automotive,1.054,FALSE
+13163,1/24/2023,Srinagar,Office Products,1.114,FALSE
+13164,9/28/2024,Faridabad,Home & Kitchen,1.174,TRUE
+13165,7/11/2024,Moradabad,Appliances,0.816,FALSE
+13166,11/4/2024,Meerut,Mobile & Accessories,0.902,FALSE
+13167,10/30/2024,Gwalior,Fashion-Men,0.961,FALSE
+13168,5/21/2023,Bhubaneswar,Fashion-Men,1.121,FALSE
+13169,5/14/2024,Srinagar,Fashion-Women,1.426,FALSE
+13170,12/2/2023,Faridabad,Office Products,1.308,FALSE
+13171,3/23/2025,Moradabad,Industrial Supplies,0.991,FALSE
+13172,10/20/2024,Bhopal,Beauty & Personal Care,0.717,FALSE
+13173,1/4/2024,Allahabad,Electronics,1.72,TRUE
+13174,7/10/2025,Patna,Sports & Fitness,1.177,TRUE
+13175,7/4/2024,Jaipur,Books,1.207,FALSE
+13176,4/6/2023,Rajkot,Toys & Baby,1.022,TRUE
+13177,12/10/2023,Patna,Stationery,2.934,TRUE
+13178,11/24/2023,Dhanbad,Electronics,1.011,FALSE
+13179,3/25/2023,Visakhapatnam,Electronics,0.625,FALSE
+13180,12/9/2024,Kanpur,Furniture,1.638,TRUE
+13181,10/26/2023,Coimbatore,Electronics,0.979,FALSE
+13182,9/18/2023,Mumbai,Automotive,1.102,FALSE
+13183,1/27/2025,Agra,Automotive,1.107,FALSE
+13184,1/3/2025,Surat,Pet Supplies,1.045,FALSE
+13185,3/27/2024,Surat,Fashion-Men,0.862,FALSE
+13186,11/18/2024,Ludhiana,Fashion-Women,1.091,FALSE
+13187,9/4/2023,Vasai-Virar,Toys & Baby,0.827,FALSE
+13188,1/30/2025,Bhubaneswar,Sports & Fitness,0.904,TRUE
+13189,5/2/2024,Mumbai,Beauty & Personal Care,1.089,FALSE
+13190,9/2/2025,Thane,Beauty & Personal Care,1.264,FALSE
+13191,3/25/2025,Aligarh,Pet Supplies,1.079,FALSE
+13192,5/17/2024,Ranchi,Automotive,1.288,FALSE
+13193,11/11/2024,Howrah,Grocery,1.894,TRUE
+13194,6/16/2025,Hyderabad,Pet Supplies,1.116,FALSE
+13195,1/15/2025,Ahmedabad,Footwear,0.775,FALSE
+13196,6/1/2024,Bhubaneswar,Electronics,1.026,FALSE
+13197,12/21/2023,Gurugram,Office Products,1.219,FALSE
+13198,7/3/2025,Bengaluru,Office Products,1.379,FALSE
+13199,1/8/2025,Mangalore,Toys & Baby,3.351,TRUE
+13200,12/10/2023,Varanasi,Grocery,1.084,FALSE
+13201,1/23/2024,Bhubaneswar,Pet Supplies,1.078,FALSE
+13202,10/1/2024,Howrah,Footwear,0.939,FALSE
+13203,9/3/2023,Ahmedabad,Fashion-Women,1.051,FALSE
+13204,10/22/2023,Moradabad,Books,2.46,TRUE
+13205,1/30/2025,Faridabad,Fashion-Women,1.136,FALSE
+13206,6/3/2023,Indore,Home & Kitchen,2.324,TRUE
+13207,3/19/2023,Srinagar,Automotive,2.04,TRUE
+13208,6/30/2025,Nagpur,Furniture,1.108,FALSE
+13209,4/27/2024,Agra,Sports & Fitness,1.009,FALSE
+13210,2/5/2025,Meerut,Fashion-Women,3.229,TRUE
+13211,3/22/2024,Gurugram,Fashion-Men,1.033,FALSE
+13212,4/12/2025,Kanpur,Pet Supplies,0.843,FALSE
+13213,8/31/2023,Bengaluru,Mobile & Accessories,1.408,FALSE
+13214,12/7/2023,Lucknow,Office Products,1.289,FALSE
+13215,11/29/2023,Mumbai,Health,1.177,FALSE
+13216,1/14/2024,Vasai-Virar,Sports & Fitness,1.255,FALSE
+13217,8/23/2024,Kolkata,Books,1.117,FALSE
+13218,4/24/2024,Hyderabad,Grocery,0.723,FALSE
+13219,9/2/2023,Rajkot,Home & Kitchen,1.037,FALSE
+13220,11/27/2023,Raipur,Health,1.279,FALSE
+13221,6/1/2024,Jodhpur,Beauty & Personal Care,3.983,TRUE
+13222,2/12/2025,Bhiwandi,Automotive,1.086,FALSE
+13223,4/15/2023,Varanasi,Grocery,0.988,FALSE
+13224,2/16/2024,Raipur,Automotive,1.056,FALSE
+13225,5/15/2025,Ahmedabad,Stationery,0.899,FALSE
+13226,8/3/2025,Coimbatore,Fashion-Men,1.265,FALSE
+13227,1/22/2024,Pune,Electronics,1.439,FALSE
+13228,3/11/2024,Vasai-Virar,Sports & Fitness,0.992,FALSE
+13229,6/24/2023,Gwalior,Furniture,0.791,FALSE
+13230,9/20/2025,Chennai,Pet Supplies,0.976,FALSE
+13231,7/2/2024,Ranchi,Pet Supplies,1.051,FALSE
+13232,8/16/2025,Kanpur,Grocery,0.75,TRUE
+13233,9/9/2025,Thane,Toys & Baby,1.528,FALSE
+13234,1/6/2023,Jabalpur,Furniture,2.629,TRUE
+13235,7/13/2024,Nashik,Health,1.04,FALSE
+13236,1/9/2025,Moradabad,Books,1.266,FALSE
+13237,7/3/2023,Ludhiana,Furniture,0.946,FALSE
+13238,3/9/2023,Coimbatore,Sports & Fitness,0.663,FALSE
+13239,1/7/2025,Hyderabad,Automotive,1.099,FALSE
+13240,11/28/2024,Nagpur,Pet Supplies,0.897,FALSE
+13241,8/11/2024,Madurai,Office Products,1.012,FALSE
+13242,7/23/2023,Moradabad,Mobile & Accessories,1.006,FALSE
+13243,6/23/2024,Kanpur,Stationery,0.685,FALSE
+13244,1/15/2024,Howrah,Jewellery,0.775,FALSE
+13245,8/6/2025,Bengaluru,Industrial Supplies,1.05,FALSE
+13246,1/1/2024,Bengaluru,Books,0.862,FALSE
+13247,9/16/2023,Madurai,Stationery,0.872,FALSE
+13248,1/24/2024,Aligarh,Health,1.216,FALSE
+13249,8/21/2024,Meerut,Fashion-Men,1.024,FALSE
+13250,3/25/2025,Nagpur,Home & Kitchen,1.048,FALSE
+13251,8/27/2024,Kolkata,Health,0.595,FALSE
+13252,11/30/2024,Pimpri-Chinchwad,Footwear,0.992,FALSE
+13253,3/11/2024,Allahabad,Sports & Fitness,0.783,TRUE
+13254,2/18/2025,Thane,Appliances,0.911,FALSE
+13255,12/23/2024,Kolkata,Industrial Supplies,3.478,TRUE
+13256,9/15/2025,Vijayawada,Toys & Baby,1.276,FALSE
+13257,7/4/2025,Ahmedabad,Mobile & Accessories,1.008,FALSE
+13258,5/27/2023,Amritsar,Industrial Supplies,1.168,FALSE
+13259,5/11/2023,Srinagar,Fashion-Men,0.588,FALSE
+13260,11/14/2024,Surat,Footwear,0.855,FALSE
+13261,10/5/2024,Gwalior,Automotive,1.449,TRUE
+13262,9/19/2024,Dhanbad,Industrial Supplies,1.028,FALSE
+13263,3/9/2025,Gwalior,Jewellery,1.096,FALSE
+13264,9/25/2023,Nagpur,Fashion-Men,0.597,FALSE
+13265,3/22/2023,Meerut,Electronics,0.778,FALSE
+13266,9/19/2025,Ahmedabad,Appliances,0.374,FALSE
+13267,1/4/2023,Srinagar,Office Products,1.994,TRUE
+13268,12/5/2024,Srinagar,Furniture,1.028,FALSE
+13269,6/15/2025,Ludhiana,Books,1.114,FALSE
+13270,1/14/2023,Ludhiana,Jewellery,2.593,TRUE
+13271,1/23/2024,Madurai,Books,1.173,FALSE
+13272,8/3/2025,Kalyan-Dombivli,Toys & Baby,1.101,FALSE
+13273,11/25/2024,Chandigarh,Furniture,1.355,FALSE
+13274,4/25/2023,Hyderabad,Furniture,0.864,FALSE
+13275,3/14/2023,Howrah,Furniture,1.1,FALSE
+13276,2/6/2025,Nagpur,Automotive,1.211,FALSE
+13277,7/15/2024,Gurugram,Fashion-Women,0.97,FALSE
+13278,3/12/2024,Vasai-Virar,Industrial Supplies,1.257,FALSE
+13279,11/11/2023,Meerut,Industrial Supplies,0.53,FALSE
+13280,2/22/2025,Varanasi,Footwear,0.914,FALSE
+13281,2/28/2023,Gwalior,Fashion-Men,1.161,FALSE
+13282,7/26/2024,Amritsar,Furniture,1.531,TRUE
+13283,5/5/2024,Jodhpur,Electronics,0.735,FALSE
+13284,7/26/2025,Ahmedabad,Jewellery,0.801,FALSE
+13285,12/22/2024,Patna,Books,0.596,TRUE
+13286,3/24/2024,Jaipur,Mobile & Accessories,0.841,FALSE
+13287,7/1/2025,Thane,Stationery,0.893,FALSE
+13288,7/20/2023,Thane,Beauty & Personal Care,1.212,FALSE
+13289,4/24/2024,Bhopal,Appliances,1.093,FALSE
+13290,3/23/2023,Raipur,Pet Supplies,1.275,FALSE
+13291,5/14/2025,Raipur,Toys & Baby,1.097,FALSE
+13292,9/25/2023,Lucknow,Pet Supplies,0.954,FALSE
+13293,6/9/2024,Mumbai,Health,0.837,FALSE
+13294,8/5/2024,Ludhiana,Appliances,0.704,FALSE
+13295,7/20/2025,Bengaluru,Fashion-Men,1.067,FALSE
+13296,1/28/2025,Hyderabad,Appliances,0.73,FALSE
+13297,2/18/2024,Nagpur,Fashion-Men,0.93,FALSE
+13298,4/14/2025,Kalyan-Dombivli,Books,1.111,FALSE
+13299,3/28/2025,Kolkata,Footwear,0.716,FALSE
+13300,7/11/2023,Aligarh,Toys & Baby,1.127,FALSE
+13301,12/29/2023,Vadodara,Electronics,1.178,FALSE
+13302,7/24/2024,Bhubaneswar,Toys & Baby,1.158,FALSE
+13303,3/12/2023,Chennai,Jewellery,0.927,FALSE
+13304,2/23/2025,Amritsar,Home & Kitchen,0.796,FALSE
+13305,3/24/2025,Kolkata,Office Products,0.476,FALSE
+13306,3/29/2025,Thane,Automotive,2.174,TRUE
+13307,2/14/2023,Bhubaneswar,Mobile & Accessories,0.953,FALSE
+13308,1/4/2024,Vadodara,Automotive,1.162,FALSE
+13309,11/4/2023,Hyderabad,Books,0.864,FALSE
+13310,3/18/2023,Nashik,Automotive,1.002,FALSE
+13311,4/11/2024,Agra,Industrial Supplies,1.076,FALSE
+13312,5/28/2023,Madurai,Mobile & Accessories,0.99,FALSE
+13313,3/28/2025,Jodhpur,Health,0.994,FALSE
+13314,7/16/2024,Amritsar,Industrial Supplies,1.102,FALSE
+13315,7/3/2025,Mumbai,Mobile & Accessories,1.144,FALSE
+13316,4/29/2023,Agra,Pet Supplies,1.24,FALSE
+13317,6/28/2023,Varanasi,Appliances,1.535,FALSE
+13318,5/19/2025,Ahmedabad,Industrial Supplies,0.969,FALSE
+13319,2/12/2024,Jabalpur,Stationery,1.446,FALSE
+13320,2/27/2025,Thane,Industrial Supplies,1.019,FALSE
+13321,11/25/2024,Jodhpur,Electronics,1.13,FALSE
+13322,1/16/2023,Howrah,Fashion-Women,1.094,FALSE
+13323,3/7/2023,Ghaziabad,Stationery,1.111,FALSE
+13324,1/5/2025,Moradabad,Stationery,1.045,FALSE
+13325,7/9/2025,Vijayawada,Toys & Baby,0.945,FALSE
+13326,7/12/2024,Hyderabad,Stationery,0.59,FALSE
+13327,1/24/2023,Chandigarh,Mobile & Accessories,1.207,FALSE
+13328,6/29/2023,Varanasi,Toys & Baby,1.315,FALSE
+13329,4/22/2025,Pune,Furniture,1.165,FALSE
+13330,9/3/2024,Bhubaneswar,Jewellery,1.214,FALSE
+13331,5/17/2024,Bhopal,Books,1.206,FALSE
+13332,7/26/2023,Lucknow,Beauty & Personal Care,1.347,FALSE
+13333,1/3/2023,Kanpur,Books,0.985,FALSE
+13334,5/2/2025,Dhanbad,Mobile & Accessories,0.96,FALSE
+13335,3/3/2025,Amritsar,Sports & Fitness,3.328,TRUE
+13336,3/23/2023,Kolkata,Toys & Baby,0.919,TRUE
+13337,6/7/2025,Jodhpur,Sports & Fitness,0.925,FALSE
+13338,4/1/2023,Ludhiana,Beauty & Personal Care,1.056,FALSE
+13339,5/21/2024,Vadodara,Jewellery,1.076,FALSE
+13340,8/2/2024,Pimpri-Chinchwad,Home & Kitchen,4.057,TRUE
+13341,5/12/2023,Gwalior,Sports & Fitness,0.795,FALSE
+13342,4/23/2023,Amritsar,Pet Supplies,1.018,FALSE
+13343,2/20/2023,Faridabad,Health,1.067,FALSE
+13344,10/21/2024,Faridabad,Industrial Supplies,1.199,FALSE
+13345,6/7/2024,Amritsar,Fashion-Women,0.943,FALSE
+13346,8/20/2023,Vijayawada,Beauty & Personal Care,1.063,FALSE
+13347,4/24/2024,Meerut,Furniture,1.016,FALSE
+13348,3/10/2024,Bhubaneswar,Beauty & Personal Care,1.001,FALSE
+13349,8/10/2023,Moradabad,Appliances,0.983,FALSE
+13350,4/4/2023,Bhopal,Mobile & Accessories,1.294,FALSE
+13351,4/29/2023,Raipur,Beauty & Personal Care,0.93,FALSE
+13352,3/1/2023,Nashik,Grocery,1.075,FALSE
+13353,3/6/2024,Kolkata,Toys & Baby,1.914,TRUE
+13354,10/18/2024,Pune,Appliances,1.296,FALSE
+13355,7/28/2024,Delhi,Industrial Supplies,0.964,FALSE
+13356,11/5/2024,Thane,Mobile & Accessories,0.982,FALSE
+13357,3/30/2023,Moradabad,Toys & Baby,1.002,FALSE
+13358,12/8/2023,Aligarh,Jewellery,1.055,FALSE
+13359,2/18/2024,Bhopal,Mobile & Accessories,1.153,FALSE
+13360,2/15/2024,Jabalpur,Automotive,0.972,FALSE
+13361,5/30/2024,Patna,Books,1.13,FALSE
+13362,6/23/2025,Moradabad,Fashion-Women,0.917,FALSE
+13363,10/13/2023,Rajkot,Office Products,0.994,FALSE
+13364,4/18/2024,Howrah,Toys & Baby,0.765,FALSE
+13365,11/3/2023,Vijayawada,Stationery,1.006,FALSE
+13366,8/22/2023,Faridabad,Books,1.03,FALSE
+13367,5/16/2024,Pimpri-Chinchwad,Electronics,5.2,TRUE
+13368,10/5/2024,Hyderabad,Jewellery,2.228,TRUE
+13369,5/18/2024,Ghaziabad,Jewellery,1.06,FALSE
+13370,11/25/2023,Agra,Fashion-Men,4.017,TRUE
+13371,10/2/2023,Hyderabad,Health,0.732,FALSE
+13372,12/9/2023,Ludhiana,Books,3.87,TRUE
+13373,8/27/2023,Thane,Fashion-Women,1.856,TRUE
+13374,5/26/2023,Madurai,Office Products,1.117,FALSE
+13375,3/13/2024,Pimpri-Chinchwad,Toys & Baby,2.878,TRUE
+13376,12/14/2023,Hyderabad,Fashion-Men,0.922,FALSE
+13377,5/11/2025,Indore,Furniture,1.008,FALSE
+13378,8/9/2025,Kolkata,Electronics,1.434,FALSE
+13379,8/5/2023,Madurai,Beauty & Personal Care,0.973,TRUE
+13380,4/3/2024,Moradabad,Fashion-Men,2.595,TRUE
+13381,10/6/2024,Jodhpur,Appliances,0.87,FALSE
+13382,3/31/2025,Nagpur,Stationery,0.803,FALSE
+13383,11/12/2023,Nagpur,Home & Kitchen,0.665,FALSE
+13384,5/15/2025,Jodhpur,Sports & Fitness,0.872,FALSE
+13385,2/14/2025,Ghaziabad,Footwear,1.092,FALSE
+13386,5/9/2023,Kolkata,Toys & Baby,1.07,FALSE
+13387,6/30/2024,Coimbatore,Stationery,0.893,TRUE
+13388,2/21/2024,Ahmedabad,Footwear,0.983,FALSE
+13389,4/6/2023,Rajkot,Footwear,1.069,FALSE
+13390,6/19/2024,Howrah,Mobile & Accessories,0.922,FALSE
+13391,10/31/2024,Madurai,Electronics,0.823,FALSE
+13392,6/12/2023,Raipur,Automotive,1.172,FALSE
+13393,4/6/2025,Ahmedabad,Footwear,1.114,FALSE
+13394,3/8/2024,Chennai,Footwear,0.597,FALSE
+13395,9/17/2025,Mumbai,Automotive,0.888,FALSE
+13396,4/15/2025,Bhiwandi,Beauty & Personal Care,1.005,FALSE
+13397,4/17/2024,Vadodara,Fashion-Women,1.203,FALSE
+13398,1/12/2025,Varanasi,Pet Supplies,0.838,FALSE
+13399,2/18/2025,Nagpur,Home & Kitchen,1.211,FALSE
+13400,9/17/2024,Aligarh,Beauty & Personal Care,1.145,FALSE
+13401,10/1/2023,Thane,Mobile & Accessories,3.034,TRUE
+13402,6/14/2024,Indore,Furniture,1.397,FALSE
+13403,4/13/2024,Nagpur,Mobile & Accessories,1.237,FALSE
+13404,9/25/2023,Coimbatore,Pet Supplies,0.988,FALSE
+13405,2/23/2025,Bhubaneswar,Books,1.016,FALSE
+13406,6/24/2024,Delhi,Beauty & Personal Care,1.156,FALSE
+13407,9/4/2024,Pune,Beauty & Personal Care,1.011,FALSE
+13408,11/29/2024,Chandigarh,Footwear,0.968,FALSE
+13409,4/12/2023,Vijayawada,Office Products,0.816,FALSE
+13410,7/25/2025,Pune,Books,1.261,FALSE
+13411,7/5/2025,Gwalior,Stationery,1.106,FALSE
+13412,12/22/2023,Kanpur,Toys & Baby,0.688,FALSE
+13413,2/12/2025,Ahmedabad,Footwear,1.021,FALSE
+13414,5/8/2025,Ludhiana,Electronics,0.992,TRUE
+13415,9/8/2025,Ahmedabad,Toys & Baby,1.21,FALSE
+13416,2/7/2023,Coimbatore,Appliances,0.984,FALSE
+13417,4/21/2025,Thane,Books,0.798,FALSE
+13418,1/13/2023,Bhiwandi,Toys & Baby,0.964,FALSE
+13419,7/26/2024,Bhopal,Industrial Supplies,0.874,FALSE
+13420,11/11/2023,Moradabad,Beauty & Personal Care,1.01,FALSE
+13421,4/12/2024,Bhopal,Pet Supplies,1.444,FALSE
+13422,2/4/2023,Thane,Toys & Baby,2.79,TRUE
+13423,11/23/2023,Vadodara,Jewellery,0.712,FALSE
+13424,2/7/2024,Dhanbad,Stationery,1.041,FALSE
+13425,12/21/2024,Raipur,Books,0.3,FALSE
+13426,9/30/2025,Nagpur,Health,0.77,FALSE
+13427,9/22/2025,Delhi,Furniture,0.824,FALSE
+13428,7/26/2025,Srinagar,Health,1.07,FALSE
+13429,9/24/2023,Nashik,Books,1.351,FALSE
+13430,10/8/2023,Faridabad,Sports & Fitness,1.048,FALSE
+13431,7/31/2023,Nashik,Books,0.821,FALSE
+13432,1/12/2024,Chandigarh,Fashion-Women,0.704,FALSE
+13433,8/2/2025,Pune,Automotive,1.122,FALSE
+13434,1/8/2025,Gurugram,Fashion-Men,1.003,FALSE
+13435,2/28/2024,Vijayawada,Home & Kitchen,0.866,FALSE
+13436,3/24/2023,Chennai,Home & Kitchen,0.822,TRUE
+13437,10/31/2024,Thane,Fashion-Women,2.918,TRUE
+13438,7/13/2024,Chandigarh,Pet Supplies,0.789,FALSE
+13439,7/22/2023,Faridabad,Health,1.171,FALSE
+13440,3/13/2023,Lucknow,Toys & Baby,1.548,FALSE
+13441,8/11/2023,Srinagar,Industrial Supplies,0.975,FALSE
+13442,2/12/2024,Visakhapatnam,Fashion-Men,1.404,FALSE
+13443,10/2/2023,Bhubaneswar,Appliances,0.811,FALSE
+13444,1/13/2023,Coimbatore,Grocery,0.561,FALSE
+13445,5/23/2023,Howrah,Grocery,0.9,FALSE
+13446,1/9/2025,Indore,Furniture,0.629,FALSE
+13447,5/28/2025,Nagpur,Toys & Baby,1.045,FALSE
+13448,11/21/2024,Jodhpur,Beauty & Personal Care,1.25,FALSE
+13449,12/19/2023,Meerut,Stationery,1.229,FALSE
+13450,4/5/2025,Chennai,Industrial Supplies,1.352,FALSE
+13451,7/26/2025,Mangalore,Footwear,0.841,FALSE
+13452,7/16/2023,Nagpur,Stationery,3.608,TRUE
+13453,1/14/2023,Ludhiana,Sports & Fitness,1.003,FALSE
+13454,7/11/2025,Moradabad,Toys & Baby,1.113,FALSE
+13455,7/29/2023,Gurugram,Health,0.968,FALSE
+13456,2/17/2023,Aligarh,Automotive,4.544,TRUE
+13457,1/4/2025,Howrah,Jewellery,0.935,FALSE
+13458,1/3/2025,Gurugram,Stationery,2.394,TRUE
+13459,3/29/2023,Meerut,Automotive,0.735,FALSE
+13460,1/10/2024,Gurugram,Beauty & Personal Care,1.093,FALSE
+13461,9/17/2025,Bengaluru,Electronics,1.031,FALSE
+13462,7/30/2023,Faridabad,Toys & Baby,1.058,FALSE
+13463,8/6/2025,Jabalpur,Home & Kitchen,0.796,FALSE
+13464,7/23/2025,Jabalpur,Mobile & Accessories,0.817,FALSE
+13465,12/16/2024,Gwalior,Fashion-Women,0.85,FALSE
+13466,9/26/2023,Mumbai,Appliances,1.209,FALSE
+13467,3/13/2025,Mumbai,Mobile & Accessories,1.059,FALSE
+13468,7/30/2025,Agra,Beauty & Personal Care,1.116,FALSE
+13469,8/14/2025,Ghaziabad,Grocery,0.76,FALSE
+13470,3/27/2024,Mumbai,Industrial Supplies,1.083,FALSE
+13471,3/17/2023,Varanasi,Appliances,0.959,FALSE
+13472,3/7/2025,Lucknow,Sports & Fitness,1.244,FALSE
+13473,7/22/2025,Ranchi,Home & Kitchen,1.116,FALSE
+13474,4/4/2025,Visakhapatnam,Home & Kitchen,1.017,FALSE
+13475,12/20/2024,Surat,Mobile & Accessories,1.158,FALSE
+13476,1/18/2023,Vijayawada,Stationery,0.945,FALSE
+13477,6/9/2025,Mangalore,Health,1.159,FALSE
+13478,12/9/2024,Bhubaneswar,Automotive,0.951,FALSE
+13479,5/8/2023,Srinagar,Automotive,0.888,FALSE
+13480,8/23/2023,Coimbatore,Toys & Baby,1.134,FALSE
+13481,10/5/2024,Chennai,Jewellery,0.764,FALSE
+13482,6/9/2024,Rajkot,Footwear,1.03,FALSE
+13483,1/26/2024,Kolkata,Industrial Supplies,1.363,FALSE
+13484,2/2/2024,Kanpur,Mobile & Accessories,1.518,FALSE
+13485,5/16/2023,Chennai,Books,0.686,FALSE
+13486,6/16/2025,Srinagar,Grocery,1.008,FALSE
+13487,3/9/2024,Indore,Books,1.007,FALSE
+13488,1/13/2024,Madurai,Fashion-Men,1.158,FALSE
+13489,1/3/2023,Raipur,Stationery,1.04,FALSE
+13490,12/30/2024,Nagpur,Stationery,1.014,FALSE
+13491,8/27/2024,Kanpur,Stationery,1.101,FALSE
+13492,1/26/2025,Howrah,Mobile & Accessories,1.151,FALSE
+13493,10/21/2023,Kolkata,Pet Supplies,1.185,FALSE
+13494,5/18/2023,Srinagar,Appliances,1.157,FALSE
+13495,12/7/2024,Moradabad,Electronics,1.018,FALSE
+13496,3/16/2023,Jabalpur,Fashion-Men,1.049,TRUE
+13497,10/23/2023,Pimpri-Chinchwad,Books,0.928,FALSE
+13498,3/1/2025,Delhi,Pet Supplies,0.949,FALSE
+13499,12/28/2023,Nagpur,Appliances,0.875,TRUE
+13500,12/18/2024,Varanasi,Furniture,2.084,TRUE
+13501,9/13/2023,Surat,Office Products,0.847,FALSE
+13502,12/4/2024,Dhanbad,Sports & Fitness,0.921,FALSE
+13503,5/7/2024,Faridabad,Mobile & Accessories,0.94,FALSE
+13504,1/28/2023,Vasai-Virar,Automotive,0.948,FALSE
+13505,9/8/2023,Allahabad,Grocery,1.431,TRUE
+13506,3/6/2025,Nagpur,Automotive,0.732,FALSE
+13507,4/4/2023,Kolkata,Furniture,1.474,FALSE
+13508,6/1/2023,Mangalore,Office Products,0.983,FALSE
+13509,1/6/2024,Pimpri-Chinchwad,Office Products,1.713,TRUE
+13510,5/21/2024,Nagpur,Books,1.023,FALSE
+13511,1/28/2023,Bhopal,Office Products,0.667,FALSE
+13512,4/17/2023,Chennai,Fashion-Men,0.948,FALSE
+13513,3/9/2023,Kolkata,Toys & Baby,1.098,FALSE
+13514,8/30/2024,Gwalior,Fashion-Women,1.161,FALSE
+13515,3/2/2023,Lucknow,Jewellery,1.058,FALSE
+13516,12/7/2023,Thane,Office Products,1.115,FALSE
+13517,4/24/2023,Pune,Automotive,1.043,FALSE
+13518,6/26/2025,Delhi,Footwear,1.162,FALSE
+13519,6/29/2025,Nashik,Sports & Fitness,1.105,FALSE
+13520,2/10/2023,Varanasi,Mobile & Accessories,1.392,FALSE
+13521,8/10/2024,Jabalpur,Mobile & Accessories,0.638,FALSE
+13522,3/27/2024,Aligarh,Home & Kitchen,1.159,FALSE
+13523,10/2/2024,Ghaziabad,Grocery,1.17,FALSE
+13524,3/28/2025,Ranchi,Automotive,0.773,FALSE
+13525,10/31/2024,Aligarh,Home & Kitchen,0.56,FALSE
+13526,8/10/2024,Pimpri-Chinchwad,Jewellery,3.772,TRUE
+13527,9/16/2024,Moradabad,Fashion-Women,1.164,FALSE
+13528,4/23/2024,Mangalore,Beauty & Personal Care,0.823,FALSE
+13529,1/13/2023,Kalyan-Dombivli,Industrial Supplies,0.804,FALSE
+13530,10/15/2023,Coimbatore,Fashion-Men,0.841,FALSE
+13531,7/2/2025,Dhanbad,Electronics,0.919,FALSE
+13532,5/14/2024,Vadodara,Fashion-Men,1.177,FALSE
+13533,3/27/2025,Aligarh,Furniture,1.165,FALSE
+13534,1/22/2023,Moradabad,Mobile & Accessories,1.194,FALSE
+13535,4/23/2025,Mangalore,Health,1.038,FALSE
+13536,10/11/2024,Indore,Books,1.084,FALSE
+13537,7/19/2024,Lucknow,Appliances,1.488,FALSE
+13538,2/15/2025,Ghaziabad,Furniture,1.032,FALSE
+13539,11/15/2024,Faridabad,Home & Kitchen,0.936,FALSE
+13540,12/31/2024,Ludhiana,Grocery,0.901,FALSE
+13541,4/17/2024,Allahabad,Books,4.05,TRUE
+13542,7/9/2025,Dhanbad,Fashion-Men,0.795,FALSE
+13543,1/16/2023,Bhiwandi,Office Products,1.209,FALSE
+13544,2/20/2025,Bhubaneswar,Sports & Fitness,1.088,FALSE
+13545,12/24/2023,Ranchi,Mobile & Accessories,1.063,TRUE
+13546,5/15/2024,Moradabad,Fashion-Men,0.74,FALSE
+13547,5/8/2024,Ranchi,Fashion-Women,0.944,FALSE
+13548,9/8/2023,Jaipur,Pet Supplies,0.739,FALSE
+13549,2/20/2023,Amritsar,Fashion-Men,1.04,FALSE
+13550,10/7/2023,Ahmedabad,Office Products,1.037,FALSE
+13551,9/12/2025,Visakhapatnam,Health,3.503,TRUE
+13552,1/28/2023,Ahmedabad,Toys & Baby,1.025,TRUE
+13553,4/26/2023,Chennai,Jewellery,0.627,FALSE
+13554,11/4/2023,Indore,Health,0.936,FALSE
+13555,4/12/2024,Mumbai,Industrial Supplies,1.344,FALSE
+13556,1/27/2023,Dhanbad,Fashion-Men,0.889,FALSE
+13557,5/26/2024,Gwalior,Toys & Baby,0.873,FALSE
+13558,7/13/2024,Gwalior,Fashion-Women,1.071,FALSE
+13559,7/21/2025,Dhanbad,Stationery,0.863,TRUE
+13560,3/16/2023,Mumbai,Stationery,0.999,FALSE
+13561,9/7/2025,Aligarh,Appliances,1.078,FALSE
+13562,5/21/2025,Bhubaneswar,Electronics,1.095,FALSE
+13563,4/12/2023,Amritsar,Pet Supplies,1.096,FALSE
+13564,8/26/2023,Thane,Electronics,1.141,FALSE
+13565,7/10/2023,Nashik,Electronics,2.263,TRUE
+13566,5/31/2023,Bhiwandi,Office Products,1.007,FALSE
+13567,10/24/2023,Patna,Footwear,0.835,FALSE
+13568,6/25/2024,Kalyan-Dombivli,Books,2.426,TRUE
+13569,3/20/2024,Kalyan-Dombivli,Stationery,0.771,FALSE
+13570,3/29/2024,Bhopal,Pet Supplies,0.667,FALSE
+13571,5/26/2024,Bhubaneswar,Jewellery,0.658,FALSE
+13572,2/7/2023,Aligarh,Footwear,1.162,FALSE
+13573,4/6/2025,Delhi,Health,1.421,TRUE
+13574,6/30/2023,Nagpur,Office Products,1.085,FALSE
+13575,2/20/2024,Moradabad,Toys & Baby,0.879,FALSE
+13576,9/19/2023,Ludhiana,Office Products,1.158,FALSE
+13577,9/13/2024,Ludhiana,Industrial Supplies,0.989,FALSE
+13578,2/12/2023,Jaipur,Appliances,1.233,FALSE
+13579,6/21/2025,Madurai,Fashion-Men,0.745,FALSE
+13580,5/28/2025,Visakhapatnam,Footwear,1.417,TRUE
+13581,7/1/2025,Bhiwandi,Fashion-Men,1.363,FALSE
+13582,12/11/2024,Gurugram,Grocery,1.141,FALSE
+13583,3/15/2024,Ludhiana,Appliances,0.69,FALSE
+13584,3/23/2023,Raipur,Books,1.112,FALSE
+13585,3/22/2024,Kanpur,Sports & Fitness,1.058,FALSE
+13586,9/5/2025,Ahmedabad,Furniture,0.653,FALSE
+13587,4/1/2025,Kalyan-Dombivli,Books,0.804,FALSE
+13588,10/27/2023,Ludhiana,Fashion-Women,0.912,FALSE
+13589,8/15/2023,Nagpur,Home & Kitchen,1.758,TRUE
+13590,10/8/2023,Hyderabad,Sports & Fitness,0.756,FALSE
+13591,12/23/2023,Delhi,Appliances,1.286,FALSE
+13592,6/4/2023,Aligarh,Mobile & Accessories,1.036,FALSE
+13593,10/31/2024,Bhubaneswar,Office Products,0.811,FALSE
+13594,1/20/2023,Bhiwandi,Furniture,0.993,FALSE
+13595,1/29/2024,Visakhapatnam,Mobile & Accessories,0.961,FALSE
+13596,3/31/2023,Ahmedabad,Toys & Baby,1.179,FALSE
+13597,8/29/2024,Kolkata,Home & Kitchen,1.464,FALSE
+13598,3/22/2023,Howrah,Electronics,3.704,TRUE
+13599,11/23/2024,Bhopal,Fashion-Women,0.884,FALSE
+13600,5/20/2023,Jaipur,Furniture,1.064,FALSE
+13601,2/2/2024,Dhanbad,Office Products,1.123,FALSE
+13602,2/11/2023,Ghaziabad,Industrial Supplies,1.186,FALSE
+13603,4/11/2024,Agra,Electronics,0.724,FALSE
+13604,2/28/2025,Pune,Sports & Fitness,2.444,TRUE
+13605,10/26/2023,Visakhapatnam,Health,0.455,FALSE
+13606,2/8/2023,Visakhapatnam,Industrial Supplies,1.202,FALSE
+13607,3/17/2025,Ludhiana,Toys & Baby,1.053,FALSE
+13608,7/30/2023,Varanasi,Fashion-Men,1.228,FALSE
+13609,1/25/2025,Mumbai,Industrial Supplies,1.08,FALSE
+13610,1/27/2025,Agra,Industrial Supplies,0.885,FALSE
+13611,9/15/2025,Bengaluru,Automotive,0.993,FALSE
+13612,9/6/2023,Rajkot,Home & Kitchen,0.966,FALSE
+13613,7/2/2024,Jodhpur,Grocery,0.637,TRUE
+13614,12/12/2023,Aligarh,Beauty & Personal Care,0.979,FALSE
+13615,9/22/2025,Bhopal,Footwear,0.782,FALSE
+13616,10/3/2023,Bhubaneswar,Electronics,0.874,FALSE
+13617,7/11/2023,Thane,Fashion-Women,0.706,FALSE
+13618,5/2/2024,Gwalior,Automotive,1.082,FALSE
+13619,2/25/2023,Delhi,Grocery,0.971,TRUE
+13620,2/19/2025,Nagpur,Fashion-Women,1.103,FALSE
+13621,3/20/2024,Moradabad,Electronics,0.529,FALSE
+13622,6/21/2025,Aligarh,Pet Supplies,0.848,FALSE
+13623,5/10/2024,Bengaluru,Stationery,0.929,FALSE
+13624,7/29/2025,Jabalpur,Stationery,1.169,FALSE
+13625,5/5/2025,Nagpur,Pet Supplies,2.01,TRUE
+13626,2/12/2025,Kanpur,Books,0.738,FALSE
+13627,1/11/2023,Kolkata,Sports & Fitness,1.078,FALSE
+13628,4/13/2024,Kalyan-Dombivli,Health,1.134,FALSE
+13629,4/9/2023,Kolkata,Pet Supplies,0.818,FALSE
+13630,10/16/2023,Visakhapatnam,Jewellery,0.922,FALSE
+13631,8/27/2025,Thane,Toys & Baby,0.437,FALSE
+13632,5/14/2025,Pune,Toys & Baby,1.105,FALSE
+13633,8/20/2024,Vijayawada,Sports & Fitness,0.868,FALSE
+13634,1/15/2023,Ghaziabad,Health,0.86,FALSE
+13635,7/9/2023,Pune,Home & Kitchen,1.05,FALSE
+13636,11/8/2023,Bhubaneswar,Office Products,1.264,FALSE
+13637,9/19/2025,Raipur,Toys & Baby,0.976,FALSE
+13638,8/21/2023,Kalyan-Dombivli,Fashion-Women,0.858,FALSE
+13639,2/19/2025,Bhiwandi,Fashion-Men,0.932,FALSE
+13640,12/1/2024,Chandigarh,Industrial Supplies,1.077,FALSE
+13641,7/15/2025,Surat,Beauty & Personal Care,1.251,FALSE
+13642,2/11/2025,Kalyan-Dombivli,Toys & Baby,1.062,FALSE
+13643,3/7/2025,Patna,Fashion-Men,0.748,FALSE
+13644,3/3/2023,Pimpri-Chinchwad,Books,4.937,TRUE
+13645,7/9/2024,Kolkata,Jewellery,0.681,FALSE
+13646,7/7/2024,Agra,Mobile & Accessories,0.978,FALSE
+13647,7/23/2024,Bhopal,Health,1.085,FALSE
+13648,9/10/2024,Srinagar,Fashion-Women,1.042,FALSE
+13649,12/7/2024,Jodhpur,Fashion-Women,3.645,TRUE
+13650,7/21/2024,Aligarh,Books,0.832,FALSE
+13651,8/10/2024,Varanasi,Footwear,1.224,FALSE
+13652,5/26/2023,Amritsar,Fashion-Women,0.752,FALSE
+13653,4/5/2024,Surat,Toys & Baby,1.453,FALSE
+13654,6/23/2023,Pune,Office Products,0.811,FALSE
+13655,10/15/2023,Kolkata,Furniture,1.336,FALSE
+13656,6/22/2025,Vadodara,Health,0.837,FALSE
+13657,11/2/2024,Madurai,Furniture,0.909,FALSE
+13658,9/10/2025,Bhiwandi,Mobile & Accessories,1.285,TRUE
+13659,9/23/2025,Srinagar,Appliances,1.202,FALSE
+13660,2/9/2024,Bengaluru,Jewellery,1.021,FALSE
+13661,4/5/2025,Pimpri-Chinchwad,Footwear,2.619,TRUE
+13662,6/6/2025,Bhiwandi,Toys & Baby,0.872,FALSE
+13663,5/10/2025,Jodhpur,Mobile & Accessories,1.092,FALSE
+13664,8/22/2023,Vijayawada,Books,1.339,FALSE
+13665,7/6/2025,Moradabad,Sports & Fitness,0.869,FALSE
+13666,1/27/2024,Jabalpur,Automotive,1.099,FALSE
+13667,7/29/2024,Mumbai,Toys & Baby,0.925,FALSE
+13668,2/7/2023,Visakhapatnam,Industrial Supplies,1.001,FALSE
+13669,3/19/2023,Mangalore,Electronics,1.325,FALSE
+13670,2/26/2025,Chennai,Grocery,1.297,FALSE
+13671,9/1/2023,Ahmedabad,Home & Kitchen,1.352,FALSE
+13672,6/20/2023,Jabalpur,Stationery,0.915,FALSE
+13673,11/18/2024,Kanpur,Footwear,0.777,FALSE
+13674,5/26/2023,Mumbai,Beauty & Personal Care,0.675,FALSE
+13675,8/30/2025,Vasai-Virar,Fashion-Men,0.937,FALSE
+13676,12/15/2024,Indore,Fashion-Men,1.091,FALSE
+13677,6/22/2025,Rajkot,Fashion-Women,0.866,FALSE
+13678,11/10/2024,Bhiwandi,Fashion-Men,0.728,FALSE
+13679,6/24/2025,Pimpri-Chinchwad,Fashion-Women,0.909,FALSE
+13680,3/12/2023,Surat,Mobile & Accessories,1.159,FALSE
+13681,8/17/2025,Indore,Fashion-Men,0.734,FALSE
+13682,9/14/2024,Gurugram,Jewellery,0.932,FALSE
+13683,8/30/2024,Dhanbad,Electronics,0.819,FALSE
+13684,8/26/2024,Delhi,Home & Kitchen,1.053,FALSE
+13685,12/16/2024,Visakhapatnam,Toys & Baby,0.973,FALSE
+13686,6/22/2025,Moradabad,Stationery,1,FALSE
+13687,12/19/2023,Jabalpur,Furniture,0.941,FALSE
+13688,6/1/2024,Chennai,Fashion-Women,4.508,TRUE
+13689,7/29/2023,Madurai,Office Products,4.767,TRUE
+13690,7/20/2025,Kalyan-Dombivli,Sports & Fitness,4.079,TRUE
+13691,4/7/2024,Madurai,Appliances,0.776,FALSE
+13692,8/16/2023,Delhi,Jewellery,0.991,FALSE
+13693,5/26/2023,Pune,Office Products,2.434,TRUE
+13694,9/17/2025,Aligarh,Grocery,0.84,FALSE
+13695,4/17/2024,Delhi,Home & Kitchen,1.065,FALSE
+13696,2/25/2025,Srinagar,Automotive,0.917,FALSE
+13697,9/7/2023,Aligarh,Mobile & Accessories,0.795,FALSE
+13698,2/13/2025,Bhopal,Stationery,1.082,FALSE
+13699,1/24/2024,Jabalpur,Grocery,0.978,FALSE
+13700,9/2/2023,Nagpur,Sports & Fitness,1.214,FALSE
+13701,8/28/2024,Jaipur,Toys & Baby,1.148,FALSE
+13702,1/13/2024,Raipur,Home & Kitchen,0.502,TRUE
+13703,2/9/2023,Pimpri-Chinchwad,Fashion-Women,0.846,FALSE
+13704,8/7/2025,Ahmedabad,Furniture,0.997,FALSE
+13705,12/23/2023,Aligarh,Mobile & Accessories,1.012,FALSE
+13706,10/20/2024,Mangalore,Sports & Fitness,1.075,FALSE
+13707,3/9/2023,Mumbai,Health,0.588,FALSE
+13708,7/29/2024,Meerut,Sports & Fitness,1.034,FALSE
+13709,10/18/2023,Chennai,Toys & Baby,0.934,FALSE
+13710,4/12/2024,Gurugram,Office Products,0.841,FALSE
+13711,5/30/2023,Nagpur,Pet Supplies,0.773,FALSE
+13712,8/13/2024,Jaipur,Footwear,1.121,FALSE
+13713,1/4/2025,Coimbatore,Toys & Baby,0.819,FALSE
+13714,1/9/2024,Chennai,Toys & Baby,0.632,FALSE
+13715,8/30/2024,Delhi,Home & Kitchen,1.027,FALSE
+13716,6/7/2024,Visakhapatnam,Health,1.044,FALSE
+13717,7/28/2023,Dhanbad,Grocery,0.855,FALSE
+13718,6/12/2025,Ahmedabad,Industrial Supplies,0.913,FALSE
+13719,4/10/2025,Ahmedabad,Fashion-Men,0.889,FALSE
+13720,8/7/2025,Ghaziabad,Mobile & Accessories,4.253,TRUE
+13721,4/17/2025,Raipur,Footwear,1.425,FALSE
+13722,5/2/2024,Kalyan-Dombivli,Footwear,0.745,FALSE
+13723,12/2/2024,Kolkata,Automotive,0.72,FALSE
+13724,10/16/2024,Agra,Pet Supplies,1.112,FALSE
+13725,3/13/2024,Kolkata,Books,1.25,FALSE
+13726,6/8/2025,Ghaziabad,Health,1.003,FALSE
+13727,4/16/2025,Hyderabad,Automotive,1.076,FALSE
+13728,1/5/2024,Moradabad,Mobile & Accessories,0.94,FALSE
+13729,8/16/2025,Vasai-Virar,Sports & Fitness,0.951,FALSE
+13730,6/20/2025,Bhopal,Beauty & Personal Care,1.371,FALSE
+13731,7/6/2024,Raipur,Health,0.926,FALSE
+13732,5/26/2024,Raipur,Office Products,1.059,FALSE
+13733,7/29/2025,Faridabad,Fashion-Men,0.853,FALSE
+13734,8/28/2023,Jabalpur,Books,1.062,FALSE
+13735,10/6/2023,Jaipur,Grocery,1.502,FALSE
+13736,12/17/2023,Indore,Home & Kitchen,1.13,FALSE
+13737,12/15/2024,Jodhpur,Health,1.101,FALSE
+13738,6/11/2024,Hyderabad,Pet Supplies,0.847,FALSE
+13739,3/28/2024,Visakhapatnam,Fashion-Women,0.984,FALSE
+13740,9/7/2024,Thane,Grocery,3.013,TRUE
+13741,5/1/2025,Vijayawada,Grocery,2.282,TRUE
+13742,6/6/2025,Ahmedabad,Jewellery,1.023,FALSE
+13743,5/30/2024,Kolkata,Toys & Baby,1.042,FALSE
+13744,2/8/2024,Delhi,Fashion-Men,0.902,FALSE
+13745,6/23/2024,Ranchi,Fashion-Men,1.064,FALSE
+13746,7/11/2024,Indore,Footwear,0.898,FALSE
+13747,4/7/2024,Pune,Health,0.633,FALSE
+13748,12/19/2023,Bhubaneswar,Home & Kitchen,1.099,FALSE
+13749,1/3/2025,Mangalore,Appliances,1.017,FALSE
+13750,5/30/2023,Jaipur,Office Products,0.949,FALSE
+13751,1/7/2023,Bhopal,Automotive,0.719,FALSE
+13752,3/10/2025,Pimpri-Chinchwad,Jewellery,0.845,FALSE
+13753,5/19/2023,Coimbatore,Toys & Baby,1.091,FALSE
+13754,5/19/2025,Faridabad,Toys & Baby,0.897,FALSE
+13755,12/16/2023,Nashik,Fashion-Women,3.655,TRUE
+13756,8/9/2023,Pune,Health,0.745,FALSE
+13757,1/23/2025,Hyderabad,Books,2.229,TRUE
+13758,4/13/2023,Faridabad,Beauty & Personal Care,0.884,FALSE
+13759,2/19/2024,Agra,Automotive,0.898,FALSE
+13760,4/14/2025,Hyderabad,Sports & Fitness,1.173,FALSE
+13761,10/9/2023,Kalyan-Dombivli,Industrial Supplies,0.98,TRUE
+13762,5/21/2024,Howrah,Electronics,0.954,FALSE
+13763,11/4/2023,Jabalpur,Fashion-Women,3.289,TRUE
+13764,4/1/2023,Kolkata,Beauty & Personal Care,0.951,FALSE
+13765,9/12/2025,Surat,Industrial Supplies,3.655,TRUE
+13766,12/5/2023,Gurugram,Books,1.14,FALSE
+13767,9/4/2025,Ludhiana,Jewellery,1.579,FALSE
+13768,8/26/2023,Bhiwandi,Fashion-Women,0.945,FALSE
+13769,2/16/2024,Surat,Sports & Fitness,1.197,FALSE
+13770,12/27/2024,Thane,Appliances,2.759,TRUE
+13771,2/28/2024,Bhopal,Health,0.751,FALSE
+13772,3/10/2024,Rajkot,Sports & Fitness,1.03,FALSE
+13773,8/18/2025,Pune,Fashion-Women,1.055,TRUE
+13774,7/1/2024,Patna,Beauty & Personal Care,1.111,TRUE
+13775,11/2/2023,Dhanbad,Electronics,0.979,FALSE
+13776,12/1/2024,Howrah,Beauty & Personal Care,0.982,FALSE
+13777,4/4/2025,Pimpri-Chinchwad,Home & Kitchen,1.014,FALSE
+13778,9/23/2025,Coimbatore,Office Products,0.752,FALSE
+13779,10/16/2024,Thane,Office Products,1.051,FALSE
+13780,6/13/2023,Raipur,Stationery,1.158,FALSE
+13781,12/17/2024,Rajkot,Industrial Supplies,3.343,TRUE
+13782,1/23/2025,Surat,Appliances,1.278,FALSE
+13783,8/25/2023,Surat,Home & Kitchen,0.77,TRUE
+13784,2/13/2025,Howrah,Toys & Baby,1.032,TRUE
+13785,8/19/2023,Vadodara,Mobile & Accessories,0.947,FALSE
+13786,5/30/2023,Kolkata,Fashion-Men,0.905,FALSE
+13787,3/21/2024,Raipur,Fashion-Women,1.221,FALSE
+13788,6/22/2023,Rajkot,Fashion-Women,0.855,FALSE
+13789,12/2/2024,Vadodara,Pet Supplies,1.155,FALSE
+13790,6/3/2023,Kalyan-Dombivli,Fashion-Men,0.824,FALSE
+13791,5/16/2023,Faridabad,Toys & Baby,1.17,TRUE
+13792,9/1/2024,Surat,Stationery,1.465,TRUE
+13793,3/20/2023,Chandigarh,Automotive,1.123,FALSE
+13794,3/22/2023,Dhanbad,Mobile & Accessories,0.798,FALSE
+13795,11/11/2024,Kolkata,Toys & Baby,1.335,FALSE
+13796,8/4/2025,Dhanbad,Books,0.864,FALSE
+13797,11/3/2023,Coimbatore,Toys & Baby,1.082,FALSE
+13798,6/1/2025,Bhiwandi,Fashion-Women,2.995,TRUE
+13799,9/5/2023,Lucknow,Industrial Supplies,1.024,FALSE
+13800,2/25/2023,Gurugram,Automotive,1.193,FALSE
+13801,1/28/2024,Jaipur,Office Products,2.33,TRUE
+13802,1/21/2025,Jodhpur,Health,1.064,FALSE
+13803,5/21/2024,Coimbatore,Appliances,1.203,FALSE
+13804,3/12/2025,Bhiwandi,Jewellery,0.681,FALSE
+13805,8/14/2025,Kolkata,Fashion-Men,1.125,FALSE
+13806,8/5/2025,Jabalpur,Grocery,1.098,FALSE
+13807,10/20/2024,Patna,Grocery,1.105,FALSE
+13808,10/10/2024,Kanpur,Grocery,1.176,FALSE
+13809,5/3/2023,Nagpur,Pet Supplies,1.046,FALSE
+13810,5/18/2024,Kolkata,Jewellery,1.142,FALSE
+13811,5/27/2024,Indore,Grocery,0.824,FALSE
+13812,10/26/2024,Ahmedabad,Fashion-Women,0.974,FALSE
+13813,7/17/2023,Ludhiana,Fashion-Women,1.146,FALSE
+13814,10/5/2023,Chandigarh,Books,0.925,FALSE
+13815,9/22/2025,Aligarh,Industrial Supplies,3.345,TRUE
+13816,7/5/2023,Bhubaneswar,Automotive,0.992,FALSE
+13817,1/4/2025,Meerut,Mobile & Accessories,1.473,FALSE
+13818,7/30/2025,Dhanbad,Fashion-Men,0.99,FALSE
+13819,12/22/2023,Srinagar,Jewellery,0.92,FALSE
+13820,5/3/2023,Gwalior,Pet Supplies,2.619,TRUE
+13821,12/5/2024,Faridabad,Books,0.766,FALSE
+13822,4/30/2024,Jaipur,Fashion-Men,0.979,FALSE
+13823,4/23/2024,Delhi,Footwear,0.679,FALSE
+13824,4/18/2024,Jaipur,Stationery,0.58,TRUE
+13825,9/13/2025,Surat,Industrial Supplies,0.953,TRUE
+13826,3/10/2023,Indore,Electronics,1.346,FALSE
+13827,7/31/2023,Rajkot,Stationery,0.973,FALSE
+13828,5/31/2025,Raipur,Home & Kitchen,1.073,FALSE
+13829,9/29/2025,Vasai-Virar,Office Products,0.895,FALSE
+13830,5/1/2023,Ranchi,Industrial Supplies,1.118,FALSE
+13831,11/23/2024,Indore,Fashion-Men,0.505,FALSE
+13832,2/6/2024,Bhiwandi,Jewellery,1.137,FALSE
+13833,8/24/2024,Thane,Books,0.86,FALSE
+13834,2/17/2025,Madurai,Pet Supplies,1.223,FALSE
+13835,3/24/2024,Jaipur,Automotive,1.154,FALSE
+13836,11/5/2023,Indore,Books,0.756,FALSE
+13837,2/17/2024,Ludhiana,Books,2.452,TRUE
+13838,5/16/2025,Bhopal,Electronics,0.995,FALSE
+13839,1/10/2025,Patna,Electronics,1.367,FALSE
+13840,9/12/2023,Lucknow,Office Products,0.998,FALSE
+13841,8/20/2023,Ahmedabad,Home & Kitchen,1.102,FALSE
+13842,4/19/2023,Vasai-Virar,Pet Supplies,1.324,FALSE
+13843,6/26/2025,Vijayawada,Books,1.094,FALSE
+13844,2/22/2023,Rajkot,Grocery,1.092,FALSE
+13845,9/30/2025,Vijayawada,Beauty & Personal Care,1.196,FALSE
+13846,8/14/2025,Lucknow,Footwear,1.073,FALSE
+13847,7/22/2025,Meerut,Furniture,0.819,FALSE
+13848,7/16/2024,Jodhpur,Stationery,0.689,FALSE
+13849,11/22/2024,Aligarh,Fashion-Women,0.935,FALSE
+13850,2/4/2024,Pimpri-Chinchwad,Jewellery,0.94,FALSE
+13851,5/8/2023,Howrah,Beauty & Personal Care,0.954,FALSE
+13852,8/21/2025,Surat,Health,0.839,FALSE
+13853,12/21/2023,Ghaziabad,Electronics,0.907,FALSE
+13854,2/1/2023,Vijayawada,Home & Kitchen,0.502,FALSE
+13855,4/1/2023,Faridabad,Beauty & Personal Care,0.93,FALSE
+13856,5/30/2023,Vijayawada,Automotive,1.217,FALSE
+13857,5/27/2024,Ranchi,Electronics,0.994,FALSE
+13858,4/15/2025,Nashik,Books,1.407,FALSE
+13859,4/10/2025,Mangalore,Furniture,1.055,FALSE
+13860,2/3/2023,Howrah,Jewellery,0.965,FALSE
+13861,5/7/2023,Delhi,Mobile & Accessories,1.237,FALSE
+13862,2/4/2024,Ahmedabad,Footwear,1.196,FALSE
+13863,1/23/2024,Ludhiana,Furniture,0.938,FALSE
+13864,10/20/2024,Coimbatore,Electronics,1.067,FALSE
+13865,3/29/2024,Mangalore,Pet Supplies,0.916,FALSE
+13866,4/27/2023,Chennai,Jewellery,1.128,FALSE
+13867,1/29/2025,Srinagar,Books,1.001,FALSE
+13868,4/17/2024,Coimbatore,Sports & Fitness,3.945,TRUE
+13869,9/6/2024,Nagpur,Fashion-Women,1.03,FALSE
+13870,4/1/2024,Faridabad,Footwear,4.816,TRUE
+13871,12/22/2024,Chandigarh,Footwear,0.957,FALSE
+13872,7/12/2025,Lucknow,Beauty & Personal Care,1.025,FALSE
+13873,7/10/2025,Dhanbad,Grocery,1.092,FALSE
+13874,4/9/2023,Bhubaneswar,Automotive,0.791,FALSE
+13875,3/17/2024,Jodhpur,Stationery,1.247,TRUE
+13876,12/19/2023,Pimpri-Chinchwad,Grocery,0.749,FALSE
+13877,8/8/2023,Chennai,Sports & Fitness,0.604,TRUE
+13878,6/24/2025,Bhubaneswar,Home & Kitchen,0.964,FALSE
+13879,7/12/2023,Vadodara,Industrial Supplies,1.119,FALSE
+13880,5/15/2024,Indore,Pet Supplies,1.368,FALSE
+13881,6/8/2025,Nashik,Office Products,0.867,FALSE
+13882,6/2/2024,Coimbatore,Electronics,1.184,FALSE
+13883,7/23/2025,Bhubaneswar,Books,0.972,TRUE
+13884,12/28/2023,Mumbai,Fashion-Women,0.577,FALSE
+13885,11/26/2024,Lucknow,Automotive,0.805,FALSE
+13886,12/29/2023,Ahmedabad,Furniture,1.601,FALSE
+13887,5/12/2025,Faridabad,Health,0.888,FALSE
+13888,4/20/2025,Howrah,Books,1.045,FALSE
+13889,2/19/2025,Aligarh,Footwear,0.955,FALSE
+13890,5/13/2024,Dhanbad,Industrial Supplies,0.966,FALSE
+13891,10/12/2023,Moradabad,Beauty & Personal Care,3.448,TRUE
+13892,12/17/2023,Mumbai,Toys & Baby,1.27,FALSE
+13893,6/15/2024,Rajkot,Home & Kitchen,0.989,FALSE
+13894,3/7/2023,Howrah,Fashion-Women,1.024,FALSE
+13895,9/6/2025,Allahabad,Footwear,0.958,FALSE
+13896,11/21/2023,Vasai-Virar,Home & Kitchen,0.954,FALSE
+13897,4/7/2023,Visakhapatnam,Stationery,1.957,TRUE
+13898,5/2/2025,Lucknow,Electronics,1.038,FALSE
+13899,6/26/2025,Jaipur,Automotive,0.857,FALSE
+13900,10/2/2024,Vasai-Virar,Sports & Fitness,0.718,FALSE
+13901,8/28/2023,Delhi,Jewellery,0.933,FALSE
+13902,7/24/2025,Nashik,Fashion-Men,0.747,FALSE
+13903,6/30/2024,Ahmedabad,Beauty & Personal Care,1.229,FALSE
+13904,12/29/2023,Chandigarh,Mobile & Accessories,1.16,FALSE
+13905,2/22/2025,Kalyan-Dombivli,Mobile & Accessories,1.321,FALSE
+13906,5/7/2024,Mangalore,Electronics,0.83,FALSE
+13907,5/30/2023,Jabalpur,Furniture,0.662,FALSE
+13908,7/26/2024,Coimbatore,Health,1.177,FALSE
+13909,1/13/2025,Nashik,Furniture,0.853,FALSE
+13910,5/2/2024,Madurai,Industrial Supplies,1.037,FALSE
+13911,2/2/2023,Vijayawada,Fashion-Men,0.925,FALSE
+13912,12/11/2023,Kolkata,Books,2.718,TRUE
+13913,9/28/2023,Ranchi,Stationery,1.152,FALSE
+13914,7/6/2025,Ahmedabad,Toys & Baby,0.484,FALSE
+13915,9/13/2023,Amritsar,Books,1.063,FALSE
+13916,10/15/2023,Chennai,Automotive,0.938,FALSE
+13917,11/9/2024,Bengaluru,Office Products,0.931,FALSE
+13918,4/19/2024,Amritsar,Automotive,1.03,FALSE
+13919,4/25/2023,Bengaluru,Industrial Supplies,0.908,FALSE
+13920,3/31/2023,Kanpur,Fashion-Men,1.093,FALSE
+13921,9/6/2025,Dhanbad,Sports & Fitness,1.001,FALSE
+13922,4/16/2025,Gwalior,Home & Kitchen,1.098,FALSE
+13923,3/26/2025,Vasai-Virar,Books,0.89,FALSE
+13924,4/18/2024,Vasai-Virar,Grocery,2.337,TRUE
+13925,11/20/2024,Faridabad,Jewellery,1.473,FALSE
+13926,1/21/2023,Chandigarh,Stationery,0.839,FALSE
+13927,8/1/2023,Lucknow,Fashion-Women,0.967,FALSE
+13928,2/9/2024,Ahmedabad,Appliances,1.214,FALSE
+13929,8/21/2025,Gwalior,Health,0.63,FALSE
+13930,2/27/2023,Howrah,Toys & Baby,1.408,FALSE
+13931,9/16/2025,Hyderabad,Grocery,1.023,FALSE
+13932,12/9/2024,Ludhiana,Fashion-Men,0.796,FALSE
+13933,4/9/2024,Ghaziabad,Stationery,1.368,FALSE
+13934,8/2/2025,Patna,Mobile & Accessories,0.872,FALSE
+13935,11/30/2024,Pune,Toys & Baby,0.462,FALSE
+13936,10/22/2023,Rajkot,Beauty & Personal Care,0.962,FALSE
+13937,11/10/2023,Faridabad,Office Products,0.926,FALSE
+13938,9/5/2024,Bhubaneswar,Grocery,0.783,FALSE
+13939,3/5/2025,Pune,Sports & Fitness,0.781,FALSE
+13940,4/21/2024,Bengaluru,Sports & Fitness,1.178,FALSE
+13941,9/7/2025,Coimbatore,Pet Supplies,1.139,FALSE
+13942,11/23/2024,Pimpri-Chinchwad,Stationery,1.221,FALSE
+13943,4/25/2023,Bhopal,Books,1.127,FALSE
+13944,7/9/2023,Jodhpur,Footwear,1.041,FALSE
+13945,9/30/2025,Ranchi,Books,0.936,FALSE
+13946,2/19/2023,Pune,Automotive,1.001,FALSE
+13947,2/20/2024,Dhanbad,Health,1.16,TRUE
+13948,10/21/2023,Nashik,Stationery,1.257,FALSE
+13949,9/3/2025,Jabalpur,Footwear,1.194,FALSE
+13950,11/14/2024,Jodhpur,Beauty & Personal Care,0.926,FALSE
+13951,3/27/2023,Patna,Mobile & Accessories,0.765,FALSE
+13952,8/17/2024,Jaipur,Books,3.104,TRUE
+13953,2/23/2023,Meerut,Home & Kitchen,2.615,TRUE
+13954,10/8/2024,Kolkata,Automotive,1.041,FALSE
+13955,7/27/2025,Mangalore,Fashion-Women,1.051,FALSE
+13956,8/28/2025,Srinagar,Home & Kitchen,0.955,FALSE
+13957,3/25/2023,Rajkot,Stationery,0.88,FALSE
+13958,3/7/2025,Delhi,Electronics,1.964,TRUE
+13959,3/8/2023,Bhubaneswar,Pet Supplies,1.23,FALSE
+13960,2/25/2024,Patna,Beauty & Personal Care,0.783,FALSE
+13961,7/18/2024,Thane,Pet Supplies,0.731,FALSE
+13962,10/31/2023,Vijayawada,Furniture,0.664,FALSE
+13963,8/25/2024,Moradabad,Toys & Baby,0.998,FALSE
+13964,7/10/2024,Jodhpur,Electronics,0.749,FALSE
+13965,2/15/2024,Raipur,Stationery,0.907,FALSE
+13966,1/18/2025,Vadodara,Furniture,0.812,FALSE
+13967,5/20/2023,Jabalpur,Grocery,0.874,FALSE
+13968,10/6/2024,Rajkot,Furniture,1.043,FALSE
+13969,3/29/2024,Ghaziabad,Fashion-Women,1.132,FALSE
+13970,4/10/2023,Indore,Jewellery,0.896,FALSE
+13971,6/3/2025,Nagpur,Electronics,1.009,FALSE
+13972,4/4/2023,Vasai-Virar,Fashion-Men,0.909,FALSE
+13973,1/19/2025,Chennai,Pet Supplies,1.019,FALSE
+13974,4/15/2025,Srinagar,Fashion-Men,0.903,FALSE
+13975,5/4/2023,Chandigarh,Fashion-Women,0.99,FALSE
+13976,9/3/2023,Pune,Electronics,0.964,FALSE
+13977,6/24/2024,Raipur,Industrial Supplies,1.029,FALSE
+13978,11/16/2024,Madurai,Grocery,1.17,FALSE
+13979,6/19/2025,Mumbai,Beauty & Personal Care,1.053,FALSE
+13980,9/13/2025,Ghaziabad,Fashion-Women,1.105,FALSE
+13981,7/23/2024,Faridabad,Grocery,0.64,FALSE
+13982,9/26/2025,Vadodara,Office Products,1.533,TRUE
+13983,9/8/2025,Jabalpur,Grocery,1.272,FALSE
+13984,3/4/2024,Nashik,Home & Kitchen,0.935,FALSE
+13985,10/16/2023,Bhubaneswar,Home & Kitchen,1.116,FALSE
+13986,2/8/2025,Vadodara,Appliances,1.087,FALSE
+13987,12/6/2024,Varanasi,Fashion-Men,1.063,FALSE
+13988,8/25/2023,Pimpri-Chinchwad,Stationery,3.052,TRUE
+13989,2/21/2025,Delhi,Footwear,0.572,FALSE
+13990,3/6/2025,Vadodara,Electronics,0.889,FALSE
+13991,2/21/2023,Faridabad,Sports & Fitness,1.182,FALSE
+13992,10/2/2024,Aligarh,Health,0.963,FALSE
+13993,5/27/2023,Delhi,Footwear,0.982,FALSE
+13994,11/3/2024,Ghaziabad,Mobile & Accessories,1.171,FALSE
+13995,7/30/2025,Jodhpur,Mobile & Accessories,0.96,FALSE
+13996,8/21/2024,Ahmedabad,Office Products,0.604,FALSE
+13997,9/6/2024,Mangalore,Sports & Fitness,1.156,FALSE
+13998,7/15/2023,Varanasi,Industrial Supplies,1.205,FALSE
+13999,4/8/2023,Indore,Footwear,0.934,FALSE
+14000,7/19/2024,Ludhiana,Furniture,0.897,FALSE
+14001,2/9/2025,Ludhiana,Stationery,1.032,FALSE
+14002,5/22/2025,Chennai,Appliances,0.609,TRUE
+14003,2/7/2024,Pune,Beauty & Personal Care,0.998,FALSE
+14004,8/8/2024,Mumbai,Books,1.093,FALSE
+14005,7/16/2024,Kolkata,Toys & Baby,0.861,FALSE
+14006,4/29/2024,Bengaluru,Health,1.14,FALSE
+14007,2/4/2025,Madurai,Automotive,1.214,FALSE
+14008,4/30/2025,Surat,Furniture,1.142,FALSE
+14009,8/11/2024,Delhi,Sports & Fitness,0.999,FALSE
+14010,2/4/2023,Coimbatore,Pet Supplies,1.258,FALSE
+14011,9/17/2025,Kolkata,Toys & Baby,1.269,FALSE
+14012,10/11/2024,Nagpur,Mobile & Accessories,0.833,FALSE
+14013,4/25/2023,Nagpur,Home & Kitchen,0.609,FALSE
+14014,3/10/2023,Mangalore,Jewellery,1.031,FALSE
+14015,2/27/2025,Mumbai,Sports & Fitness,1.268,FALSE
+14016,7/29/2023,Hyderabad,Furniture,1.074,FALSE
+14017,11/1/2024,Bhubaneswar,Beauty & Personal Care,0.94,TRUE
+14018,12/20/2024,Mangalore,Jewellery,1.088,FALSE
+14019,8/12/2023,Jodhpur,Jewellery,0.979,FALSE
+14020,7/30/2024,Kanpur,Home & Kitchen,1.111,FALSE
+14021,1/20/2023,Thane,Furniture,0.95,FALSE
+14022,9/28/2024,Vijayawada,Appliances,0.748,FALSE
+14023,3/13/2025,Pimpri-Chinchwad,Home & Kitchen,0.712,FALSE
+14024,5/11/2025,Mumbai,Books,0.949,FALSE
+14025,1/25/2024,Chandigarh,Fashion-Women,1.056,FALSE
+14026,5/27/2024,Delhi,Home & Kitchen,1.153,FALSE
+14027,3/28/2023,Jabalpur,Automotive,0.919,FALSE
+14028,4/8/2023,Gwalior,Health,1.276,FALSE
+14029,1/24/2023,Mumbai,Jewellery,1.072,FALSE
+14030,4/4/2025,Patna,Beauty & Personal Care,1.16,FALSE
+14031,9/15/2023,Srinagar,Books,1.123,FALSE
+14032,8/11/2025,Bhopal,Jewellery,0.951,FALSE
+14033,5/14/2025,Chandigarh,Pet Supplies,1.399,FALSE
+14034,8/7/2024,Hyderabad,Beauty & Personal Care,1.075,FALSE
+14035,12/31/2024,Amritsar,Sports & Fitness,1.36,FALSE
+14036,8/30/2025,Bhubaneswar,Fashion-Women,0.979,TRUE
+14037,7/24/2025,Madurai,Books,0.762,FALSE
+14038,7/20/2023,Mangalore,Automotive,1.813,TRUE
+14039,12/12/2024,Bhubaneswar,Beauty & Personal Care,0.528,FALSE
+14040,5/4/2024,Srinagar,Electronics,1.007,FALSE
+14041,3/18/2023,Bhubaneswar,Industrial Supplies,1.045,FALSE
+14042,4/25/2023,Ranchi,Jewellery,0.745,FALSE
+14043,1/5/2024,Faridabad,Home & Kitchen,1.393,FALSE
+14044,2/16/2025,Raipur,Electronics,1.177,FALSE
+14045,8/24/2024,Jaipur,Home & Kitchen,0.906,FALSE
+14046,11/17/2024,Jaipur,Health,1.045,FALSE
+14047,11/19/2024,Kalyan-Dombivli,Industrial Supplies,1.095,FALSE
+14048,2/28/2025,Ludhiana,Pet Supplies,2.759,TRUE
+14049,10/19/2023,Pune,Grocery,1.381,FALSE
+14050,11/28/2024,Ludhiana,Books,0.949,FALSE
+14051,8/3/2025,Coimbatore,Furniture,1.009,FALSE
+14052,8/28/2025,Nagpur,Health,1.182,FALSE
+14053,3/8/2023,Vasai-Virar,Footwear,3.511,TRUE
+14054,5/15/2025,Surat,Books,1.108,FALSE
+14055,1/17/2025,Ludhiana,Home & Kitchen,1.576,TRUE
+14056,1/8/2023,Kanpur,Industrial Supplies,1.778,TRUE
+14057,11/3/2024,Thane,Furniture,2.154,TRUE
+14058,5/4/2025,Ghaziabad,Stationery,0.911,FALSE
+14059,7/30/2024,Kanpur,Appliances,0.546,FALSE
+14060,3/4/2024,Jabalpur,Electronics,1.983,TRUE
+14061,7/17/2024,Mumbai,Pet Supplies,1.871,TRUE
+14062,8/28/2025,Jabalpur,Beauty & Personal Care,0.815,TRUE
+14063,9/13/2025,Jodhpur,Furniture,0.704,FALSE
+14064,12/23/2023,Gwalior,Furniture,1.67,TRUE
+14065,2/4/2025,Surat,Stationery,1.023,FALSE
+14066,12/9/2023,Allahabad,Industrial Supplies,0.969,FALSE
+14067,5/22/2024,Chennai,Fashion-Women,0.936,FALSE
+14068,3/13/2023,Jaipur,Beauty & Personal Care,0.849,FALSE
+14069,9/17/2023,Gwalior,Appliances,0.844,FALSE
+14070,3/14/2024,Kalyan-Dombivli,Mobile & Accessories,0.809,FALSE
+14071,4/18/2025,Vijayawada,Fashion-Men,0.827,FALSE
+14072,10/24/2023,Kolkata,Industrial Supplies,0.927,FALSE
+14073,3/5/2025,Varanasi,Industrial Supplies,4.237,TRUE
+14074,6/24/2023,Bengaluru,Industrial Supplies,0.938,FALSE
+14075,3/9/2023,Bhubaneswar,Appliances,2.961,TRUE
+14076,6/3/2023,Jodhpur,Fashion-Men,0.933,TRUE
+14077,4/7/2024,Srinagar,Books,1.155,FALSE
+14078,12/10/2023,Amritsar,Beauty & Personal Care,1.292,FALSE
+14079,7/21/2025,Chandigarh,Automotive,1.36,FALSE
+14080,12/23/2023,Jabalpur,Grocery,1.114,FALSE
+14081,5/17/2025,Faridabad,Furniture,1.447,FALSE
+14082,7/11/2023,Rajkot,Furniture,1.196,FALSE
+14083,1/16/2023,Jodhpur,Beauty & Personal Care,0.773,FALSE
+14084,6/13/2024,Chennai,Toys & Baby,0.487,FALSE
+14085,1/1/2025,Gwalior,Office Products,1.215,FALSE
+14086,6/4/2024,Faridabad,Electronics,0.885,FALSE
+14087,12/13/2024,Bhopal,Jewellery,1.039,FALSE
+14088,7/26/2025,Jabalpur,Fashion-Women,1.399,FALSE
+14089,9/23/2023,Chennai,Office Products,0.662,FALSE
+14090,2/1/2025,Mangalore,Office Products,1.146,FALSE
+14091,9/23/2024,Ludhiana,Mobile & Accessories,0.827,FALSE
+14092,1/18/2023,Madurai,Health,0.98,FALSE
+14093,10/1/2024,Bhopal,Fashion-Women,4.039,TRUE
+14094,2/28/2025,Bhubaneswar,Books,0.602,FALSE
+14095,3/24/2025,Nagpur,Fashion-Men,1.08,FALSE
+14096,3/21/2024,Moradabad,Beauty & Personal Care,1.394,FALSE
+14097,4/7/2023,Vijayawada,Jewellery,1.032,FALSE
+14098,9/23/2024,Ghaziabad,Electronics,0.896,FALSE
+14099,8/21/2023,Madurai,Industrial Supplies,1.017,FALSE
+14100,4/9/2025,Meerut,Automotive,1.006,TRUE
+14101,8/24/2023,Raipur,Jewellery,1.114,TRUE
+14102,7/5/2023,Surat,Furniture,0.88,FALSE
+14103,9/28/2024,Aligarh,Fashion-Men,4.515,TRUE
+14104,1/5/2024,Chennai,Grocery,0.751,FALSE
+14105,4/8/2023,Bhiwandi,Footwear,1.026,FALSE
+14106,4/17/2023,Aligarh,Toys & Baby,1.052,FALSE
+14107,5/12/2024,Allahabad,Books,0.756,TRUE
+14108,5/15/2023,Indore,Furniture,0.863,FALSE
+14109,2/3/2024,Chandigarh,Health,0.867,FALSE
+14110,12/3/2023,Pune,Toys & Baby,0.823,FALSE
+14111,4/15/2023,Vasai-Virar,Industrial Supplies,1.049,FALSE
+14112,10/17/2023,Ahmedabad,Jewellery,1.062,FALSE
+14113,7/6/2025,Allahabad,Furniture,1.124,FALSE
+14114,6/8/2023,Lucknow,Beauty & Personal Care,1.386,TRUE
+14115,12/8/2023,Bhiwandi,Grocery,0.977,FALSE
+14116,7/27/2024,Faridabad,Jewellery,0.952,FALSE
+14117,12/10/2024,Bhopal,Health,1.114,TRUE
+14118,6/30/2025,Mumbai,Appliances,1.334,TRUE
+14119,10/14/2023,Hyderabad,Mobile & Accessories,0.945,FALSE
+14120,10/14/2023,Vadodara,Toys & Baby,1.53,TRUE
+14121,4/18/2024,Vasai-Virar,Books,0.964,TRUE
+14122,11/28/2024,Gwalior,Toys & Baby,0.813,FALSE
+14123,10/11/2023,Aligarh,Electronics,1.267,FALSE
+14124,7/27/2023,Thane,Fashion-Men,0.75,FALSE
+14125,4/24/2024,Bhiwandi,Automotive,0.525,FALSE
+14126,1/10/2025,Coimbatore,Office Products,1.009,FALSE
+14127,9/1/2025,Hyderabad,Fashion-Women,1.247,FALSE
+14128,7/16/2023,Visakhapatnam,Fashion-Women,0.933,FALSE
+14129,6/15/2024,Thane,Stationery,1.052,FALSE
+14130,7/20/2024,Bhubaneswar,Home & Kitchen,1.085,FALSE
+14131,3/22/2025,Pune,Furniture,1.012,FALSE
+14132,5/17/2025,Rajkot,Furniture,0.738,FALSE
+14133,6/7/2023,Howrah,Sports & Fitness,0.847,FALSE
+14134,11/27/2023,Kanpur,Books,1.085,FALSE
+14135,4/30/2024,Howrah,Automotive,1.052,FALSE
+14136,6/3/2025,Vasai-Virar,Toys & Baby,1.254,FALSE
+14137,6/4/2023,Surat,Fashion-Women,0.961,FALSE
+14138,6/16/2023,Varanasi,Home & Kitchen,1.136,FALSE
+14139,12/1/2024,Mangalore,Mobile & Accessories,0.776,FALSE
+14140,7/30/2023,Kolkata,Automotive,0.721,TRUE
+14141,1/11/2025,Ahmedabad,Books,0.715,FALSE
+14142,7/26/2025,Mangalore,Beauty & Personal Care,1.111,FALSE
+14143,9/5/2023,Faridabad,Office Products,1.122,FALSE
+14144,4/20/2024,Pune,Sports & Fitness,0.976,FALSE
+14145,3/23/2025,Rajkot,Home & Kitchen,0.793,FALSE
+14146,5/14/2024,Aligarh,Grocery,2.998,TRUE
+14147,2/3/2023,Amritsar,Grocery,1.133,FALSE
+14148,12/10/2024,Kolkata,Footwear,0.761,TRUE
+14149,6/30/2024,Kanpur,Health,1.399,FALSE
+14150,3/6/2025,Ludhiana,Fashion-Men,1.036,FALSE
+14151,12/27/2023,Chandigarh,Beauty & Personal Care,0.879,FALSE
+14152,3/27/2024,Ghaziabad,Office Products,0.784,FALSE
+14153,11/29/2024,Ludhiana,Mobile & Accessories,0.951,FALSE
+14154,3/23/2024,Mumbai,Toys & Baby,1.291,FALSE
+14155,1/29/2025,Bhiwandi,Mobile & Accessories,1.363,FALSE
+14156,1/24/2023,Moradabad,Beauty & Personal Care,1.088,FALSE
+14157,2/9/2025,Bengaluru,Pet Supplies,0.917,FALSE
+14158,6/25/2024,Gurugram,Jewellery,1.086,FALSE
+14159,6/15/2023,Pune,Grocery,0.664,FALSE
+14160,10/28/2024,Mumbai,Fashion-Women,0.921,FALSE
+14161,9/6/2023,Coimbatore,Toys & Baby,0.909,FALSE
+14162,6/23/2024,Kolkata,Industrial Supplies,0.833,FALSE
+14163,9/13/2024,Howrah,Fashion-Men,0.804,TRUE
+14164,2/7/2024,Meerut,Furniture,2.5,TRUE
+14165,10/23/2024,Ranchi,Toys & Baby,0.942,FALSE
+14166,11/5/2024,Patna,Stationery,1.398,FALSE
+14167,6/4/2023,Faridabad,Home & Kitchen,3.296,TRUE
+14168,9/2/2023,Coimbatore,Industrial Supplies,1.348,FALSE
+14169,5/11/2024,Jaipur,Health,1.023,FALSE
+14170,4/21/2024,Chandigarh,Industrial Supplies,2.054,TRUE
+14171,8/21/2023,Mumbai,Toys & Baby,0.851,FALSE
+14172,1/31/2025,Jabalpur,Health,0.787,FALSE
+14173,4/14/2023,Gwalior,Furniture,0.939,FALSE
+14174,7/9/2023,Rajkot,Appliances,1.112,FALSE
+14175,2/4/2023,Indore,Automotive,0.492,FALSE
+14176,5/1/2025,Delhi,Industrial Supplies,1.067,FALSE
+14177,4/22/2023,Indore,Fashion-Women,0.937,FALSE
+14178,3/28/2023,Gurugram,Home & Kitchen,0.748,TRUE
+14179,7/22/2024,Vasai-Virar,Toys & Baby,0.963,FALSE
+14180,7/14/2024,Mumbai,Appliances,0.977,FALSE
+14181,1/20/2024,Ranchi,Toys & Baby,0.977,FALSE
+14182,3/8/2023,Meerut,Automotive,1.269,FALSE
+14183,3/17/2023,Thane,Home & Kitchen,1.047,FALSE
+14184,9/15/2025,Vijayawada,Sports & Fitness,0.993,FALSE
+14185,8/7/2023,Madurai,Jewellery,0.827,FALSE
+14186,7/25/2024,Bengaluru,Books,1.135,FALSE
+14187,8/30/2024,Gurugram,Office Products,0.733,FALSE
+14188,6/15/2023,Ghaziabad,Automotive,1.091,FALSE
+14189,3/4/2024,Jodhpur,Books,1.095,FALSE
+14190,2/29/2024,Chennai,Electronics,0.567,FALSE
+14191,2/7/2023,Howrah,Office Products,1.429,FALSE
+14192,11/6/2024,Aligarh,Sports & Fitness,1.103,FALSE
+14193,8/9/2023,Vijayawada,Automotive,0.961,FALSE
+14194,2/10/2024,Gwalior,Fashion-Men,1.433,FALSE
+14195,9/13/2024,Kanpur,Grocery,1.047,FALSE
+14196,6/27/2023,Meerut,Stationery,1.337,FALSE
+14197,6/2/2025,Pimpri-Chinchwad,Sports & Fitness,0.79,FALSE
+14198,1/21/2024,Bhubaneswar,Beauty & Personal Care,1.236,FALSE
+14199,2/24/2024,Bhiwandi,Grocery,1.981,TRUE
+14200,3/9/2023,Ranchi,Mobile & Accessories,0.908,FALSE
+14201,7/1/2025,Rajkot,Jewellery,1.144,FALSE
+14202,4/13/2023,Ranchi,Automotive,1.129,FALSE
+14203,3/2/2023,Agra,Furniture,1.417,FALSE
+14204,5/8/2025,Madurai,Fashion-Women,1.146,FALSE
+14205,2/10/2025,Vasai-Virar,Beauty & Personal Care,0.77,FALSE
+14206,3/13/2024,Ranchi,Health,1.215,FALSE
+14207,6/24/2023,Vasai-Virar,Mobile & Accessories,0.864,FALSE
+14208,6/11/2024,Patna,Mobile & Accessories,1.247,FALSE
+14209,9/14/2023,Chennai,Pet Supplies,0.69,FALSE
+14210,11/16/2023,Mumbai,Electronics,2.184,TRUE
+14211,11/27/2023,Pimpri-Chinchwad,Office Products,1.4,FALSE
+14212,3/26/2023,Pimpri-Chinchwad,Fashion-Men,0.967,FALSE
+14213,1/8/2023,Ghaziabad,Fashion-Women,1.112,FALSE
+14214,1/17/2023,Hyderabad,Automotive,1.041,FALSE
+14215,9/5/2025,Mumbai,Home & Kitchen,1.02,FALSE
+14216,8/11/2023,Bhiwandi,Industrial Supplies,0.838,FALSE
+14217,2/12/2024,Kanpur,Fashion-Women,2.371,TRUE
+14218,7/19/2024,Vasai-Virar,Mobile & Accessories,1.026,FALSE
+14219,6/7/2024,Bengaluru,Grocery,1.208,FALSE
+14220,8/10/2024,Faridabad,Industrial Supplies,2.996,TRUE
+14221,4/30/2024,Chennai,Mobile & Accessories,0.934,FALSE
+14222,5/15/2024,Dhanbad,Fashion-Women,0.61,FALSE
+14223,1/28/2023,Ludhiana,Pet Supplies,1.04,FALSE
+14224,2/22/2023,Bhiwandi,Footwear,1.932,TRUE
+14225,8/5/2023,Agra,Beauty & Personal Care,1.194,FALSE
+14226,3/19/2023,Allahabad,Fashion-Men,1.118,FALSE
+14227,3/20/2025,Gurugram,Beauty & Personal Care,0.913,FALSE
+14228,2/4/2023,Moradabad,Mobile & Accessories,1.052,FALSE
+14229,12/22/2024,Moradabad,Furniture,0.99,FALSE
+14230,5/15/2024,Vasai-Virar,Mobile & Accessories,1.523,FALSE
+14231,5/22/2025,Thane,Stationery,1.168,FALSE
+14232,8/9/2023,Ahmedabad,Mobile & Accessories,2.135,TRUE
+14233,2/5/2024,Ranchi,Appliances,1.573,TRUE
+14234,7/11/2023,Patna,Toys & Baby,3.192,TRUE
+14235,7/2/2024,Kanpur,Furniture,1.139,FALSE
+14236,8/30/2024,Bhopal,Sports & Fitness,1.071,FALSE
+14237,3/3/2023,Surat,Fashion-Men,1.19,FALSE
+14238,1/26/2023,Howrah,Footwear,0.777,FALSE
+14239,5/21/2024,Coimbatore,Electronics,0.709,FALSE
+14240,6/26/2024,Nashik,Sports & Fitness,0.886,FALSE
+14241,12/17/2023,Kolkata,Electronics,1.171,FALSE
+14242,1/17/2024,Thane,Jewellery,1.103,FALSE
+14243,9/7/2024,Bhopal,Sports & Fitness,1.13,FALSE
+14244,7/25/2025,Meerut,Fashion-Men,1.209,FALSE
+14245,11/25/2023,Patna,Grocery,1.036,FALSE
+14246,10/12/2024,Kanpur,Fashion-Men,1.162,FALSE
+14247,9/21/2024,Bhiwandi,Stationery,3.919,TRUE
+14248,1/25/2024,Gwalior,Health,0.693,FALSE
+14249,3/2/2024,Patna,Jewellery,1.132,FALSE
+14250,8/25/2024,Coimbatore,Office Products,0.775,FALSE
+14251,9/17/2024,Hyderabad,Furniture,1.065,FALSE
+14252,9/10/2024,Bhiwandi,Footwear,0.889,FALSE
+14253,1/4/2025,Rajkot,Home & Kitchen,1.019,FALSE
+14254,8/7/2023,Ranchi,Pet Supplies,1.139,FALSE
+14255,5/27/2024,Mangalore,Appliances,0.9,FALSE
+14256,3/1/2023,Pimpri-Chinchwad,Jewellery,0.963,FALSE
+14257,7/12/2025,Bengaluru,Fashion-Women,0.874,FALSE
+14258,6/28/2025,Bengaluru,Mobile & Accessories,3.116,TRUE
+14259,5/29/2024,Gwalior,Pet Supplies,0.898,FALSE
+14260,2/5/2023,Agra,Home & Kitchen,1.029,FALSE
+14261,8/17/2025,Allahabad,Stationery,1.171,FALSE
+14262,9/28/2025,Meerut,Electronics,1.407,FALSE
+14263,7/2/2023,Delhi,Automotive,1.099,FALSE
+14264,3/23/2025,Ghaziabad,Automotive,0.952,FALSE
+14265,5/1/2024,Kolkata,Footwear,0.98,FALSE
+14266,8/4/2025,Delhi,Automotive,2.368,TRUE
+14267,3/22/2025,Patna,Automotive,0.999,FALSE
+14268,8/27/2025,Indore,Furniture,1.028,FALSE
+14269,8/5/2024,Nashik,Jewellery,0.69,FALSE
+14270,5/8/2023,Nagpur,Sports & Fitness,1.065,FALSE
+14271,10/10/2023,Bengaluru,Furniture,1.843,TRUE
+14272,4/25/2025,Madurai,Electronics,0.894,FALSE
+14273,8/24/2025,Surat,Grocery,0.885,TRUE
+14274,5/3/2025,Hyderabad,Grocery,1.005,FALSE
+14275,8/30/2024,Howrah,Office Products,0.775,FALSE
+14276,10/7/2023,Hyderabad,Toys & Baby,1.204,FALSE
+14277,9/26/2023,Jaipur,Pet Supplies,0.762,FALSE
+14278,12/4/2024,Pune,Grocery,0.984,FALSE
+14279,5/14/2023,Kanpur,Automotive,0.932,FALSE
+14280,12/31/2023,Bengaluru,Electronics,0.946,FALSE
+14281,7/20/2023,Kolkata,Fashion-Women,2.95,TRUE
+14282,7/7/2025,Jodhpur,Stationery,1.888,TRUE
+14283,12/17/2023,Ahmedabad,Fashion-Women,1.055,FALSE
+14284,10/29/2023,Agra,Appliances,1.02,FALSE
+14285,10/12/2023,Meerut,Books,0.948,FALSE
+14286,6/2/2025,Howrah,Jewellery,1.015,FALSE
+14287,3/29/2023,Hyderabad,Industrial Supplies,0.857,FALSE
+14288,7/4/2024,Pune,Appliances,0.976,FALSE
+14289,4/16/2025,Ranchi,Grocery,0.988,FALSE
+14290,12/10/2023,Vijayawada,Stationery,0.935,FALSE
+14291,7/14/2023,Moradabad,Office Products,1.092,TRUE
+14292,7/15/2023,Agra,Electronics,1.283,FALSE
+14293,7/28/2025,Kalyan-Dombivli,Fashion-Men,1.255,FALSE
+14294,8/20/2024,Ghaziabad,Sports & Fitness,1.373,FALSE
+14295,5/22/2024,Jabalpur,Industrial Supplies,1.029,FALSE
+14296,4/3/2025,Ahmedabad,Footwear,0.715,FALSE
+14297,11/29/2024,Hyderabad,Home & Kitchen,1.14,FALSE
+14298,8/18/2025,Vasai-Virar,Beauty & Personal Care,0.877,FALSE
+14299,3/20/2024,Dhanbad,Appliances,1.459,FALSE
+14300,7/26/2023,Raipur,Industrial Supplies,0.894,FALSE
+14301,6/16/2024,Madurai,Sports & Fitness,0.782,FALSE
+14302,11/17/2024,Surat,Office Products,0.929,FALSE
+14303,1/22/2023,Rajkot,Toys & Baby,0.862,FALSE
+14304,8/28/2023,Bhopal,Toys & Baby,1.115,FALSE
+14305,8/22/2025,Bengaluru,Footwear,1.062,FALSE
+14306,6/27/2025,Srinagar,Industrial Supplies,1.132,FALSE
+14307,9/4/2023,Howrah,Books,0.937,FALSE
+14308,3/28/2025,Mangalore,Mobile & Accessories,1.148,FALSE
+14309,9/25/2024,Surat,Books,0.554,FALSE
+14310,1/30/2024,Lucknow,Toys & Baby,1.326,FALSE
+14311,11/12/2024,Indore,Industrial Supplies,0.989,TRUE
+14312,10/30/2024,Hyderabad,Furniture,0.764,FALSE
+14313,2/2/2024,Indore,Automotive,1.256,FALSE
+14314,7/14/2023,Ludhiana,Industrial Supplies,1.316,FALSE
+14315,6/18/2025,Jabalpur,Jewellery,1.142,FALSE
+14316,1/9/2025,Madurai,Toys & Baby,1.101,FALSE
+14317,11/16/2024,Mangalore,Automotive,1.177,FALSE
+14318,8/2/2024,Patna,Electronics,1.273,FALSE
+14319,2/28/2025,Agra,Office Products,0.927,TRUE
+14320,8/10/2023,Bengaluru,Appliances,1.173,FALSE
+14321,1/30/2025,Ahmedabad,Toys & Baby,1.417,FALSE
+14322,1/27/2025,Indore,Pet Supplies,1.01,FALSE
+14323,3/9/2023,Amritsar,Fashion-Men,1.002,FALSE
+14324,6/20/2023,Hyderabad,Footwear,1.182,FALSE
+14325,1/17/2025,Raipur,Footwear,1.072,FALSE
+14326,4/16/2025,Delhi,Industrial Supplies,3.869,TRUE
+14327,8/4/2024,Kolkata,Books,1.077,FALSE
+14328,6/5/2023,Coimbatore,Furniture,1.207,FALSE
+14329,7/20/2024,Raipur,Books,1.155,FALSE
+14330,8/1/2023,Allahabad,Home & Kitchen,0.896,FALSE
+14331,6/19/2023,Mangalore,Mobile & Accessories,1.246,FALSE
+14332,1/21/2024,Ranchi,Stationery,2.164,TRUE
+14333,7/16/2024,Jaipur,Appliances,1.073,FALSE
+14334,8/23/2025,Thane,Books,0.599,FALSE
+14335,4/2/2025,Ghaziabad,Books,1.059,FALSE
+14336,4/12/2024,Bhiwandi,Beauty & Personal Care,0.926,FALSE
+14337,7/25/2025,Varanasi,Mobile & Accessories,1.124,FALSE
+14338,11/22/2024,Pune,Electronics,0.752,FALSE
+14339,12/15/2023,Varanasi,Books,0.991,FALSE
+14340,9/24/2025,Delhi,Jewellery,1.027,FALSE
+14341,5/4/2025,Howrah,Pet Supplies,0.78,FALSE
+14342,2/4/2024,Visakhapatnam,Footwear,0.979,FALSE
+14343,11/24/2024,Mumbai,Beauty & Personal Care,1.13,FALSE
+14344,8/16/2025,Delhi,Automotive,0.921,FALSE
+14345,3/5/2024,Indore,Mobile & Accessories,2.699,TRUE
+14346,4/15/2024,Srinagar,Beauty & Personal Care,1.172,TRUE
+14347,9/8/2025,Delhi,Jewellery,1.117,FALSE
+14348,4/19/2023,Indore,Automotive,1.261,FALSE
+14349,5/6/2023,Gurugram,Mobile & Accessories,0.812,FALSE
+14350,3/12/2023,Indore,Sports & Fitness,2.361,TRUE
+14351,10/25/2023,Nashik,Grocery,0.925,FALSE
+14352,5/24/2024,Hyderabad,Books,0.713,FALSE
+14353,9/8/2025,Kanpur,Appliances,0.608,FALSE
+14354,3/28/2023,Coimbatore,Sports & Fitness,1.305,FALSE
+14355,4/27/2023,Ludhiana,Beauty & Personal Care,0.868,FALSE
+14356,8/6/2024,Chennai,Beauty & Personal Care,1.054,FALSE
+14357,6/28/2023,Gurugram,Sports & Fitness,1.276,FALSE
+14358,10/5/2023,Agra,Electronics,1.085,FALSE
+14359,11/20/2023,Kanpur,Automotive,1.286,FALSE
+14360,12/16/2024,Jaipur,Toys & Baby,0.933,FALSE
+14361,1/23/2023,Agra,Fashion-Men,0.873,FALSE
+14362,10/30/2024,Surat,Automotive,1.292,TRUE
+14363,1/2/2023,Meerut,Furniture,1.202,FALSE
+14364,5/5/2023,Amritsar,Automotive,1.121,FALSE
+14365,8/14/2025,Kolkata,Books,0.593,FALSE
+14366,11/27/2024,Indore,Electronics,0.502,FALSE
+14367,11/22/2024,Coimbatore,Health,0.922,FALSE
+14368,2/1/2023,Mangalore,Footwear,1.272,TRUE
+14369,4/22/2024,Chennai,Jewellery,1.367,FALSE
+14370,11/8/2024,Surat,Mobile & Accessories,0.82,FALSE
+14371,7/9/2025,Surat,Furniture,1.467,TRUE
+14372,11/4/2024,Varanasi,Mobile & Accessories,0.956,FALSE
+14373,8/23/2024,Lucknow,Sports & Fitness,0.855,FALSE
+14374,10/16/2024,Gurugram,Stationery,0.94,TRUE
+14375,7/15/2024,Madurai,Office Products,1.037,FALSE
+14376,9/29/2024,Srinagar,Automotive,0.893,FALSE
+14377,1/23/2025,Dhanbad,Fashion-Men,1.533,TRUE
+14378,1/17/2023,Amritsar,Health,0.801,FALSE
+14379,5/12/2024,Mangalore,Beauty & Personal Care,0.797,TRUE
+14380,6/19/2023,Agra,Stationery,1.073,FALSE
+14381,5/31/2025,Chandigarh,Health,2.605,TRUE
+14382,5/24/2023,Jabalpur,Toys & Baby,0.993,FALSE
+14383,2/26/2024,Lucknow,Mobile & Accessories,0.85,TRUE
+14384,8/19/2024,Allahabad,Stationery,1.025,FALSE
+14385,3/22/2023,Jaipur,Grocery,0.861,FALSE
+14386,7/7/2023,Jaipur,Health,1.119,FALSE
+14387,5/20/2025,Pune,Sports & Fitness,1.017,FALSE
+14388,3/23/2024,Gwalior,Pet Supplies,0.748,FALSE
+14389,1/27/2024,Delhi,Beauty & Personal Care,1.314,FALSE
+14390,6/18/2023,Indore,Industrial Supplies,0.995,FALSE
+14391,1/14/2023,Vasai-Virar,Beauty & Personal Care,0.895,FALSE
+14392,3/9/2024,Bhiwandi,Grocery,1.047,FALSE
+14393,2/12/2023,Coimbatore,Appliances,1.102,FALSE
+14394,11/6/2024,Pune,Beauty & Personal Care,0.981,FALSE
+14395,1/4/2025,Hyderabad,Jewellery,3.096,TRUE
+14396,1/16/2025,Bhopal,Books,0.924,FALSE
+14397,3/30/2023,Bengaluru,Office Products,1.065,FALSE
+14398,8/15/2024,Vadodara,Appliances,1.543,FALSE
+14399,8/22/2023,Ranchi,Mobile & Accessories,1.346,FALSE
+14400,11/28/2023,Kanpur,Fashion-Women,1.444,FALSE
+14401,7/12/2024,Meerut,Automotive,1.082,FALSE
+14402,8/22/2025,Kolkata,Automotive,1.219,FALSE
+14403,8/22/2025,Gurugram,Automotive,0.96,FALSE
+14404,11/6/2023,Vadodara,Office Products,0.876,FALSE
+14405,7/3/2025,Gwalior,Mobile & Accessories,0.76,FALSE
+14406,7/21/2023,Varanasi,Health,0.985,FALSE
+14407,1/30/2024,Bhubaneswar,Toys & Baby,1.104,FALSE
+14408,12/14/2023,Coimbatore,Health,0.89,FALSE
+14409,5/16/2024,Kanpur,Sports & Fitness,0.923,FALSE
+14410,6/24/2023,Ranchi,Fashion-Women,0.906,FALSE
+14411,4/11/2023,Thane,Mobile & Accessories,1.45,TRUE
+14412,6/22/2023,Dhanbad,Grocery,0.949,FALSE
+14413,7/18/2025,Allahabad,Furniture,0.888,FALSE
+14414,1/28/2024,Coimbatore,Furniture,0.911,FALSE
+14415,7/20/2025,Thane,Sports & Fitness,1.189,FALSE
+14416,4/28/2025,Mangalore,Mobile & Accessories,1.097,FALSE
+14417,2/21/2023,Faridabad,Books,1.03,FALSE
+14418,7/24/2024,Raipur,Industrial Supplies,1.155,FALSE
+14419,3/25/2023,Visakhapatnam,Beauty & Personal Care,0.858,FALSE
+14420,4/28/2023,Vadodara,Stationery,0.885,FALSE
+14421,12/2/2023,Patna,Footwear,1.029,FALSE
+14422,1/17/2025,Coimbatore,Fashion-Men,0.775,FALSE
+14423,3/31/2024,Allahabad,Sports & Fitness,1.211,FALSE
+14424,1/21/2023,Howrah,Books,0.855,FALSE
+14425,5/22/2023,Gwalior,Fashion-Men,1.125,FALSE
+14426,7/25/2024,Lucknow,Books,1.276,FALSE
+14427,3/2/2024,Coimbatore,Beauty & Personal Care,1.167,FALSE
+14428,4/4/2023,Amritsar,Footwear,1.66,FALSE
+14429,1/13/2023,Amritsar,Automotive,1.008,FALSE
+14430,3/14/2024,Ludhiana,Industrial Supplies,0.971,FALSE
+14431,9/27/2023,Gurugram,Stationery,0.661,FALSE
+14432,7/26/2024,Hyderabad,Mobile & Accessories,1.229,FALSE
+14433,3/28/2025,Ranchi,Jewellery,0.758,FALSE
+14434,1/26/2023,Bhubaneswar,Jewellery,1.185,FALSE
+14435,5/20/2023,Aligarh,Stationery,1.945,TRUE
+14436,4/22/2024,Vadodara,Fashion-Men,1.049,TRUE
+14437,3/22/2023,Kalyan-Dombivli,Footwear,1.067,FALSE
+14438,1/1/2023,Thane,Pet Supplies,1.608,TRUE
+14439,5/27/2024,Mangalore,Automotive,0.874,FALSE
+14440,8/8/2024,Nagpur,Footwear,1.195,FALSE
+14441,11/2/2023,Vadodara,Fashion-Men,0.728,FALSE
+14442,8/21/2023,Bhopal,Fashion-Women,0.764,FALSE
+14443,2/25/2025,Kalyan-Dombivli,Furniture,3.218,TRUE
+14444,2/7/2025,Bhopal,Jewellery,0.882,FALSE
+14445,6/27/2024,Moradabad,Appliances,0.949,FALSE
+14446,8/12/2025,Agra,Books,3.453,TRUE
+14447,5/16/2023,Hyderabad,Footwear,1.137,FALSE
+14448,8/18/2024,Mumbai,Stationery,1.363,FALSE
+14449,6/20/2023,Pune,Fashion-Women,1.248,FALSE
+14450,8/5/2025,Kanpur,Appliances,1.567,FALSE
+14451,8/5/2023,Ranchi,Automotive,0.61,FALSE
+14452,10/22/2023,Hyderabad,Mobile & Accessories,1.411,FALSE
+14453,8/5/2023,Bhubaneswar,Fashion-Women,1.166,FALSE
+14454,9/25/2023,Visakhapatnam,Industrial Supplies,1.046,FALSE
+14455,11/9/2024,Vijayawada,Mobile & Accessories,0.849,FALSE
+14456,2/6/2025,Agra,Books,0.575,FALSE
+14457,2/22/2025,Raipur,Industrial Supplies,0.862,FALSE
+14458,12/11/2023,Varanasi,Fashion-Men,1.035,FALSE
+14459,12/9/2023,Allahabad,Office Products,1.032,FALSE
+14460,8/17/2024,Moradabad,Books,0.783,FALSE
+14461,10/20/2024,Visakhapatnam,Pet Supplies,0.654,FALSE
+14462,3/18/2024,Aligarh,Jewellery,0.738,FALSE
+14463,3/6/2025,Bhopal,Sports & Fitness,0.948,FALSE
+14464,12/21/2024,Howrah,Stationery,1.308,FALSE
+14465,5/2/2024,Chennai,Beauty & Personal Care,0.825,FALSE
+14466,8/14/2023,Coimbatore,Appliances,1.106,FALSE
+14467,4/18/2025,Vasai-Virar,Mobile & Accessories,0.842,FALSE
+14468,11/9/2024,Ghaziabad,Office Products,0.758,FALSE
+14469,9/2/2025,Hyderabad,Mobile & Accessories,1.108,FALSE
+14470,5/13/2023,Patna,Appliances,0.88,FALSE
+14471,11/1/2024,Coimbatore,Beauty & Personal Care,1.16,FALSE
+14472,3/29/2025,Dhanbad,Stationery,1.082,FALSE
+14473,7/20/2025,Kalyan-Dombivli,Office Products,1.166,FALSE
+14474,10/16/2024,Pimpri-Chinchwad,Electronics,1.501,FALSE
+14475,9/9/2024,Lucknow,Industrial Supplies,1.233,FALSE
+14476,9/20/2023,Gwalior,Automotive,1.011,FALSE
+14477,6/10/2025,Kolkata,Health,0.898,FALSE
+14478,5/29/2023,Agra,Footwear,1.089,FALSE
+14479,1/9/2025,Mumbai,Fashion-Men,1.246,FALSE
+14480,12/18/2024,Mangalore,Sports & Fitness,0.972,FALSE
+14481,2/7/2025,Kanpur,Industrial Supplies,0.822,FALSE
+14482,6/26/2023,Hyderabad,Toys & Baby,0.975,FALSE
+14483,7/1/2024,Mangalore,Toys & Baby,1.173,TRUE
+14484,3/27/2024,Bengaluru,Stationery,1.028,TRUE
+14485,2/11/2023,Bhubaneswar,Fashion-Men,1.066,FALSE
+14486,6/23/2023,Aligarh,Automotive,0.991,TRUE
+14487,5/15/2023,Amritsar,Furniture,1.22,FALSE
+14488,8/26/2023,Kalyan-Dombivli,Stationery,2.287,TRUE
+14489,5/20/2023,Dhanbad,Toys & Baby,1.276,FALSE
+14490,9/25/2023,Faridabad,Fashion-Men,0.813,TRUE
+14491,9/29/2025,Nagpur,Industrial Supplies,1.094,FALSE
+14492,10/13/2024,Kalyan-Dombivli,Pet Supplies,0.807,FALSE
+14493,7/20/2023,Ghaziabad,Mobile & Accessories,0.803,FALSE
+14494,9/26/2025,Ghaziabad,Sports & Fitness,0.791,FALSE
+14495,9/15/2025,Hyderabad,Toys & Baby,1.426,FALSE
+14496,9/11/2023,Bengaluru,Industrial Supplies,1.309,FALSE
+14497,4/22/2023,Coimbatore,Furniture,0.805,FALSE
+14498,6/9/2025,Bengaluru,Office Products,0.64,FALSE
+14499,9/24/2023,Jaipur,Office Products,0.928,FALSE
+14500,1/28/2023,Visakhapatnam,Pet Supplies,1.636,FALSE
+14501,3/2/2025,Vadodara,Health,1.088,FALSE
+14502,7/25/2024,Madurai,Mobile & Accessories,1.134,FALSE
+14503,10/16/2024,Dhanbad,Jewellery,3.496,TRUE
+14504,1/12/2025,Dhanbad,Stationery,0.753,FALSE
+14505,7/6/2025,Mumbai,Toys & Baby,1.133,FALSE
+14506,1/17/2023,Bhiwandi,Toys & Baby,0.697,FALSE
+14507,5/3/2024,Mangalore,Toys & Baby,0.695,FALSE
+14508,10/10/2023,Gwalior,Fashion-Men,2.411,TRUE
+14509,2/15/2025,Vijayawada,Electronics,1.262,FALSE
+14510,7/5/2023,Ahmedabad,Fashion-Women,1.054,FALSE
+14511,11/16/2024,Ahmedabad,Pet Supplies,1.105,FALSE
+14512,10/21/2023,Delhi,Automotive,1.131,FALSE
+14513,7/26/2025,Madurai,Stationery,0.935,FALSE
+14514,8/8/2024,Kanpur,Electronics,1.181,FALSE
+14515,4/11/2023,Varanasi,Health,1.089,FALSE
+14516,9/10/2025,Mangalore,Pet Supplies,1.179,FALSE
+14517,10/21/2023,Lucknow,Office Products,1.475,FALSE
+14518,8/25/2024,Pune,Automotive,0.768,FALSE
+14519,4/26/2024,Varanasi,Fashion-Women,0.871,FALSE
+14520,10/31/2023,Gurugram,Industrial Supplies,1.004,FALSE
+14521,3/28/2025,Madurai,Beauty & Personal Care,1.27,FALSE
+14522,2/4/2025,Jabalpur,Sports & Fitness,0.965,FALSE
+14523,12/28/2024,Aligarh,Grocery,0.794,FALSE
+14524,12/1/2024,Bhiwandi,Beauty & Personal Care,1.289,FALSE
+14525,6/26/2025,Hyderabad,Footwear,0.914,FALSE
+14526,11/16/2023,Chandigarh,Office Products,1.059,FALSE
+14527,9/4/2023,Ludhiana,Office Products,1.311,FALSE
+14528,4/6/2024,Ahmedabad,Sports & Fitness,0.563,FALSE
+14529,3/18/2024,Raipur,Fashion-Men,2.271,TRUE
+14530,2/19/2025,Gurugram,Furniture,0.987,FALSE
+14531,4/5/2023,Madurai,Automotive,1.077,FALSE
+14532,1/24/2025,Vijayawada,Footwear,0.985,TRUE
+14533,5/13/2024,Vasai-Virar,Beauty & Personal Care,0.71,FALSE
+14534,6/13/2025,Hyderabad,Grocery,3.2,TRUE
+14535,2/3/2024,Delhi,Grocery,1.054,FALSE
+14536,3/7/2023,Jodhpur,Electronics,0.98,FALSE
+14537,1/8/2023,Madurai,Home & Kitchen,1.278,FALSE
+14538,4/25/2023,Gwalior,Appliances,1.166,TRUE
+14539,6/14/2024,Thane,Footwear,0.734,FALSE
+14540,6/2/2024,Mangalore,Mobile & Accessories,2.911,TRUE
+14541,8/31/2023,Nagpur,Appliances,1,FALSE
+14542,9/22/2024,Coimbatore,Pet Supplies,0.984,FALSE
+14543,5/24/2025,Lucknow,Fashion-Men,3.038,TRUE
+14544,1/5/2025,Bhubaneswar,Appliances,0.898,TRUE
+14545,2/15/2024,Delhi,Office Products,0.716,FALSE
+14546,3/2/2024,Lucknow,Health,0.92,FALSE
+14547,11/8/2024,Hyderabad,Footwear,1.048,FALSE
+14548,10/6/2024,Srinagar,Mobile & Accessories,2.473,TRUE
+14549,3/26/2023,Nashik,Home & Kitchen,1.384,FALSE
+14550,9/13/2024,Patna,Stationery,1.276,FALSE
+14551,7/15/2023,Allahabad,Books,0.744,FALSE
+14552,9/4/2024,Howrah,Jewellery,0.869,FALSE
+14553,9/13/2024,Madurai,Sports & Fitness,4.269,TRUE
+14554,4/13/2023,Visakhapatnam,Industrial Supplies,0.768,FALSE
+14555,11/24/2024,Chandigarh,Books,0.729,FALSE
+14556,1/25/2024,Coimbatore,Footwear,1.019,FALSE
+14557,4/11/2023,Kalyan-Dombivli,Appliances,1.113,FALSE
+14558,11/16/2023,Delhi,Office Products,0.833,FALSE
+14559,1/5/2024,Bengaluru,Toys & Baby,1.21,FALSE
+14560,1/13/2023,Gwalior,Grocery,0.937,FALSE
+14561,12/18/2024,Bhubaneswar,Appliances,0.98,FALSE
+14562,7/5/2023,Ludhiana,Pet Supplies,1.03,FALSE
+14563,9/25/2024,Srinagar,Pet Supplies,1.694,TRUE
+14564,10/23/2023,Vijayawada,Furniture,0.833,FALSE
+14565,10/4/2023,Faridabad,Stationery,2.179,TRUE
+14566,3/31/2024,Pune,Mobile & Accessories,0.865,FALSE
+14567,2/19/2025,Kanpur,Sports & Fitness,0.765,FALSE
+14568,11/2/2023,Amritsar,Furniture,1.097,FALSE
+14569,3/20/2025,Visakhapatnam,Fashion-Women,0.792,FALSE
+14570,2/12/2023,Pune,Jewellery,1.265,FALSE
+14571,6/12/2024,Dhanbad,Mobile & Accessories,0.958,TRUE
+14572,9/16/2025,Thane,Sports & Fitness,1.072,FALSE
+14573,5/12/2024,Jabalpur,Pet Supplies,0.882,FALSE
+14574,2/27/2023,Gurugram,Furniture,0.691,FALSE
+14575,1/4/2025,Pune,Fashion-Men,1.505,TRUE
+14576,1/19/2023,Jaipur,Industrial Supplies,1.004,FALSE
+14577,10/6/2024,Thane,Automotive,1.2,FALSE
+14578,9/17/2025,Bhubaneswar,Furniture,1.245,FALSE
+14579,10/20/2024,Delhi,Fashion-Men,0.841,FALSE
+14580,8/13/2024,Dhanbad,Pet Supplies,0.774,FALSE
+14581,7/18/2023,Aligarh,Toys & Baby,1.086,FALSE
+14582,11/6/2023,Kalyan-Dombivli,Automotive,0.665,FALSE
+14583,4/26/2024,Ahmedabad,Pet Supplies,0.86,FALSE
+14584,6/11/2023,Coimbatore,Stationery,1.099,FALSE
+14585,8/25/2024,Dhanbad,Stationery,0.778,FALSE
+14586,5/18/2025,Ranchi,Fashion-Women,1.068,FALSE
+14587,9/11/2023,Dhanbad,Beauty & Personal Care,1.06,FALSE
+14588,3/6/2024,Ghaziabad,Pet Supplies,2.725,TRUE
+14589,6/20/2024,Jodhpur,Sports & Fitness,0.575,FALSE
+14590,6/28/2024,Jodhpur,Electronics,1.041,FALSE
+14591,5/3/2025,Faridabad,Office Products,1.015,FALSE
+14592,3/31/2025,Agra,Books,1.1,FALSE
+14593,1/13/2025,Mangalore,Books,1.083,FALSE
+14594,4/14/2025,Hyderabad,Appliances,0.949,FALSE
+14595,7/27/2024,Mumbai,Grocery,0.626,FALSE
+14596,8/15/2024,Ghaziabad,Industrial Supplies,1.008,FALSE
+14597,1/25/2024,Bhopal,Health,0.813,FALSE
+14598,2/4/2024,Agra,Appliances,0.964,FALSE
+14599,10/5/2024,Chandigarh,Furniture,1.112,FALSE
+14600,12/9/2024,Bhopal,Footwear,0.949,FALSE
+14601,7/6/2025,Faridabad,Grocery,0.912,FALSE
+14602,7/14/2025,Ranchi,Fashion-Men,2.064,TRUE
+14603,2/4/2025,Chennai,Fashion-Men,0.881,FALSE
+14604,5/28/2023,Jabalpur,Furniture,0.998,FALSE
+14605,7/5/2025,Coimbatore,Industrial Supplies,1.061,FALSE
+14606,9/9/2024,Moradabad,Fashion-Men,0.742,FALSE
+14607,10/9/2024,Kolkata,Footwear,1.207,FALSE
+14608,3/17/2024,Bhubaneswar,Footwear,1.295,FALSE
+14609,2/2/2024,Hyderabad,Furniture,0.972,FALSE
+14610,2/10/2023,Ahmedabad,Jewellery,0.856,FALSE
+14611,7/30/2023,Rajkot,Books,0.908,FALSE
+14612,9/19/2024,Kolkata,Mobile & Accessories,3.679,TRUE
+14613,9/16/2023,Jabalpur,Furniture,0.896,FALSE
+14614,2/26/2024,Gurugram,Sports & Fitness,0.946,FALSE
+14615,8/19/2023,Thane,Beauty & Personal Care,0.988,FALSE
+14616,12/15/2024,Kanpur,Jewellery,0.664,FALSE
+14617,4/26/2025,Nashik,Footwear,0.994,FALSE
+14618,9/23/2025,Ahmedabad,Toys & Baby,0.989,FALSE
+14619,4/5/2024,Kolkata,Toys & Baby,0.953,FALSE
+14620,9/18/2023,Srinagar,Toys & Baby,0.696,FALSE
+14621,4/5/2024,Srinagar,Sports & Fitness,0.711,FALSE
+14622,2/27/2023,Kolkata,Grocery,1.149,FALSE
+14623,1/14/2024,Ghaziabad,Footwear,1.388,FALSE
+14624,6/3/2024,Moradabad,Jewellery,0.991,FALSE
+14625,8/18/2023,Gwalior,Beauty & Personal Care,1.148,FALSE
+14626,9/28/2023,Vijayawada,Mobile & Accessories,4.472,TRUE
+14627,4/28/2025,Bhubaneswar,Office Products,0.855,FALSE
+14628,12/23/2023,Ahmedabad,Grocery,0.81,FALSE
+14629,7/13/2023,Lucknow,Beauty & Personal Care,0.919,FALSE
+14630,7/1/2023,Ghaziabad,Pet Supplies,1.219,FALSE
+14631,2/14/2025,Jodhpur,Automotive,1.145,TRUE
+14632,1/3/2023,Aligarh,Electronics,0.947,FALSE
+14633,3/9/2025,Gwalior,Stationery,0.973,FALSE
+14634,11/12/2023,Jodhpur,Fashion-Men,1.371,TRUE
+14635,12/19/2023,Agra,Grocery,0.635,FALSE
+14636,11/8/2024,Varanasi,Automotive,1.3,FALSE
+14637,8/15/2025,Amritsar,Books,0.902,FALSE
+14638,9/30/2024,Moradabad,Jewellery,1.01,FALSE
+14639,11/6/2023,Hyderabad,Mobile & Accessories,1.162,FALSE
+14640,2/16/2024,Vasai-Virar,Pet Supplies,1.205,FALSE
+14641,9/14/2023,Thane,Home & Kitchen,1.003,FALSE
+14642,3/10/2025,Indore,Pet Supplies,0.757,FALSE
+14643,7/23/2023,Agra,Appliances,0.846,FALSE
+14644,1/15/2023,Kolkata,Footwear,0.718,FALSE
+14645,8/15/2024,Patna,Beauty & Personal Care,2.929,TRUE
+14646,2/6/2023,Surat,Fashion-Women,0.82,FALSE
+14647,9/18/2023,Lucknow,Footwear,1.206,FALSE
+14648,10/28/2024,Rajkot,Pet Supplies,0.749,FALSE
+14649,11/12/2024,Dhanbad,Books,1.364,FALSE
+14650,11/2/2024,Vasai-Virar,Grocery,0.979,FALSE
+14651,3/19/2024,Pimpri-Chinchwad,Toys & Baby,1.164,FALSE
+14652,6/18/2025,Vasai-Virar,Fashion-Women,1.215,FALSE
+14653,10/28/2024,Nashik,Electronics,1.155,FALSE
+14654,7/26/2024,Pune,Mobile & Accessories,1.117,FALSE
+14655,5/17/2024,Ahmedabad,Footwear,1.083,FALSE
+14656,6/16/2025,Mumbai,Industrial Supplies,1.015,FALSE
+14657,4/22/2023,Pimpri-Chinchwad,Automotive,1.152,FALSE
+14658,5/18/2025,Mumbai,Books,1.372,FALSE
+14659,3/27/2023,Madurai,Footwear,1.172,FALSE
+14660,11/20/2024,Rajkot,Stationery,1.129,FALSE
+14661,1/28/2025,Nashik,Office Products,1.139,FALSE
+14662,5/15/2023,Lucknow,Fashion-Women,1.031,FALSE
+14663,11/27/2023,Meerut,Toys & Baby,1.274,FALSE
+14664,1/17/2023,Faridabad,Automotive,0.799,FALSE
+14665,5/1/2024,Pune,Sports & Fitness,0.885,FALSE
+14666,6/13/2024,Lucknow,Furniture,1.321,FALSE
+14667,12/7/2023,Chandigarh,Mobile & Accessories,1.294,FALSE
+14668,1/17/2024,Howrah,Home & Kitchen,2.488,TRUE
+14669,2/12/2025,Mangalore,Industrial Supplies,1.109,FALSE
+14670,12/4/2024,Ranchi,Home & Kitchen,1.065,FALSE
+14671,1/9/2025,Amritsar,Health,0.948,FALSE
+14672,10/22/2024,Gwalior,Fashion-Men,1.447,FALSE
+14673,12/20/2024,Nashik,Health,0.945,FALSE
+14674,8/19/2024,Bhubaneswar,Beauty & Personal Care,0.872,TRUE
+14675,6/18/2025,Indore,Electronics,0.831,FALSE
+14676,1/25/2024,Howrah,Jewellery,0.821,FALSE
+14677,12/16/2024,Bhubaneswar,Health,0.925,FALSE
+14678,4/11/2025,Bhiwandi,Jewellery,0.735,FALSE
+14679,7/10/2025,Srinagar,Electronics,0.899,FALSE
+14680,6/16/2025,Ahmedabad,Automotive,0.886,FALSE
+14681,7/19/2023,Jaipur,Beauty & Personal Care,3.717,TRUE
+14682,9/6/2024,Nashik,Books,0.997,FALSE
+14683,9/24/2024,Jodhpur,Fashion-Women,0.913,FALSE
+14684,4/10/2023,Patna,Furniture,0.843,FALSE
+14685,11/14/2024,Coimbatore,Office Products,0.709,FALSE
+14686,3/23/2025,Howrah,Fashion-Men,0.96,FALSE
+14687,11/22/2023,Allahabad,Stationery,1.273,FALSE
+14688,5/15/2025,Ahmedabad,Stationery,0.671,FALSE
+14689,9/19/2023,Surat,Electronics,1.243,FALSE
+14690,11/23/2023,Moradabad,Fashion-Men,1.145,FALSE
+14691,2/13/2024,Srinagar,Furniture,1.147,FALSE
+14692,9/6/2025,Mangalore,Books,1.404,FALSE
+14693,5/15/2025,Allahabad,Jewellery,1.039,FALSE
+14694,1/24/2025,Ludhiana,Electronics,0.832,FALSE
+14695,10/20/2023,Ahmedabad,Appliances,0.915,FALSE
+14696,7/21/2024,Lucknow,Furniture,1.088,FALSE
+14697,4/11/2024,Bhubaneswar,Stationery,0.873,FALSE
+14698,1/3/2023,Ranchi,Appliances,1.081,FALSE
+14699,1/31/2025,Visakhapatnam,Mobile & Accessories,1.069,FALSE
+14700,8/21/2023,Kanpur,Automotive,1.068,FALSE
+14701,3/7/2025,Moradabad,Pet Supplies,0.798,FALSE
+14702,4/6/2025,Aligarh,Fashion-Men,1.01,TRUE
+14703,11/20/2023,Bhubaneswar,Electronics,0.911,FALSE
+14704,2/26/2023,Delhi,Footwear,0.859,FALSE
+14705,8/4/2023,Jaipur,Jewellery,1.156,FALSE
+14706,8/17/2023,Bhubaneswar,Automotive,0.999,FALSE
+14707,4/9/2023,Madurai,Footwear,1.174,FALSE
+14708,9/21/2024,Kalyan-Dombivli,Fashion-Men,1.167,FALSE
+14709,7/28/2023,Coimbatore,Office Products,1.114,FALSE
+14710,4/6/2023,Jodhpur,Furniture,1.339,FALSE
+14711,4/23/2023,Madurai,Books,2.015,TRUE
+14712,9/7/2025,Varanasi,Toys & Baby,0.954,FALSE
+14713,3/16/2024,Rajkot,Sports & Fitness,0.719,FALSE
+14714,12/16/2024,Jabalpur,Health,2.49,TRUE
+14715,4/29/2023,Bhubaneswar,Industrial Supplies,0.643,FALSE
+14716,2/20/2025,Hyderabad,Fashion-Women,1.265,FALSE
+14717,8/15/2024,Vasai-Virar,Jewellery,0.868,FALSE
+14718,10/6/2023,Kolkata,Jewellery,1.088,FALSE
+14719,4/19/2023,Chennai,Pet Supplies,1.302,FALSE
+14720,1/14/2023,Varanasi,Sports & Fitness,0.987,FALSE
+14721,5/14/2025,Meerut,Fashion-Women,0.936,FALSE
+14722,8/4/2024,Delhi,Furniture,1.116,FALSE
+14723,8/27/2024,Pimpri-Chinchwad,Office Products,1.344,FALSE
+14724,3/13/2025,Moradabad,Sports & Fitness,3.023,TRUE
+14725,7/7/2023,Coimbatore,Electronics,0.977,FALSE
+14726,8/4/2025,Ahmedabad,Automotive,0.9,FALSE
+14727,5/18/2024,Delhi,Furniture,1.012,FALSE
+14728,2/11/2023,Ahmedabad,Fashion-Men,0.893,FALSE
+14729,5/15/2024,Aligarh,Grocery,1.787,TRUE
+14730,9/12/2025,Patna,Furniture,0.695,FALSE
+14731,7/8/2025,Pimpri-Chinchwad,Stationery,1.098,FALSE
+14732,6/30/2025,Faridabad,Home & Kitchen,1.092,FALSE
+14733,8/30/2023,Ghaziabad,Pet Supplies,1.226,TRUE
+14734,4/6/2024,Bhiwandi,Fashion-Men,1.07,FALSE
+14735,8/10/2023,Nashik,Electronics,1.068,FALSE
+14736,10/3/2024,Allahabad,Grocery,1.071,FALSE
+14737,7/25/2025,Agra,Automotive,1.201,FALSE
+14738,6/8/2023,Delhi,Footwear,0.931,FALSE
+14739,6/20/2025,Nashik,Office Products,1.009,FALSE
+14740,5/17/2025,Nashik,Office Products,3.6,TRUE
+14741,3/1/2023,Nashik,Mobile & Accessories,0.956,FALSE
+14742,3/21/2023,Thane,Health,0.903,FALSE
+14743,12/11/2024,Chandigarh,Sports & Fitness,1.099,FALSE
+14744,6/11/2023,Visakhapatnam,Pet Supplies,0.48,FALSE
+14745,6/21/2024,Delhi,Automotive,0.746,TRUE
+14746,6/11/2025,Chennai,Fashion-Women,0.787,FALSE
+14747,11/17/2024,Kanpur,Mobile & Accessories,1.284,FALSE
+14748,3/25/2024,Ghaziabad,Electronics,1.091,FALSE
+14749,5/14/2025,Jabalpur,Pet Supplies,1.088,FALSE
+14750,6/29/2023,Thane,Home & Kitchen,2.946,TRUE
+14751,5/27/2025,Nashik,Fashion-Men,0.78,TRUE
+14752,4/20/2025,Rajkot,Health,1.047,FALSE
+14753,7/15/2023,Gwalior,Toys & Baby,0.917,FALSE
+14754,9/3/2024,Rajkot,Toys & Baby,1.372,FALSE
+14755,6/1/2024,Jodhpur,Home & Kitchen,1.093,FALSE
+14756,12/11/2024,Jaipur,Electronics,0.843,FALSE
+14757,5/6/2025,Pune,Sports & Fitness,1.018,FALSE
+14758,9/24/2025,Gwalior,Grocery,1.148,FALSE
+14759,9/28/2024,Bhopal,Appliances,1.054,FALSE
+14760,11/29/2024,Kalyan-Dombivli,Appliances,1.12,FALSE
+14761,2/3/2025,Chennai,Fashion-Men,1.229,FALSE
+14762,12/18/2023,Jabalpur,Toys & Baby,1.229,FALSE
+14763,2/9/2023,Mangalore,Appliances,0.947,FALSE
+14764,8/2/2023,Nashik,Electronics,1.385,FALSE
+14765,3/2/2025,Mumbai,Electronics,1.3,FALSE
+14766,4/16/2024,Chennai,Appliances,0.997,FALSE
+14767,1/27/2023,Gwalior,Home & Kitchen,1.07,FALSE
+14768,4/25/2024,Vasai-Virar,Sports & Fitness,0.912,FALSE
+14769,2/5/2023,Raipur,Home & Kitchen,0.82,FALSE
+14770,11/26/2024,Amritsar,Jewellery,1.341,FALSE
+14771,2/25/2024,Raipur,Home & Kitchen,1.111,FALSE
+14772,10/9/2024,Howrah,Health,0.872,FALSE
+14773,7/12/2024,Meerut,Pet Supplies,0.817,FALSE
+14774,1/27/2023,Bengaluru,Office Products,0.832,FALSE
+14775,8/21/2025,Amritsar,Electronics,2.578,TRUE
+14776,9/28/2024,Bhopal,Furniture,1.032,FALSE
+14777,4/3/2024,Kalyan-Dombivli,Footwear,1.036,FALSE
+14778,5/31/2025,Dhanbad,Mobile & Accessories,0.733,FALSE
+14779,6/29/2024,Mumbai,Grocery,1.211,FALSE
+14780,12/15/2024,Allahabad,Pet Supplies,1.154,FALSE
+14781,7/31/2023,Thane,Home & Kitchen,0.784,FALSE
+14782,9/6/2025,Indore,Office Products,1.166,FALSE
+14783,6/29/2024,Bhubaneswar,Beauty & Personal Care,0.718,FALSE
+14784,1/1/2024,Varanasi,Mobile & Accessories,2.188,TRUE
+14785,2/28/2024,Visakhapatnam,Appliances,1.013,FALSE
+14786,11/21/2023,Vijayawada,Home & Kitchen,1.048,FALSE
+14787,5/7/2024,Agra,Office Products,0.545,FALSE
+14788,10/11/2023,Lucknow,Jewellery,1.126,FALSE
+14789,4/25/2024,Dhanbad,Appliances,1.328,FALSE
+14790,7/4/2023,Kolkata,Mobile & Accessories,1.806,TRUE
+14791,9/28/2025,Lucknow,Toys & Baby,0.926,FALSE
+14792,6/8/2025,Dhanbad,Stationery,1.639,TRUE
+14793,4/27/2024,Varanasi,Books,1.224,FALSE
+14794,5/23/2023,Srinagar,Office Products,1.094,FALSE
+14795,2/10/2025,Jabalpur,Toys & Baby,1.131,FALSE
+14796,1/16/2023,Pimpri-Chinchwad,Office Products,0.724,FALSE
+14797,6/4/2024,Mangalore,Fashion-Men,1.051,FALSE
+14798,9/11/2025,Gwalior,Industrial Supplies,0.933,FALSE
+14799,1/13/2023,Kalyan-Dombivli,Furniture,1.149,FALSE
+14800,9/25/2025,Vijayawada,Furniture,1.104,FALSE
+14801,6/25/2023,Aligarh,Pet Supplies,1.145,FALSE
+14802,3/21/2024,Nagpur,Home & Kitchen,1.039,FALSE
+14803,12/1/2023,Nagpur,Grocery,1.258,FALSE
+14804,10/1/2023,Rajkot,Health,1.166,TRUE
+14805,1/29/2023,Gwalior,Health,1.155,FALSE
+14806,5/11/2025,Nagpur,Jewellery,0.674,FALSE
+14807,5/17/2023,Rajkot,Books,0.971,FALSE
+14808,8/9/2025,Pimpri-Chinchwad,Footwear,0.792,FALSE
+14809,3/10/2025,Bhopal,Industrial Supplies,0.89,FALSE
+14810,3/6/2024,Jaipur,Furniture,1.027,FALSE
+14811,9/7/2023,Bhopal,Office Products,0.974,FALSE
+14812,6/17/2023,Gwalior,Furniture,1.439,FALSE
+14813,6/14/2024,Moradabad,Office Products,0.963,FALSE
+14814,1/21/2024,Meerut,Health,1.09,FALSE
+14815,12/25/2023,Chennai,Home & Kitchen,1.082,FALSE
+14816,7/15/2023,Visakhapatnam,Automotive,1.106,FALSE
+14817,6/27/2025,Varanasi,Fashion-Men,0.941,FALSE
+14818,4/5/2023,Allahabad,Mobile & Accessories,0.986,FALSE
+14819,9/30/2023,Jabalpur,Appliances,0.648,FALSE
+14820,12/10/2024,Kanpur,Fashion-Men,0.961,FALSE
+14821,9/4/2024,Nagpur,Beauty & Personal Care,1.111,FALSE
+14822,8/30/2025,Aligarh,Mobile & Accessories,1.085,FALSE
+14823,1/23/2024,Mangalore,Footwear,4.361,TRUE
+14824,8/21/2024,Bhopal,Furniture,1.654,TRUE
+14825,11/29/2023,Jodhpur,Health,1.2,FALSE
+14826,1/2/2023,Delhi,Industrial Supplies,0.783,FALSE
+14827,5/1/2023,Rajkot,Furniture,0.998,FALSE
+14828,6/1/2025,Vijayawada,Automotive,0.899,FALSE
+14829,1/6/2023,Lucknow,Books,1.087,FALSE
+14830,4/1/2023,Varanasi,Jewellery,1.046,FALSE
+14831,5/13/2023,Delhi,Beauty & Personal Care,1.008,FALSE
+14832,12/24/2024,Moradabad,Home & Kitchen,0.902,FALSE
+14833,4/8/2023,Indore,Books,1.071,FALSE
+14834,5/8/2023,Agra,Books,1.15,FALSE
+14835,1/1/2025,Patna,Office Products,0.981,FALSE
+14836,8/10/2023,Thane,Grocery,1.058,FALSE
+14837,5/13/2024,Jabalpur,Grocery,1.224,FALSE
+14838,10/20/2023,Gwalior,Fashion-Men,0.85,FALSE
+14839,11/14/2023,Lucknow,Sports & Fitness,0.661,FALSE
+14840,6/30/2023,Jodhpur,Fashion-Women,1.176,FALSE
+14841,9/3/2024,Madurai,Furniture,0.719,FALSE
+14842,10/26/2024,Mumbai,Health,0.91,FALSE
+14843,7/5/2025,Bhubaneswar,Grocery,1.375,FALSE
+14844,4/25/2024,Agra,Appliances,0.88,TRUE
+14845,10/21/2024,Vijayawada,Furniture,0.904,FALSE
+14846,1/1/2024,Indore,Pet Supplies,0.832,FALSE
+14847,9/26/2023,Vasai-Virar,Beauty & Personal Care,1.039,FALSE
+14848,8/2/2023,Gwalior,Electronics,0.996,FALSE
+14849,2/8/2025,Nagpur,Beauty & Personal Care,0.821,FALSE
+14850,5/6/2024,Surat,Appliances,1.147,FALSE
+14851,6/18/2025,Indore,Furniture,1.119,FALSE
+14852,4/7/2023,Gurugram,Fashion-Women,3.372,TRUE
+14853,7/23/2024,Ludhiana,Fashion-Men,0.985,FALSE
+14854,1/14/2024,Bhubaneswar,Books,1,FALSE
+14855,5/3/2023,Chandigarh,Sports & Fitness,1.031,FALSE
+14856,5/15/2025,Surat,Toys & Baby,3.044,TRUE
+14857,5/9/2023,Visakhapatnam,Pet Supplies,0.967,FALSE
+14858,3/30/2025,Raipur,Home & Kitchen,1.029,FALSE
+14859,4/16/2024,Aligarh,Health,1.176,FALSE
+14860,5/7/2025,Rajkot,Sports & Fitness,1.193,FALSE
+14861,1/10/2024,Delhi,Pet Supplies,1.12,FALSE
+14862,5/3/2023,Moradabad,Health,0.632,FALSE
+14863,5/6/2023,Mangalore,Books,3.268,TRUE
+14864,4/23/2024,Gwalior,Furniture,0.957,FALSE
+14865,2/23/2025,Chandigarh,Books,0.861,FALSE
+14866,7/30/2024,Kanpur,Jewellery,1.091,FALSE
+14867,3/20/2025,Jaipur,Grocery,1.124,FALSE
+14868,4/23/2023,Patna,Electronics,0.751,FALSE
+14869,11/27/2024,Kalyan-Dombivli,Books,1.064,FALSE
+14870,3/18/2023,Delhi,Pet Supplies,1.04,FALSE
+14871,4/22/2024,Mangalore,Home & Kitchen,0.806,FALSE
+14872,1/31/2024,Bhiwandi,Toys & Baby,1.104,FALSE
+14873,4/19/2025,Aligarh,Fashion-Women,0.758,FALSE
+14874,4/21/2025,Agra,Electronics,0.757,FALSE
+14875,8/30/2023,Ahmedabad,Fashion-Men,1.053,FALSE
+14876,5/13/2025,Jabalpur,Jewellery,0.853,FALSE
+14877,6/2/2025,Raipur,Pet Supplies,3.402,TRUE
+14878,7/20/2023,Srinagar,Automotive,0.718,FALSE
+14879,4/1/2023,Chennai,Stationery,0.902,FALSE
+14880,3/16/2023,Ranchi,Furniture,4.772,TRUE
+14881,6/16/2024,Varanasi,Fashion-Men,1.265,FALSE
+14882,4/8/2023,Vadodara,Beauty & Personal Care,1.256,FALSE
+14883,9/8/2024,Faridabad,Stationery,0.974,FALSE
+14884,3/25/2023,Rajkot,Furniture,1.036,FALSE
+14885,6/12/2023,Nashik,Toys & Baby,0.948,FALSE
+14886,7/20/2023,Mangalore,Furniture,1.103,FALSE
+14887,11/21/2023,Ghaziabad,Fashion-Women,0.566,FALSE
+14888,7/14/2023,Madurai,Mobile & Accessories,0.826,FALSE
+14889,3/13/2023,Jodhpur,Appliances,1.186,FALSE
+14890,8/3/2024,Mumbai,Sports & Fitness,3.498,TRUE
+14891,11/23/2024,Visakhapatnam,Mobile & Accessories,1.092,FALSE
+14892,1/22/2023,Srinagar,Fashion-Men,0.946,FALSE
+14893,6/18/2023,Bhiwandi,Sports & Fitness,1.288,FALSE
+14894,3/30/2024,Meerut,Automotive,0.885,FALSE
+14895,5/5/2023,Jabalpur,Automotive,1.017,TRUE
+14896,7/5/2025,Kolkata,Mobile & Accessories,1.028,FALSE
+14897,11/25/2024,Gwalior,Toys & Baby,0.897,FALSE
+14898,5/26/2023,Ahmedabad,Office Products,0.949,FALSE
+14899,8/16/2025,Bhiwandi,Furniture,1.019,FALSE
+14900,9/14/2025,Visakhapatnam,Sports & Fitness,1.287,FALSE
+14901,12/11/2023,Mangalore,Appliances,0.994,FALSE
+14902,2/18/2024,Coimbatore,Toys & Baby,1.277,FALSE
+14903,10/5/2023,Vijayawada,Books,1.036,FALSE
+14904,11/22/2024,Chandigarh,Stationery,0.815,FALSE
+14905,11/19/2024,Dhanbad,Fashion-Men,0.997,FALSE
+14906,12/19/2023,Dhanbad,Health,1.047,FALSE
+14907,8/27/2024,Raipur,Sports & Fitness,1.072,FALSE
+14908,8/20/2024,Bhubaneswar,Home & Kitchen,2.011,TRUE
+14909,1/30/2023,Meerut,Mobile & Accessories,0.915,FALSE
+14910,4/15/2025,Aligarh,Pet Supplies,0.9,FALSE
+14911,1/29/2024,Pimpri-Chinchwad,Office Products,0.791,FALSE
+14912,7/24/2025,Indore,Books,1.262,FALSE
+14913,3/30/2025,Patna,Sports & Fitness,0.88,FALSE
+14914,7/12/2024,Amritsar,Automotive,0.729,FALSE
+14915,7/28/2025,Ahmedabad,Mobile & Accessories,1.01,FALSE
+14916,2/14/2024,Mangalore,Furniture,0.722,FALSE
+14917,5/23/2025,Ludhiana,Sports & Fitness,1.154,FALSE
+14918,6/18/2023,Bengaluru,Grocery,0.825,FALSE
+14919,9/17/2024,Delhi,Toys & Baby,2.359,TRUE
+14920,5/10/2024,Mumbai,Footwear,1.334,FALSE
+14921,4/9/2024,Amritsar,Electronics,0.911,FALSE
+14922,1/23/2024,Delhi,Automotive,0.844,FALSE
+14923,9/20/2024,Raipur,Grocery,1.264,FALSE
+14924,7/29/2023,Surat,Appliances,3.129,TRUE
+14925,4/11/2024,Agra,Mobile & Accessories,1.243,FALSE
+14926,1/23/2023,Kolkata,Toys & Baby,1.016,FALSE
+14927,4/26/2024,Amritsar,Books,1.296,FALSE
+14928,8/3/2025,Lucknow,Fashion-Men,1.029,FALSE
+14929,10/31/2023,Meerut,Fashion-Men,0.872,FALSE
+14930,2/21/2025,Chennai,Fashion-Women,0.963,FALSE
+14931,4/22/2024,Kalyan-Dombivli,Home & Kitchen,3.29,TRUE
+14932,6/26/2023,Ghaziabad,Beauty & Personal Care,1.019,FALSE
+14933,4/3/2024,Visakhapatnam,Appliances,0.765,FALSE
+14934,9/6/2024,Howrah,Books,1.183,FALSE
+14935,12/18/2024,Indore,Beauty & Personal Care,0.839,FALSE
+14936,7/1/2025,Pimpri-Chinchwad,Stationery,1.295,FALSE
+14937,10/20/2024,Aligarh,Toys & Baby,3.683,TRUE
+14938,1/9/2023,Indore,Jewellery,0.959,FALSE
+14939,2/7/2024,Pune,Grocery,1.19,FALSE
+14940,3/26/2023,Nagpur,Mobile & Accessories,1.041,FALSE
+14941,1/4/2023,Pune,Fashion-Men,1.04,FALSE
+14942,11/20/2023,Vijayawada,Books,0.558,FALSE
+14943,6/4/2023,Jodhpur,Fashion-Men,0.964,FALSE
+14944,8/4/2023,Allahabad,Fashion-Women,0.926,TRUE
+14945,1/15/2023,Visakhapatnam,Furniture,0.938,FALSE
+14946,6/23/2023,Bhiwandi,Electronics,1.252,FALSE
+14947,9/1/2023,Kalyan-Dombivli,Books,1.116,FALSE
+14948,5/17/2025,Srinagar,Electronics,1.392,FALSE
+14949,9/19/2025,Bhopal,Furniture,0.878,FALSE
+14950,12/6/2023,Kalyan-Dombivli,Electronics,0.958,FALSE
+14951,7/18/2025,Vasai-Virar,Home & Kitchen,1.252,TRUE
+14952,9/29/2025,Pimpri-Chinchwad,Fashion-Men,0.954,FALSE
+14953,8/1/2023,Chandigarh,Pet Supplies,0.916,FALSE
+14954,7/9/2024,Coimbatore,Industrial Supplies,0.895,FALSE
+14955,7/7/2024,Visakhapatnam,Toys & Baby,0.843,TRUE
+14956,4/29/2024,Meerut,Electronics,0.901,FALSE
+14957,12/14/2023,Gurugram,Industrial Supplies,0.652,FALSE
+14958,4/20/2025,Nashik,Fashion-Women,0.877,FALSE
+14959,9/5/2025,Hyderabad,Fashion-Men,1.196,FALSE
+14960,4/11/2025,Rajkot,Office Products,1.223,FALSE
+14961,7/24/2024,Srinagar,Stationery,0.577,FALSE
+14962,1/18/2025,Ranchi,Home & Kitchen,1.071,FALSE
+14963,11/8/2024,Allahabad,Fashion-Women,0.602,FALSE
+14964,4/17/2024,Agra,Appliances,0.847,FALSE
+14965,5/15/2024,Vijayawada,Sports & Fitness,0.979,FALSE
+14966,6/14/2024,Ghaziabad,Mobile & Accessories,0.969,FALSE
+14967,6/26/2025,Allahabad,Toys & Baby,0.972,FALSE
+14968,8/1/2024,Meerut,Mobile & Accessories,1.154,FALSE
+14969,10/28/2024,Jabalpur,Automotive,1.059,FALSE
+14970,1/19/2023,Nashik,Books,1.103,FALSE
+14971,2/16/2024,Varanasi,Fashion-Men,0.759,FALSE
+14972,2/3/2023,Kolkata,Office Products,0.905,FALSE
+14973,10/27/2023,Gwalior,Appliances,1.219,FALSE
+14974,2/21/2024,Pune,Automotive,2.506,TRUE
+14975,2/14/2023,Kanpur,Industrial Supplies,1.001,FALSE
+14976,6/4/2025,Nagpur,Health,1.275,FALSE
+14977,7/14/2024,Surat,Fashion-Women,1.071,FALSE
+14978,7/7/2023,Bhopal,Home & Kitchen,0.717,FALSE
+14979,6/6/2025,Visakhapatnam,Toys & Baby,2.714,TRUE
+14980,7/28/2025,Bhopal,Fashion-Women,1.094,FALSE
+14981,11/8/2024,Agra,Health,0.991,FALSE
+14982,3/16/2023,Gwalior,Pet Supplies,1.104,FALSE
+14983,6/9/2025,Kalyan-Dombivli,Health,0.936,FALSE
+14984,9/18/2023,Amritsar,Furniture,1.115,FALSE
+14985,4/15/2024,Kanpur,Jewellery,1.346,FALSE
+14986,9/3/2025,Varanasi,Books,1.127,FALSE
+14987,6/10/2023,Pune,Appliances,0.911,FALSE
+14988,9/11/2024,Visakhapatnam,Toys & Baby,1.14,FALSE
+14989,8/31/2025,Howrah,Footwear,1.061,TRUE
+14990,4/4/2023,Ghaziabad,Toys & Baby,0.737,FALSE
+14991,12/23/2023,Delhi,Appliances,1.062,FALSE
+14992,1/20/2025,Ghaziabad,Pet Supplies,1.099,FALSE
+14993,3/13/2025,Jabalpur,Automotive,1.294,TRUE
+14994,7/27/2023,Howrah,Industrial Supplies,1.079,FALSE
+14995,2/1/2025,Pimpri-Chinchwad,Jewellery,1.142,FALSE
+14996,10/20/2023,Thane,Sports & Fitness,0.9,FALSE
+14997,4/11/2023,Mangalore,Industrial Supplies,3.856,TRUE
+14998,5/6/2024,Allahabad,Stationery,0.97,FALSE
+14999,5/18/2025,Mangalore,Footwear,0.644,FALSE
+15000,7/1/2023,Delhi,Fashion-Men,0.879,FALSE

@@ -1,0 +1,351 @@
+{
+  "info": {
+    "name": "Insight-o-pedia API",
+    "description": "API collection for testing Insight-o-pedia AI Chatbot Backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["health"]
+        },
+        "description": "Check if the backend is running and which models are loaded"
+      }
+    },
+    {
+      "name": "Service Info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": [""]
+        },
+        "description": "Get information about available endpoints"
+      }
+    },
+    {
+      "name": "Forecast - Q4 Demand",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What will Q4 demand look like based on current trends?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Ask about Q4 demand forecast"
+      }
+    },
+    {
+      "name": "Forecast - 90 Days",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Predict the order value for the next 90 days.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Request 90-day order value prediction"
+      }
+    },
+    {
+      "name": "Forecast - December Seasonal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Is there a seasonal increase expected in December?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Check for December seasonal trends"
+      }
+    },
+    {
+      "name": "Inventory - 20% Surge",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"If demand increases by 20%, what stock adjustments are needed?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Get stock recommendations for 20% demand increase"
+      }
+    },
+    {
+      "name": "Inventory - Category Boost",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Which categories need stock boosting for Q4?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Identify categories that need more stock"
+      }
+    },
+    {
+      "name": "Inventory - Stockout Risk",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Are we at risk of stockouts during peak season?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Assess stockout risks"
+      }
+    },
+    {
+      "name": "Inventory - Sufficiency Check",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Is our inventory level sufficient for predicted demand?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Check if inventory is sufficient"
+      }
+    },
+    {
+      "name": "Shipping - Delay Impact",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"How will shipping delays impact next quarter?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Analyze shipping delay impacts"
+      }
+    },
+    {
+      "name": "Shipping - Courier Performance",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Which courier partners might cause late deliveries?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Identify problematic courier partners"
+      }
+    },
+    {
+      "name": "Sentiment - Review Trends",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"How are customer reviews trending?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Get customer review sentiment analysis"
+      }
+    },
+    {
+      "name": "Sentiment - Monthly Check",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Is customer sentiment positive this month?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Check current month sentiment"
+      }
+    },
+    {
+      "name": "Warehouse - Efficiency",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Which warehouses are underperforming?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Analyze warehouse efficiency"
+      }
+    },
+    {
+      "name": "General - Help",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What can you help me with?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["chat"]
+        },
+        "description": "Get help information"
+      }
+    }
+  ]
+}
