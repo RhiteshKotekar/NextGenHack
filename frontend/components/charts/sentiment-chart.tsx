@@ -1,45 +1,70 @@
 'use client'
 
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Dot } from 'recharts'
+import { useEffect, useState } from 'react'
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
-const data = [
-  { week: 'W1', sentiment: 65 },
-  { week: 'W2', sentiment: 72 },
-  { week: 'W3', sentiment: 78 },
-  { week: 'W4', sentiment: 85 },
-]
-
-// Function to get color based on sentiment value (red to green gradient)
-const getSentimentColor = (value: number) => {
-  if (value < 40) return '#FF4444'; // Red
-  if (value < 60) return '#FFA500'; // Orange
-  if (value < 75) return '#FFD700'; // Yellow
-  return '#4CAF50'; // Green
+interface SentimentData {
+  sentiment: string
+  count: number
+  [key: string]: any
 }
 
-// Custom dot component that colors based on sentiment
-const CustomDot = (props: any) => {
-  const { cx, cy, payload } = props;
-  const color = getSentimentColor(payload.sentiment);
-  return (
-    <circle cx={cx} cy={cy} r={6} fill={color} stroke="white" strokeWidth={2} opacity={1} />
-  );
+const COLORS = {
+  'Positive': '#4CAF50',
+  'Neutral': '#FFD700',
+  'Negative': '#FF4444'
 }
 
 export function SentimentChart() {
+  const [data, setData] = useState<SentimentData[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetch('http://localhost:5000/api/dashboard/analytics')
+      .then(res => res.json())
+      .then(result => {
+        if (result.success && result.data.sentiment_distribution) {
+          setData(result.data.sentiment_distribution)
+        }
+        setLoading(false)
+      })
+      .catch(err => {
+        console.error('Error fetching sentiment data:', err)
+        setLoading(false)
+      })
+  }, [])
+
+  if (loading) {
+    return <div className="flex items-center justify-center h-[300px] text-muted-foreground">Loading sentiment data...</div>
+  }
+
+  if (!data.length) {
+    return <div className="flex items-center justify-center h-[300px] text-muted-foreground">No sentiment data available</div>
+  }
+
   return (
     <ResponsiveContainer width="100%" height={300}>
-      <AreaChart data={data}>
-        <defs>
-          <linearGradient id="colorSentiment" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#4CAF50" stopOpacity={0.8} />
-            <stop offset="50%" stopColor="#FFD700" stopOpacity={0.4} />
-            <stop offset="95%" stopColor="#FF4444" stopOpacity={0.1} />
-          </linearGradient>
-        </defs>
-        <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
-        <XAxis dataKey="week" stroke="var(--muted-foreground)" />
-        <YAxis stroke="var(--muted-foreground)" domain={[0, 100]} />
+      <PieChart>
+        <Pie
+          data={data}
+          cx="50%"
+          cy="50%"
+          labelLine={false}
+          label={(props: any) => {
+            const { sentiment, percent } = props
+            return `${sentiment}: ${((percent || 0) * 100).toFixed(1)}%`
+          }}
+          outerRadius={100}
+          fill="#8884d8"
+          dataKey="count"
+        >
+          {data.map((entry, index) => (
+            <Cell 
+              key={`cell-${index}`} 
+              fill={COLORS[entry.sentiment as keyof typeof COLORS] || '#8884d8'} 
+            />
+          ))}
+        </Pie>
         <Tooltip
           contentStyle={{
             backgroundColor: 'var(--card)',
@@ -47,19 +72,10 @@ export function SentimentChart() {
             borderRadius: '0.875rem',
             boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)',
           }}
-          cursor={{ stroke: 'rgba(139, 92, 246, 0.3)', strokeWidth: 2 }}
+          formatter={(value: number, name: string) => [`${value} reviews`, name]}
         />
-        <Area
-          type="monotone"
-          dataKey="sentiment"
-          stroke="#4CAF50"
-          strokeWidth={3}
-          fillOpacity={1}
-          fill="url(#colorSentiment)"
-          dot={<CustomDot />}
-          isAnimationActive={true}
-        />
-      </AreaChart>
+        <Legend />
+      </PieChart>
     </ResponsiveContainer>
   )
 }

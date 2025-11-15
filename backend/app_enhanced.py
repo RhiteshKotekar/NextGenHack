@@ -1100,6 +1100,196 @@ def chat():
         }), 500
 
 
+@app.route('/api/dashboard/analytics', methods=['GET'])
+def dashboard_analytics():
+    """
+    Comprehensive dashboard analytics endpoint
+    Analyzes all CSV data and returns insights for visualization
+    """
+    try:
+        # Load all datasets
+        orders_df = pd.read_csv(DATA_DIR / 'orders_sample.csv')
+        warehouse_df = pd.read_csv(DATA_DIR / 'warehouse_ops_sample.csv')
+        transport_df = pd.read_csv(DATA_DIR / 'transportations_sample.csv')
+        seasonal_df = pd.read_csv(DATA_DIR / 'seasonal_demand.csv')
+        reviews_df = pd.read_csv(DATA_DIR / 'customer_reviews_sample.csv')
+        
+        # Convert date columns
+        orders_df['order_date'] = pd.to_datetime(orders_df['order_date'])
+        orders_df['delivery_date'] = pd.to_datetime(orders_df['delivery_date'])
+        warehouse_df['date'] = pd.to_datetime(warehouse_df['date'])
+        seasonal_df['date'] = pd.to_datetime(seasonal_df['date'])
+        reviews_df['review_date'] = pd.to_datetime(reviews_df['review_date'])
+        
+        # Calculate delivery delays
+        orders_df['delivery_days'] = (orders_df['delivery_date'] - orders_df['order_date']).dt.days
+        orders_df['is_delayed'] = orders_df['delivery_days'] > 2  # Assuming 2 days is standard
+        
+        # 1. SEASONAL DEMAND ANALYSIS
+        seasonal_monthly = seasonal_df.copy()
+        seasonal_monthly['month'] = seasonal_monthly['date'].dt.strftime('%b %Y')
+        seasonal_monthly['year_month'] = seasonal_monthly['date'].dt.to_period('M')
+        demand_by_month = seasonal_monthly.groupby('year_month').agg({
+            'demand_index': 'mean',
+            'campaign_flag': 'sum'
+        }).reset_index()
+        demand_by_month['month'] = demand_by_month['year_month'].astype(str)
+        # Drop the Period column before converting to dict
+        demand_data = demand_by_month.tail(12)[['month', 'demand_index', 'campaign_flag']].to_dict('records')
+        
+        # Top categories by demand
+        category_demand = seasonal_df.groupby('category')['demand_index'].mean().sort_values(ascending=False).head(10)
+        category_demand_data = [{'category': cat, 'demand': float(val)} for cat, val in category_demand.items()]
+        
+        # 2. WAREHOUSE EFFICIENCY ANALYSIS
+        warehouse_efficiency = warehouse_df.groupby('warehouse_id').agg({
+            'avg_processing_time_hours': 'mean',
+            'storage_cost_per_pallet_inr': 'mean',
+            'workforce_available': 'mean',
+            'shifts': 'mean'
+        }).reset_index()
+        warehouse_efficiency['efficiency_score'] = (
+            100 - (warehouse_efficiency['avg_processing_time_hours'] / warehouse_efficiency['avg_processing_time_hours'].max() * 50)
+        ).round(2)
+        warehouse_data = warehouse_efficiency.to_dict('records')
+        
+        # 3. TRANSPORTATION & COURIER ANALYSIS
+        courier_performance = transport_df.groupby('courier_partner').agg({
+            'courier_on_time_rate': 'mean',
+            'distance_km': 'mean',
+            'fuel_cost_per_km_inr': 'mean',
+            'estimated_transit_hours': 'mean'
+        }).reset_index()
+        courier_performance['on_time_rate_pct'] = (courier_performance['courier_on_time_rate'] * 100).round(2)
+        courier_data = courier_performance.to_dict('records')
+        
+        # Cost by route
+        transport_df['total_fuel_cost'] = transport_df['distance_km'] * transport_df['fuel_cost_per_km_inr']
+        route_costs = transport_df.groupby('city').agg({
+            'total_fuel_cost': 'mean',
+            'distance_km': 'mean',
+            'estimated_transit_hours': 'mean'
+        }).sort_values('total_fuel_cost', ascending=False).head(15).reset_index()
+        route_cost_data = route_costs.to_dict('records')
+        
+        # 4. DELIVERY PERFORMANCE ANALYSIS
+        delivery_performance = orders_df.groupby('city').agg({
+            'delivery_days': 'mean',
+            'is_delayed': 'sum',
+            'order_id': 'count'
+        }).reset_index()
+        delivery_performance.columns = ['city', 'avg_delivery_days', 'delayed_count', 'total_orders']
+        delivery_performance['delay_rate'] = (delivery_performance['delayed_count'] / delivery_performance['total_orders'] * 100).round(2)
+        delivery_performance = delivery_performance.sort_values('delay_rate', ascending=False).head(15)
+        delivery_data = delivery_performance.to_dict('records')
+        
+        # Delays by courier partner
+        courier_delays = orders_df.groupby('courier_partner').agg({
+            'is_delayed': 'sum',
+            'order_id': 'count',
+            'delivery_days': 'mean'
+        }).reset_index()
+        courier_delays.columns = ['courier_partner', 'delayed_count', 'total_orders', 'avg_delivery_days']
+        courier_delays['delay_rate'] = (courier_delays['delayed_count'] / courier_delays['total_orders'] * 100).round(2)
+        courier_delays_data = courier_delays.sort_values('delay_rate', ascending=False).to_dict('records')
+        
+        # 5. CUSTOMER SENTIMENT ANALYSIS
+        reviews_df['sentiment_score'] = reviews_df['review_text'].apply(
+            lambda x: sentiment_analyzer.polarity_scores(str(x))['compound']
+        )
+        reviews_df['sentiment'] = pd.cut(
+            reviews_df['sentiment_score'],
+            bins=[-1, -0.05, 0.05, 1],
+            labels=['Negative', 'Neutral', 'Positive']
+        )
+        
+        sentiment_dist = reviews_df['sentiment'].value_counts().to_dict()
+        sentiment_data = [{'sentiment': k, 'count': int(v)} for k, v in sentiment_dist.items()]
+        
+        # Sentiment by rating
+        sentiment_by_rating = reviews_df.groupby('rating')['sentiment_score'].mean().to_dict()
+        sentiment_rating_data = [{'rating': int(k), 'avg_sentiment': float(v)} for k, v in sentiment_by_rating.items()]
+        
+        # Monthly sentiment trends
+        reviews_df['month'] = reviews_df['review_date'].dt.to_period('M')
+        sentiment_trends = reviews_df.groupby('month').agg({
+            'sentiment_score': 'mean',
+            'rating': 'mean'
+        }).reset_index().tail(12)
+        sentiment_trends['month_str'] = sentiment_trends['month'].astype(str)
+        sentiment_trend_data = sentiment_trends[['month_str', 'sentiment_score', 'rating']].to_dict('records')
+        
+        # 6. COST ANALYSIS
+        # Average order value by category
+        order_value_by_category = orders_df.groupby('category')['order_value_inr'].mean().sort_values(ascending=False).head(10)
+        order_value_data = [{'category': cat, 'avg_value': float(val)} for cat, val in order_value_by_category.items()]
+        
+        # Total costs
+        avg_transport_cost = transport_df['total_fuel_cost'].mean()
+        avg_storage_cost = warehouse_df['storage_cost_per_pallet_inr'].mean()
+        total_order_value = orders_df['order_value_inr'].sum()
+        
+        # 7. KEY METRICS
+        total_orders = len(orders_df)
+        total_delayed = orders_df['is_delayed'].sum()
+        avg_delivery_time = orders_df['delivery_days'].mean()
+        delay_rate = (total_delayed / total_orders * 100).round(2)
+        
+        total_warehouses = warehouse_df['warehouse_id'].nunique()
+        avg_processing_time = warehouse_df['avg_processing_time_hours'].mean()
+        
+        total_routes = len(transport_df)
+        avg_on_time_rate = (transport_df['courier_on_time_rate'].mean() * 100).round(2)
+        
+        avg_rating = reviews_df['rating'].mean()
+        avg_sentiment = reviews_df['sentiment_score'].mean()
+        
+        # Return comprehensive analytics
+        return jsonify({
+            'success': True,
+            'timestamp': datetime.now().isoformat(),
+            'data': {
+                # Key Metrics
+                'metrics': {
+                    'total_orders': int(total_orders),
+                    'total_delayed': int(total_delayed),
+                    'delay_rate': float(delay_rate),
+                    'avg_delivery_days': float(avg_delivery_time),
+                    'total_warehouses': int(total_warehouses),
+                    'avg_processing_hours': float(avg_processing_time),
+                    'total_routes': int(total_routes),
+                    'avg_on_time_rate': float(avg_on_time_rate),
+                    'avg_rating': float(avg_rating),
+                    'avg_sentiment': float(avg_sentiment),
+                    'total_order_value': float(total_order_value),
+                    'avg_transport_cost': float(avg_transport_cost),
+                    'avg_storage_cost': float(avg_storage_cost)
+                },
+                # Chart Data
+                'seasonal_demand': demand_data,
+                'category_demand': category_demand_data,
+                'warehouse_efficiency': warehouse_data,
+                'courier_performance': courier_data,
+                'route_costs': route_cost_data,
+                'delivery_performance': delivery_data,
+                'courier_delays': courier_delays_data,
+                'sentiment_distribution': sentiment_data,
+                'sentiment_by_rating': sentiment_rating_data,
+                'sentiment_trends': sentiment_trend_data,
+                'order_value_by_category': order_value_data
+            }
+        })
+        
+    except Exception as e:
+        print(f"❌ Error in dashboard analytics: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
 @app.route('/health', methods=['GET'])
 def health():
     """Health check endpoint"""
@@ -1120,10 +1310,12 @@ def home():
         'features': {
             'gemini_ai': GEMINI_AVAILABLE and gemini_model is not None,
             'ml_models': len(MODELS),
-            'sentiment_analysis': True
+            'sentiment_analysis': True,
+            'dashboard_analytics': True
         },
         'endpoints': {
             '/chat': 'POST - Main chatbot endpoint',
+            '/api/dashboard/analytics': 'GET - Dashboard analytics data',
             '/health': 'GET - Health check'
         }
     })
