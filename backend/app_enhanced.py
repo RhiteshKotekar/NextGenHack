@@ -1151,6 +1151,10 @@ def dashboard_analytics():
         warehouse_efficiency['efficiency_score'] = (
             100 - (warehouse_efficiency['avg_processing_time_hours'] / warehouse_efficiency['avg_processing_time_hours'].max() * 50)
         ).round(2)
+        warehouse_efficiency['avg_processing_time_hours'] = warehouse_efficiency['avg_processing_time_hours'].round(2)
+        warehouse_efficiency['storage_cost_per_pallet_inr'] = warehouse_efficiency['storage_cost_per_pallet_inr'].round(2)
+        warehouse_efficiency['workforce_available'] = warehouse_efficiency['workforce_available'].round(0)
+        warehouse_efficiency['shifts'] = warehouse_efficiency['shifts'].round(1)
         warehouse_data = warehouse_efficiency.to_dict('records')
         
         # 3. TRANSPORTATION & COURIER ANALYSIS
@@ -1161,6 +1165,9 @@ def dashboard_analytics():
             'estimated_transit_hours': 'mean'
         }).reset_index()
         courier_performance['on_time_rate_pct'] = (courier_performance['courier_on_time_rate'] * 100).round(2)
+        courier_performance['distance_km'] = courier_performance['distance_km'].round(2)
+        courier_performance['fuel_cost_per_km_inr'] = courier_performance['fuel_cost_per_km_inr'].round(2)
+        courier_performance['estimated_transit_hours'] = courier_performance['estimated_transit_hours'].round(2)
         courier_data = courier_performance.to_dict('records')
         
         # Cost by route
@@ -1170,6 +1177,9 @@ def dashboard_analytics():
             'distance_km': 'mean',
             'estimated_transit_hours': 'mean'
         }).sort_values('total_fuel_cost', ascending=False).head(15).reset_index()
+        route_costs['total_fuel_cost'] = route_costs['total_fuel_cost'].round(2)
+        route_costs['distance_km'] = route_costs['distance_km'].round(2)
+        route_costs['estimated_transit_hours'] = route_costs['estimated_transit_hours'].round(2)
         route_cost_data = route_costs.to_dict('records')
         
         # 4. DELIVERY PERFORMANCE ANALYSIS
@@ -1179,6 +1189,7 @@ def dashboard_analytics():
             'order_id': 'count'
         }).reset_index()
         delivery_performance.columns = ['city', 'avg_delivery_days', 'delayed_count', 'total_orders']
+        delivery_performance['avg_delivery_days'] = delivery_performance['avg_delivery_days'].round(2)
         delivery_performance['delay_rate'] = (delivery_performance['delayed_count'] / delivery_performance['total_orders'] * 100).round(2)
         delivery_performance = delivery_performance.sort_values('delay_rate', ascending=False).head(15)
         delivery_data = delivery_performance.to_dict('records')
@@ -1190,6 +1201,7 @@ def dashboard_analytics():
             'delivery_days': 'mean'
         }).reset_index()
         courier_delays.columns = ['courier_partner', 'delayed_count', 'total_orders', 'avg_delivery_days']
+        courier_delays['avg_delivery_days'] = courier_delays['avg_delivery_days'].round(2)
         courier_delays['delay_rate'] = (courier_delays['delayed_count'] / courier_delays['total_orders'] * 100).round(2)
         courier_delays_data = courier_delays.sort_values('delay_rate', ascending=False).to_dict('records')
         

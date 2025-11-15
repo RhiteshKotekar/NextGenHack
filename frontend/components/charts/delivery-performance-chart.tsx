@@ -40,7 +40,7 @@ export function DeliveryPerformanceChart() {
 
   return (
     <ResponsiveContainer width="100%" height={300}>
-      <BarChart data={data} margin={{ top: 20, right: 20, bottom: 60, left: 0 }}>
+      <BarChart data={data} margin={{ top: 20, right: 40, bottom: 60, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
         <XAxis 
           dataKey="city" 
@@ -50,7 +50,23 @@ export function DeliveryPerformanceChart() {
           textAnchor="end"
           height={80}
         />
-        <YAxis stroke="var(--muted-foreground)" fontSize={12} />
+        {/* Left Y-axis for Delay Rate (%) */}
+        <YAxis 
+          yAxisId="left"
+          stroke="var(--muted-foreground)" 
+          fontSize={12}
+          tickFormatter={(value) => `${value}%`}
+          label={{ value: 'Delay Rate (%)', angle: -90, position: 'insideLeft', style: { fill: 'var(--muted-foreground)' } }}
+        />
+        {/* Right Y-axis for Avg Days */}
+        <YAxis 
+          yAxisId="right"
+          orientation="right"
+          stroke="var(--muted-foreground)" 
+          fontSize={12}
+          tickFormatter={(value) => `${value}d`}
+          label={{ value: 'Avg Days', angle: 90, position: 'insideRight', style: { fill: 'var(--muted-foreground)' } }}
+        />
         <Tooltip
           contentStyle={{
             backgroundColor: 'var(--card)',
@@ -65,8 +81,8 @@ export function DeliveryPerformanceChart() {
           }}
         />
         <Legend />
-        <Bar dataKey="delay_rate" name="Delay Rate (%)" fill="#FF4444" radius={[8, 8, 0, 0]} />
-        <Bar dataKey="avg_delivery_days" name="Avg Days" fill="var(--chart-4)" radius={[8, 8, 0, 0]} />
+        <Bar yAxisId="left" dataKey="delay_rate" name="Delay Rate (%)" fill="#FF4444" radius={[8, 8, 0, 0]} />
+        <Bar yAxisId="right" dataKey="avg_delivery_days" name="Avg Days" fill="var(--chart-4)" radius={[8, 8, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
   )
